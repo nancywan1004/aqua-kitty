@@ -1,0 +1,108 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class GameUIManager : Singleton<GameUIManager>
+{
+    // class variable not instance variable
+    public static bool GameIsPaused = false;
+    public GameObject pauseMenuUI;
+    public GameObject restartPrefab;
+    public GameObject restartMenuUI;
+    public Text restartText;
+
+    public const string SAME_SCENE = "0";
+    public string levelName = SAME_SCENE;
+
+    private bool hasSpawnedRestart = false;
+    private float oxygenSpeed = 1.0f;
+
+    private void Start()
+    {
+        Time.timeScale = 1;
+        restartMenuUI.SetActive(false);
+        pauseMenuUI.SetActive(false);
+        HealthBarController.Instance.InitHealthBar();
+        BubbleBarController.Instance.InitBubbleBar();
+        //Timer.Instance.InitTimer();
+    }
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (GameIsPaused)
+            {
+                ResumeGame();
+            } else
+            {
+                PauseGame();
+            }
+        }
+        //Debug.Log("Garbage remained: " + GarbageSpawner.Instance.GetGarbageRemained());
+        if (HealthBarController.Instance.isRunout() || BubbleBarController.Instance.isRunout())
+        {
+            restartText.text = "GAME OVER!";
+            restartMenuUI.SetActive(true);
+            Time.timeScale = 0;
+            /*            if (hasSpawnedRestart == false)
+                        {
+                            restartButton = Instantiate(restartPrefab, new Vector3(Screen.width * 0.95f, Screen.height * 0.5f, 0), Quaternion.identity);
+                            restartButton.transform.SetParent(this.gameObject.transform);
+                            restartButton.GetComponent<Button>().onClick.AddListener(RestartGame);
+                            hasSpawnedRestart = true;
+                        }*/
+        }
+        else if (GarbageSpawner.Instance.GetGarbageRemained() == 0)
+        {
+            //Debug.Log("Garbage remained: " + garbageSpawner.GetGarbageRemained());
+            //HealthBarController.Instance.StopUpdatingHealthBar();
+            restartText.text = "SCORE:" + Mathf.Ceil(HealthBarController.Instance.GetCurrHealth());
+            restartMenuUI.SetActive(true);
+            Time.timeScale = 0;
+        } else
+        {
+            HealthBarController.Instance.UpdateHealthBar(oxygenSpeed);
+        }
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("Game restarted!");
+        //restartButton.SetActive(false);
+    }
+
+    private void PauseGame()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0;
+        GameIsPaused = true;
+    }
+
+    public void ResumeGame()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1;
+        GameIsPaused = false;
+    }
+
+    public bool LoadNextLevelScene()
+    {
+        if (levelName == SAME_SCENE)
+        {
+            //just restart the level
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+        }
+        else
+        {
+            //load another scene
+            SceneManager.LoadScene(levelName, LoadSceneMode.Single);
+        }
+
+        return true;
+    }
+}

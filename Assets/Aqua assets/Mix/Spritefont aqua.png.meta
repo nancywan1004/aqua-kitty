@@ -1,0 +1,6807 @@
+fileFormatVersion: 2
+guid: 154676e961c364bf5ab4c69ccdcf2dac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2355687214291801361
+    second: Spritefont aqua_0
+  - first:
+      213: 8703376334858527694
+    second: Spritefont aqua_1
+  - first:
+      213: -1030288593456195635
+    second: Spritefont aqua_2
+  - first:
+      213: -2807878451918311654
+    second: Spritefont aqua_3
+  - first:
+      213: 3088260623152436082
+    second: Spritefont aqua_4
+  - first:
+      213: 8245968122042513336
+    second: Spritefont aqua_5
+  - first:
+      213: -6009722771392623408
+    second: Spritefont aqua_6
+  - first:
+      213: -5786352306792287158
+    second: Spritefont aqua_7
+  - first:
+      213: 1023132823606060665
+    second: Spritefont aqua_8
+  - first:
+      213: -2739417466624291667
+    second: Spritefont aqua_9
+  - first:
+      213: 1131362412783648895
+    second: Spritefont aqua_10
+  - first:
+      213: 6353995011874636525
+    second: Spritefont aqua_11
+  - first:
+      213: 1387293166003314946
+    second: Spritefont aqua_12
+  - first:
+      213: -5529629794716826337
+    second: Spritefont aqua_13
+  - first:
+      213: -1581943384132614445
+    second: Spritefont aqua_14
+  - first:
+      213: 1872261842510837688
+    second: Spritefont aqua_15
+  - first:
+      213: -3258714005255569152
+    second: Spritefont aqua_16
+  - first:
+      213: 1165506348703483430
+    second: Spritefont aqua_17
+  - first:
+      213: 3677151603356665201
+    second: Spritefont aqua_18
+  - first:
+      213: 9131576003761700193
+    second: Spritefont aqua_19
+  - first:
+      213: 8147633538847375105
+    second: Spritefont aqua_20
+  - first:
+      213: 1405195946572405152
+    second: Spritefont aqua_21
+  - first:
+      213: 5654756063126951070
+    second: Spritefont aqua_22
+  - first:
+      213: -1117587794182160302
+    second: Spritefont aqua_23
+  - first:
+      213: -7465911401147462573
+    second: Spritefont aqua_24
+  - first:
+      213: 2947928590283906328
+    second: Spritefont aqua_25
+  - first:
+      213: -6641838742088185260
+    second: Spritefont aqua_26
+  - first:
+      213: -1129230955123973430
+    second: Spritefont aqua_27
+  - first:
+      213: 1979976318573457984
+    second: Spritefont aqua_28
+  - first:
+      213: -1259783988214646344
+    second: Spritefont aqua_29
+  - first:
+      213: 8576440889827663312
+    second: Spritefont aqua_30
+  - first:
+      213: -251824397825175962
+    second: Spritefont aqua_31
+  - first:
+      213: 6905131164251966787
+    second: Spritefont aqua_32
+  - first:
+      213: -8351598902441779287
+    second: Spritefont aqua_33
+  - first:
+      213: -7057731216966506469
+    second: Spritefont aqua_34
+  - first:
+      213: 4192064456739316354
+    second: Spritefont aqua_35
+  - first:
+      213: 2221246420919959201
+    second: Spritefont aqua_36
+  - first:
+      213: 3923980078307397290
+    second: Spritefont aqua_37
+  - first:
+      213: 7145397478233412582
+    second: Spritefont aqua_38
+  - first:
+      213: -23010137878049432
+    second: Spritefont aqua_39
+  - first:
+      213: -2018524302662562747
+    second: Spritefont aqua_40
+  - first:
+      213: 5968164539264953181
+    second: Spritefont aqua_41
+  - first:
+      213: -7165500151278369621
+    second: Spritefont aqua_42
+  - first:
+      213: 7479802858489443412
+    second: Spritefont aqua_43
+  - first:
+      213: -1403152308604985997
+    second: Spritefont aqua_44
+  - first:
+      213: -2649327606805631831
+    second: Spritefont aqua_45
+  - first:
+      213: -3293424042659053012
+    second: Spritefont aqua_46
+  - first:
+      213: 102575701504854926
+    second: Spritefont aqua_47
+  - first:
+      213: 1116234558906269850
+    second: Spritefont aqua_48
+  - first:
+      213: -5117884953582192330
+    second: Spritefont aqua_49
+  - first:
+      213: 5998112852026962534
+    second: Spritefont aqua_50
+  - first:
+      213: -1030042525913963515
+    second: Spritefont aqua_51
+  - first:
+      213: 9200627758794957683
+    second: Spritefont aqua_52
+  - first:
+      213: 6729352680742347818
+    second: Spritefont aqua_53
+  - first:
+      213: -6055388383138505139
+    second: Spritefont aqua_54
+  - first:
+      213: 499639287326645079
+    second: Spritefont aqua_55
+  - first:
+      213: -4897607432089778593
+    second: Spritefont aqua_56
+  - first:
+      213: -1114814985079241899
+    second: Spritefont aqua_57
+  - first:
+      213: 393161506427573453
+    second: Spritefont aqua_58
+  - first:
+      213: 8795025524548749720
+    second: Spritefont aqua_59
+  - first:
+      213: 1813521198309163672
+    second: Spritefont aqua_60
+  - first:
+      213: 9120830265748082557
+    second: Spritefont aqua_61
+  - first:
+      213: 4598524775620209975
+    second: Spritefont aqua_62
+  - first:
+      213: 3727043840380612968
+    second: Spritefont aqua_63
+  - first:
+      213: -4206938660701675977
+    second: Spritefont aqua_64
+  - first:
+      213: -2827097717173025646
+    second: Spritefont aqua_65
+  - first:
+      213: -3230022273072380748
+    second: Spritefont aqua_66
+  - first:
+      213: 2782886407283905804
+    second: Spritefont aqua_67
+  - first:
+      213: 5915845660089391573
+    second: Spritefont aqua_68
+  - first:
+      213: 7478026014717445969
+    second: Spritefont aqua_69
+  - first:
+      213: -7604442738215068143
+    second: Spritefont aqua_70
+  - first:
+      213: 3697195125363528580
+    second: Spritefont aqua_71
+  - first:
+      213: -3437741526771579063
+    second: Spritefont aqua_72
+  - first:
+      213: 8363394907366787672
+    second: Spritefont aqua_73
+  - first:
+      213: -4587625098817208845
+    second: Spritefont aqua_74
+  - first:
+      213: -7900699120605425831
+    second: Spritefont aqua_75
+  - first:
+      213: 4818001270060038731
+    second: Spritefont aqua_76
+  - first:
+      213: -4554047524588663508
+    second: Spritefont aqua_77
+  - first:
+      213: 691695442199679810
+    second: Spritefont aqua_78
+  - first:
+      213: -1283497882860429976
+    second: Spritefont aqua_79
+  - first:
+      213: -7111324325691591768
+    second: Spritefont aqua_80
+  - first:
+      213: -7597531674657313439
+    second: Spritefont aqua_81
+  - first:
+      213: -3754661615433700081
+    second: Spritefont aqua_82
+  - first:
+      213: -413930895066079068
+    second: Spritefont aqua_83
+  - first:
+      213: 2315611243308518501
+    second: Spritefont aqua_84
+  - first:
+      213: 704211373775178780
+    second: Spritefont aqua_85
+  - first:
+      213: 4238091523357963344
+    second: Spritefont aqua_86
+  - first:
+      213: -4805920044227415784
+    second: Spritefont aqua_87
+  - first:
+      213: 6862018953656978053
+    second: Spritefont aqua_88
+  - first:
+      213: 394490938238479351
+    second: Spritefont aqua_89
+  - first:
+      213: -6697655123427742385
+    second: Spritefont aqua_90
+  - first:
+      213: -897724829276562534
+    second: Spritefont aqua_91
+  - first:
+      213: -2046849529991421561
+    second: Spritefont aqua_92
+  - first:
+      213: 8456775576277479125
+    second: Spritefont aqua_93
+  - first:
+      213: -1854906994929271344
+    second: Spritefont aqua_94
+  - first:
+      213: -4836106257892627994
+    second: Spritefont aqua_95
+  - first:
+      213: 1937225630104610552
+    second: Spritefont aqua_96
+  - first:
+      213: 7114701919919077348
+    second: Spritefont aqua_97
+  - first:
+      213: 3467317005445600071
+    second: Spritefont aqua_98
+  - first:
+      213: -4061745003264469770
+    second: Spritefont aqua_99
+  - first:
+      213: -496691412563493123
+    second: Spritefont aqua_100
+  - first:
+      213: -9014484713033517349
+    second: Spritefont aqua_101
+  - first:
+      213: 7393954330155832831
+    second: Spritefont aqua_102
+  - first:
+      213: -3184761057229344079
+    second: Spritefont aqua_103
+  - first:
+      213: -7281781145964213124
+    second: Spritefont aqua_104
+  - first:
+      213: -9105971594798389415
+    second: Spritefont aqua_105
+  - first:
+      213: -608471948440515666
+    second: Spritefont aqua_106
+  - first:
+      213: -4221557403947837389
+    second: Spritefont aqua_107
+  - first:
+      213: 3657791818819481791
+    second: Spritefont aqua_108
+  - first:
+      213: -2096262912776024097
+    second: Spritefont aqua_109
+  - first:
+      213: -1247650964542285166
+    second: Spritefont aqua_110
+  - first:
+      213: 2025241210637465921
+    second: Spritefont aqua_111
+  - first:
+      213: 3507359763923154960
+    second: Spritefont aqua_112
+  - first:
+      213: -4389028965039295649
+    second: Spritefont aqua_113
+  - first:
+      213: 8225135644704102862
+    second: Spritefont aqua_114
+  - first:
+      213: 8566691307159355911
+    second: Spritefont aqua_115
+  - first:
+      213: -993771918919177468
+    second: Spritefont aqua_116
+  - first:
+      213: 8547012784642843799
+    second: Spritefont aqua_117
+  - first:
+      213: 2547263744019119534
+    second: Spritefont aqua_118
+  - first:
+      213: -2920602987051682538
+    second: Spritefont aqua_119
+  - first:
+      213: 3109290622485228823
+    second: Spritefont aqua_120
+  - first:
+      213: -257198712793953868
+    second: Spritefont aqua_121
+  - first:
+      213: -4183225420273063239
+    second: Spritefont aqua_122
+  - first:
+      213: -892049146835563614
+    second: Spritefont aqua_123
+  - first:
+      213: -8775591832434647898
+    second: Spritefont aqua_124
+  - first:
+      213: -7320410494385674709
+    second: Spritefont aqua_125
+  - first:
+      213: 8755071273245298960
+    second: Spritefont aqua_126
+  - first:
+      213: -3829660807071671365
+    second: Spritefont aqua_127
+  - first:
+      213: 6909789218587086888
+    second: Spritefont aqua_128
+  - first:
+      213: -3700100606566920914
+    second: Spritefont aqua_129
+  - first:
+      213: -637060820964728007
+    second: Spritefont aqua_130
+  - first:
+      213: -2577877225895414615
+    second: Spritefont aqua_131
+  - first:
+      213: 3359727021956547746
+    second: Spritefont aqua_132
+  - first:
+      213: 6151291555832742431
+    second: Spritefont aqua_133
+  - first:
+      213: -2263825340281557751
+    second: Spritefont aqua_134
+  - first:
+      213: -4883258387445009880
+    second: Spritefont aqua_135
+  - first:
+      213: 6437292586489122451
+    second: Spritefont aqua_136
+  - first:
+      213: -2969623923834683920
+    second: Spritefont aqua_137
+  - first:
+      213: -5821837333692878138
+    second: Spritefont aqua_138
+  - first:
+      213: 5216639089481909010
+    second: Spritefont aqua_139
+  - first:
+      213: 1041452700323965665
+    second: Spritefont aqua_140
+  - first:
+      213: -5474540970862301263
+    second: Spritefont aqua_141
+  - first:
+      213: -4742838159980323331
+    second: Spritefont aqua_142
+  - first:
+      213: 4917724578059092292
+    second: Spritefont aqua_143
+  - first:
+      213: 2396805560475835151
+    second: Spritefont aqua_144
+  - first:
+      213: -6252382063017107994
+    second: Spritefont aqua_145
+  - first:
+      213: -1229007929420300230
+    second: Spritefont aqua_146
+  - first:
+      213: 6593983485529758840
+    second: Spritefont aqua_147
+  - first:
+      213: -1922203029640576872
+    second: Spritefont aqua_148
+  - first:
+      213: 720972557832557336
+    second: Spritefont aqua_149
+  - first:
+      213: 6298202878002949151
+    second: Spritefont aqua_150
+  - first:
+      213: 1297995212612837934
+    second: Spritefont aqua_151
+  - first:
+      213: -6168184882181119228
+    second: Spritefont aqua_152
+  - first:
+      213: -6280365663113247836
+    second: Spritefont aqua_153
+  - first:
+      213: -4537702638774879973
+    second: Spritefont aqua_154
+  - first:
+      213: -9160657433659283112
+    second: Spritefont aqua_155
+  - first:
+      213: -6575618991593268675
+    second: Spritefont aqua_156
+  - first:
+      213: -1961140173925323236
+    second: Spritefont aqua_157
+  - first:
+      213: 5789977145377826291
+    second: Spritefont aqua_158
+  - first:
+      213: 8522239392320457306
+    second: Spritefont aqua_159
+  - first:
+      213: -7597205732011953334
+    second: Spritefont aqua_160
+  - first:
+      213: 6672388437572172768
+    second: Spritefont aqua_161
+  - first:
+      213: 6298324682041441090
+    second: Spritefont aqua_162
+  - first:
+      213: -2942824701255561504
+    second: Spritefont aqua_163
+  - first:
+      213: 3045760620250492144
+    second: Spritefont aqua_164
+  - first:
+      213: -3284629368568587924
+    second: Spritefont aqua_165
+  - first:
+      213: -1480026046622762941
+    second: Spritefont aqua_166
+  - first:
+      213: 7259972432113064806
+    second: Spritefont aqua_167
+  - first:
+      213: -1358967670978751050
+    second: Spritefont aqua_168
+  - first:
+      213: -6011494677050992049
+    second: Spritefont aqua_169
+  - first:
+      213: -7762308797396249556
+    second: Spritefont aqua_170
+  - first:
+      213: -850064910230442027
+    second: Spritefont aqua_171
+  - first:
+      213: -317230344990780309
+    second: Spritefont aqua_172
+  - first:
+      213: -6093886897366548959
+    second: Spritefont aqua_173
+  - first:
+      213: 3781528286478544683
+    second: Spritefont aqua_174
+  - first:
+      213: -3563457411630156512
+    second: Spritefont aqua_175
+  - first:
+      213: 4922961635366312072
+    second: Spritefont aqua_176
+  - first:
+      213: -7291240301533102875
+    second: Spritefont aqua_177
+  - first:
+      213: -170586074153919247
+    second: Spritefont aqua_178
+  - first:
+      213: -2085729079788040459
+    second: Spritefont aqua_179
+  - first:
+      213: -2292764834317085782
+    second: Spritefont aqua_180
+  - first:
+      213: -4217454253895754626
+    second: Spritefont aqua_181
+  - first:
+      213: -7732089309671613027
+    second: Spritefont aqua_182
+  - first:
+      213: 240439359619811625
+    second: Spritefont aqua_183
+  - first:
+      213: 3724775159372625550
+    second: Spritefont aqua_184
+  - first:
+      213: -288006947909107708
+    second: Spritefont aqua_185
+  - first:
+      213: -6794366323309092715
+    second: Spritefont aqua_186
+  - first:
+      213: 9032369126897589638
+    second: Spritefont aqua_187
+  - first:
+      213: 6778291388186729210
+    second: Spritefont aqua_188
+  - first:
+      213: -4402121658025139951
+    second: Spritefont aqua_189
+  - first:
+      213: -2656731091192449001
+    second: Spritefont aqua_190
+  - first:
+      213: 358491557006712917
+    second: Spritefont aqua_191
+  - first:
+      213: 6381824142386469674
+    second: Spritefont aqua_192
+  - first:
+      213: 699765208542308207
+    second: Spritefont aqua_193
+  - first:
+      213: -7467712791225967731
+    second: Spritefont aqua_194
+  - first:
+      213: -1426110936980697628
+    second: Spritefont aqua_195
+  - first:
+      213: -2241855223799018117
+    second: Spritefont aqua_196
+  - first:
+      213: 5951691793464899191
+    second: Spritefont aqua_197
+  - first:
+      213: -4235130990879756974
+    second: Spritefont aqua_198
+  - first:
+      213: 1557616327961125474
+    second: Spritefont aqua_199
+  - first:
+      213: -7823343383798854129
+    second: Spritefont aqua_200
+  - first:
+      213: -1118309697815083632
+    second: Spritefont aqua_201
+  - first:
+      213: 6940797536829359372
+    second: Spritefont aqua_202
+  - first:
+      213: 766036675298793440
+    second: Spritefont aqua_203
+  - first:
+      213: 35808056045765169
+    second: Spritefont aqua_204
+  - first:
+      213: 1149445167246100484
+    second: Spritefont aqua_205
+  - first:
+      213: 8922296839609932620
+    second: Spritefont aqua_206
+  - first:
+      213: -6044012534600108788
+    second: Spritefont aqua_207
+  - first:
+      213: 265955321295526952
+    second: Spritefont aqua_208
+  - first:
+      213: -1187289567490461967
+    second: Spritefont aqua_209
+  - first:
+      213: 4634593914936882533
+    second: Spritefont aqua_210
+  - first:
+      213: -8208214956100907689
+    second: Spritefont aqua_211
+  - first:
+      213: 7747007977246147678
+    second: Spritefont aqua_212
+  - first:
+      213: 7689702544107873566
+    second: Spritefont aqua_213
+  - first:
+      213: -86285117896351311
+    second: Spritefont aqua_214
+  - first:
+      213: 3386449315671112779
+    second: Spritefont aqua_215
+  - first:
+      213: 8669607849272160598
+    second: Spritefont aqua_216
+  - first:
+      213: -2286220286401463802
+    second: Spritefont aqua_217
+  - first:
+      213: -8011199330384265441
+    second: Spritefont aqua_218
+  - first:
+      213: -7200637958677910087
+    second: Spritefont aqua_219
+  - first:
+      213: -6467967341152974107
+    second: Spritefont aqua_220
+  - first:
+      213: 4687374099708742840
+    second: Spritefont aqua_221
+  - first:
+      213: 1268353816727361711
+    second: Spritefont aqua_222
+  - first:
+      213: 5839555381539081292
+    second: Spritefont aqua_223
+  - first:
+      213: 5339802390232417320
+    second: Spritefont aqua_224
+  - first:
+      213: 7282650084030485583
+    second: Spritefont aqua_225
+  - first:
+      213: 2046547231845156080
+    second: Spritefont aqua_226
+  - first:
+      213: 3835977869996188354
+    second: Spritefont aqua_227
+  - first:
+      213: 8733443337778614814
+    second: Spritefont aqua_228
+  - first:
+      213: -2538561702468199183
+    second: Spritefont aqua_229
+  - first:
+      213: 6849223271589402319
+    second: Spritefont aqua_230
+  - first:
+      213: -8516353710492873880
+    second: Spritefont aqua_231
+  - first:
+      213: 1855428810897246238
+    second: Spritefont aqua_232
+  - first:
+      213: -7678876532854688091
+    second: Spritefont aqua_233
+  - first:
+      213: 488999640059748179
+    second: Spritefont aqua_234
+  - first:
+      213: 4058999532810610431
+    second: Spritefont aqua_235
+  - first:
+      213: -4580976628204590752
+    second: Spritefont aqua_236
+  - first:
+      213: -5528175660288071206
+    second: Spritefont aqua_237
+  - first:
+      213: 6722958117678960408
+    second: Spritefont aqua_238
+  - first:
+      213: -5724785772227860677
+    second: Spritefont aqua_239
+  - first:
+      213: -3411011652836510413
+    second: Spritefont aqua_240
+  - first:
+      213: -5625211019694454776
+    second: Spritefont aqua_241
+  - first:
+      213: -7947287044847284261
+    second: Spritefont aqua_242
+  - first:
+      213: 7343961106978181676
+    second: Spritefont aqua_243
+  - first:
+      213: 8407011934540544991
+    second: Spritefont aqua_244
+  - first:
+      213: 837858429440597813
+    second: Spritefont aqua_245
+  - first:
+      213: 1519433997153695628
+    second: Spritefont aqua_246
+  - first:
+      213: -5942190660591111586
+    second: Spritefont aqua_247
+  - first:
+      213: -5336139748366976271
+    second: Spritefont aqua_248
+  - first:
+      213: 7016984635535498607
+    second: Spritefont aqua_249
+  - first:
+      213: 1741432436419692362
+    second: Spritefont aqua_250
+  - first:
+      213: -2668004414818092400
+    second: Spritefont aqua_251
+  - first:
+      213: -8239727376309551637
+    second: Spritefont aqua_252
+  - first:
+      213: -3440094337800104439
+    second: Spritefont aqua_253
+  - first:
+      213: 670385483873185558
+    second: Spritefont aqua_254
+  - first:
+      213: 4592626137040323006
+    second: Spritefont aqua_255
+  - first:
+      213: 839462887054777731
+    second: Spritefont aqua_256
+  - first:
+      213: 3591072016339221119
+    second: Spritefont aqua_257
+  - first:
+      213: -8772894215605921607
+    second: Spritefont aqua_258
+  - first:
+      213: -947847454535553704
+    second: Spritefont aqua_259
+  - first:
+      213: -2265523652932203672
+    second: Spritefont aqua_260
+  - first:
+      213: -6099908822870303598
+    second: Spritefont aqua_261
+  - first:
+      213: -881078579073111293
+    second: Spritefont aqua_262
+  - first:
+      213: -3282209738132493312
+    second: Spritefont aqua_263
+  - first:
+      213: -950154553695295474
+    second: Spritefont aqua_264
+  - first:
+      213: 3297197974666623975
+    second: Spritefont aqua_265
+  - first:
+      213: -2442004550751122154
+    second: Spritefont aqua_266
+  - first:
+      213: 7380151400634921377
+    second: Spritefont aqua_267
+  - first:
+      213: 3068037857383427993
+    second: Spritefont aqua_268
+  - first:
+      213: -5256860764956095278
+    second: Spritefont aqua_269
+  - first:
+      213: -2399118233210155629
+    second: Spritefont aqua_270
+  - first:
+      213: 4060019627362071450
+    second: Spritefont aqua_271
+  - first:
+      213: -7990004007007435471
+    second: Spritefont aqua_272
+  - first:
+      213: 1048619939577140876
+    second: Spritefont aqua_273
+  - first:
+      213: -4746358401128690566
+    second: Spritefont aqua_274
+  - first:
+      213: 8918898499313085759
+    second: Spritefont aqua_275
+  - first:
+      213: 2619403121213349132
+    second: Spritefont aqua_276
+  - first:
+      213: -8947961302916321470
+    second: Spritefont aqua_277
+  - first:
+      213: 1094371462750194242
+    second: Spritefont aqua_278
+  - first:
+      213: -688195782030307679
+    second: Spritefont aqua_279
+  - first:
+      213: -8098602780937540973
+    second: Spritefont aqua_280
+  - first:
+      213: 6498768340348633641
+    second: Spritefont aqua_281
+  - first:
+      213: -4419492849398271536
+    second: Spritefont aqua_282
+  - first:
+      213: 1994054146518322548
+    second: Spritefont aqua_283
+  - first:
+      213: 2816355078182169136
+    second: Spritefont aqua_284
+  - first:
+      213: 5060878798195758405
+    second: Spritefont aqua_285
+  - first:
+      213: -8034370867501724774
+    second: Spritefont aqua_286
+  - first:
+      213: 4536035459154670283
+    second: Spritefont aqua_287
+  - first:
+      213: -1791181819057110620
+    second: Spritefont aqua_288
+  - first:
+      213: -5543757495914790
+    second: Spritefont aqua_289
+  - first:
+      213: -2759097288388637859
+    second: Spritefont aqua_290
+  - first:
+      213: -8144103550610138635
+    second: Spritefont aqua_291
+  - first:
+      213: -9058097406855187134
+    second: Spritefont aqua_292
+  - first:
+      213: 4054896832133108825
+    second: Spritefont aqua_293
+  - first:
+      213: -5403404061578866228
+    second: Spritefont aqua_294
+  - first:
+      213: -8204518411513524087
+    second: Spritefont aqua_295
+  - first:
+      213: -8121323365428064959
+    second: Spritefont aqua_296
+  - first:
+      213: 2247414400942209299
+    second: Spritefont aqua_297
+  - first:
+      213: -2228434358622516009
+    second: Spritefont aqua_298
+  - first:
+      213: 9202559439244153460
+    second: Spritefont aqua_299
+  - first:
+      213: 2244946576054203405
+    second: Spritefont aqua_300
+  - first:
+      213: 7332729288733330427
+    second: Spritefont aqua_301
+  - first:
+      213: -8078482236176128524
+    second: Spritefont aqua_302
+  - first:
+      213: 6708020866404021503
+    second: Spritefont aqua_303
+  - first:
+      213: -9219684724662350695
+    second: Spritefont aqua_304
+  - first:
+      213: 1851732494139776749
+    second: Spritefont aqua_305
+  - first:
+      213: 3460993563730649292
+    second: Spritefont aqua_306
+  - first:
+      213: 3069506229315428994
+    second: Spritefont aqua_307
+  - first:
+      213: 8081053585474243351
+    second: Spritefont aqua_308
+  - first:
+      213: -5424932472460870972
+    second: Spritefont aqua_309
+  - first:
+      213: -6836529791631762721
+    second: Spritefont aqua_310
+  - first:
+      213: 3013882135060358757
+    second: Spritefont aqua_311
+  - first:
+      213: -6766270777598884569
+    second: Spritefont aqua_312
+  - first:
+      213: -5584560675223581699
+    second: Spritefont aqua_313
+  - first:
+      213: -1595506620718298657
+    second: Spritefont aqua_314
+  - first:
+      213: -4745617524772469456
+    second: Spritefont aqua_315
+  - first:
+      213: 4460950338369357966
+    second: Spritefont aqua_316
+  - first:
+      213: -2867731778651441326
+    second: Spritefont aqua_317
+  - first:
+      213: -7011940877023611969
+    second: Spritefont aqua_318
+  - first:
+      213: 5675934466646862411
+    second: Spritefont aqua_319
+  - first:
+      213: 7585743534273482010
+    second: Spritefont aqua_320
+  - first:
+      213: -3288097959305520951
+    second: Spritefont aqua_321
+  - first:
+      213: -4720157303566615490
+    second: Spritefont aqua_322
+  - first:
+      213: 6309936461926340337
+    second: Spritefont aqua_323
+  - first:
+      213: -7714039834310845097
+    second: Spritefont aqua_324
+  - first:
+      213: -8910401468462220476
+    second: Spritefont aqua_325
+  - first:
+      213: 4754090713217926670
+    second: Spritefont aqua_326
+  - first:
+      213: 6450400987560158719
+    second: Spritefont aqua_327
+  - first:
+      213: 7877339999376621361
+    second: Spritefont aqua_328
+  - first:
+      213: -1348625986528124049
+    second: Spritefont aqua_329
+  - first:
+      213: 2496803081077254620
+    second: Spritefont aqua_330
+  - first:
+      213: -3122234016420657395
+    second: Spritefont aqua_331
+  - first:
+      213: 7310812813009066577
+    second: Spritefont aqua_332
+  - first:
+      213: 2027087312460143192
+    second: Spritefont aqua_333
+  - first:
+      213: -9075685910450516164
+    second: Spritefont aqua_334
+  - first:
+      213: -4827256848852651442
+    second: Spritefont aqua_335
+  - first:
+      213: 4408526528156951992
+    second: Spritefont aqua_336
+  - first:
+      213: 3782373634152497115
+    second: Spritefont aqua_337
+  - first:
+      213: 562283077195850921
+    second: Spritefont aqua_338
+  - first:
+      213: 8217691924534066122
+    second: Spritefont aqua_339
+  - first:
+      213: -7643528147921246092
+    second: Spritefont aqua_340
+  - first:
+      213: 4273311173300330855
+    second: Spritefont aqua_341
+  - first:
+      213: 7842848404947201916
+    second: Spritefont aqua_342
+  - first:
+      213: -6556553877591885097
+    second: Spritefont aqua_343
+  - first:
+      213: -815931290549257405
+    second: Spritefont aqua_344
+  - first:
+      213: -6818160636677572201
+    second: Spritefont aqua_345
+  - first:
+      213: 4936199555926150527
+    second: Spritefont aqua_346
+  - first:
+      213: -4360806766350679748
+    second: Spritefont aqua_347
+  - first:
+      213: -8595328767654920594
+    second: Spritefont aqua_348
+  - first:
+      213: 6982574275114961707
+    second: Spritefont aqua_349
+  - first:
+      213: -4067505884202843033
+    second: Spritefont aqua_350
+  - first:
+      213: -4047220573730562008
+    second: Spritefont aqua_351
+  - first:
+      213: 6723641539557265624
+    second: Spritefont aqua_352
+  - first:
+      213: 9117319442426315434
+    second: Spritefont aqua_353
+  - first:
+      213: -4936441483251401076
+    second: Spritefont aqua_354
+  - first:
+      213: 683969650576865636
+    second: Spritefont aqua_355
+  - first:
+      213: 7180184330191347292
+    second: Spritefont aqua_356
+  - first:
+      213: 5837251770182051741
+    second: Spritefont aqua_357
+  - first:
+      213: -7919039699591418474
+    second: Spritefont aqua_358
+  - first:
+      213: 3070958453076685882
+    second: Spritefont aqua_359
+  - first:
+      213: -7435415592627663271
+    second: Spritefont aqua_360
+  - first:
+      213: -2803412735508982052
+    second: Spritefont aqua_361
+  - first:
+      213: -4913769370782507508
+    second: Spritefont aqua_362
+  - first:
+      213: -6261472175403621689
+    second: Spritefont aqua_363
+  - first:
+      213: -7391654586478236698
+    second: Spritefont aqua_364
+  - first:
+      213: -6116321871937748031
+    second: Spritefont aqua_365
+  - first:
+      213: -531246148563091959
+    second: Spritefont aqua_366
+  - first:
+      213: -2903774316127262148
+    second: Spritefont aqua_367
+  - first:
+      213: -3813992637691847619
+    second: Spritefont aqua_368
+  - first:
+      213: -4738344204256920031
+    second: Spritefont aqua_369
+  - first:
+      213: 791998936445803817
+    second: Spritefont aqua_370
+  - first:
+      213: -8992736640214540806
+    second: Spritefont aqua_371
+  - first:
+      213: 2595869152934266739
+    second: Spritefont aqua_372
+  - first:
+      213: -3975374789859697239
+    second: Spritefont aqua_373
+  - first:
+      213: -8360236317460031603
+    second: Spritefont aqua_374
+  - first:
+      213: 2320016761604034437
+    second: Spritefont aqua_375
+  - first:
+      213: 952681844335564146
+    second: Spritefont aqua_376
+  - first:
+      213: 6585577165036531269
+    second: Spritefont aqua_377
+  - first:
+      213: 6505099921786356718
+    second: Spritefont aqua_378
+  - first:
+      213: -6061496812048303365
+    second: Spritefont aqua_379
+  - first:
+      213: -8852128052252097961
+    second: Spritefont aqua_380
+  - first:
+      213: -7682148609995004304
+    second: Spritefont aqua_381
+  - first:
+      213: -8184500739103316989
+    second: Spritefont aqua_382
+  - first:
+      213: 9102594740839798103
+    second: Spritefont aqua_383
+  - first:
+      213: -7680446308009178641
+    second: Spritefont aqua_384
+  - first:
+      213: 5783283008031324676
+    second: Spritefont aqua_385
+  - first:
+      213: 8868699686909841484
+    second: Spritefont aqua_386
+  - first:
+      213: -9207328961923273822
+    second: Spritefont aqua_387
+  - first:
+      213: 2135477731371853014
+    second: Spritefont aqua_388
+  - first:
+      213: 8505588532531248144
+    second: Spritefont aqua_389
+  - first:
+      213: 4328653392221306432
+    second: Spritefont aqua_390
+  - first:
+      213: -6712777339400406558
+    second: Spritefont aqua_391
+  - first:
+      213: 7524993766683021923
+    second: Spritefont aqua_392
+  - first:
+      213: -1908198939743811465
+    second: Spritefont aqua_393
+  - first:
+      213: -1849604230088389373
+    second: Spritefont aqua_394
+  - first:
+      213: 5074378147797200580
+    second: Spritefont aqua_395
+  - first:
+      213: 1333409429791841049
+    second: Spritefont aqua_396
+  - first:
+      213: 3701555426038330993
+    second: Spritefont aqua_397
+  - first:
+      213: 9069805191281741876
+    second: Spritefont aqua_398
+  - first:
+      213: 1671584086715397159
+    second: Spritefont aqua_399
+  - first:
+      213: -492667704800997163
+    second: Spritefont aqua_400
+  - first:
+      213: -4830999821867788599
+    second: Spritefont aqua_401
+  - first:
+      213: -1715122918679686111
+    second: Spritefont aqua_402
+  - first:
+      213: -7220440159720188106
+    second: Spritefont aqua_403
+  - first:
+      213: -3630812178315861319
+    second: Spritefont aqua_404
+  - first:
+      213: -7020695490122079585
+    second: Spritefont aqua_405
+  - first:
+      213: 603172394388397681
+    second: Spritefont aqua_406
+  - first:
+      213: 7705017362323120296
+    second: Spritefont aqua_407
+  - first:
+      213: 8534571107527613570
+    second: Spritefont aqua_408
+  - first:
+      213: 4804010134750487111
+    second: Spritefont aqua_409
+  - first:
+      213: -7965986505803188862
+    second: Spritefont aqua_410
+  - first:
+      213: 6286791312041268718
+    second: Spritefont aqua_411
+  - first:
+      213: -4568329441199701598
+    second: Spritefont aqua_412
+  - first:
+      213: -4439702000266957462
+    second: Spritefont aqua_413
+  - first:
+      213: -3975283333755180451
+    second: Spritefont aqua_414
+  - first:
+      213: -2133085079671539555
+    second: Spritefont aqua_415
+  - first:
+      213: -1660933030775979960
+    second: Spritefont aqua_416
+  - first:
+      213: 8291074378012225917
+    second: Spritefont aqua_417
+  - first:
+      213: 1520866487521080589
+    second: Spritefont aqua_418
+  - first:
+      213: -1814592910425628523
+    second: Spritefont aqua_419
+  - first:
+      213: -6440228468617244858
+    second: Spritefont aqua_420
+  - first:
+      213: 596355414266882102
+    second: Spritefont aqua_421
+  - first:
+      213: -3868469951407569504
+    second: Spritefont aqua_422
+  - first:
+      213: -2144167333586280131
+    second: Spritefont aqua_423
+  - first:
+      213: 2508987099830714801
+    second: Spritefont aqua_424
+  - first:
+      213: -8588550081886060835
+    second: Spritefont aqua_425
+  - first:
+      213: 1234147759077342561
+    second: Spritefont aqua_426
+  - first:
+      213: -1498919224833696659
+    second: Spritefont aqua_427
+  - first:
+      213: 2946604612480465787
+    second: Spritefont aqua_428
+  - first:
+      213: -275821880246789468
+    second: Spritefont aqua_429
+  - first:
+      213: -1972534674399805947
+    second: Spritefont aqua_430
+  - first:
+      213: 2877478339600610098
+    second: Spritefont aqua_431
+  - first:
+      213: -5822202909363496105
+    second: Spritefont aqua_432
+  - first:
+      213: 8004290995465733363
+    second: Spritefont aqua_433
+  - first:
+      213: -4866200831445962807
+    second: Spritefont aqua_434
+  - first:
+      213: -6932366725903807395
+    second: Spritefont aqua_435
+  - first:
+      213: -5324256522352078547
+    second: Spritefont aqua_436
+  - first:
+      213: -8471057936968175855
+    second: Spritefont aqua_437
+  - first:
+      213: 5874734627764217724
+    second: Spritefont aqua_438
+  - first:
+      213: -7636394946338893051
+    second: Spritefont aqua_439
+  - first:
+      213: 8786349512363645342
+    second: Spritefont aqua_440
+  - first:
+      213: -8608006024696525145
+    second: Spritefont aqua_441
+  - first:
+      213: -5799820612174031461
+    second: Spritefont aqua_442
+  - first:
+      213: -2590718495910271258
+    second: Spritefont aqua_443
+  - first:
+      213: -4061027404526390252
+    second: Spritefont aqua_444
+  - first:
+      213: 4243987116578125186
+    second: Spritefont aqua_445
+  - first:
+      213: 2283607121615803421
+    second: Spritefont aqua_446
+  - first:
+      213: -843041319427429976
+    second: Spritefont aqua_447
+  - first:
+      213: 2096180128498606971
+    second: Spritefont aqua_448
+  - first:
+      213: 1745576838853157814
+    second: Spritefont aqua_449
+  - first:
+      213: -7146045775090963188
+    second: Spritefont aqua_450
+  - first:
+      213: 7230952259170497232
+    second: Spritefont aqua_451
+  - first:
+      213: -2764182913539959133
+    second: Spritefont aqua_452
+  - first:
+      213: 6290397031247998247
+    second: Spritefont aqua_453
+  - first:
+      213: 3865573608824177440
+    second: Spritefont aqua_454
+  - first:
+      213: 6251507660576362526
+    second: Spritefont aqua_455
+  - first:
+      213: -7161943935943501565
+    second: Spritefont aqua_456
+  - first:
+      213: -7274065611141258397
+    second: Spritefont aqua_457
+  - first:
+      213: -3162940616220042499
+    second: Spritefont aqua_458
+  - first:
+      213: -1234745838878223555
+    second: Spritefont aqua_459
+  - first:
+      213: -4752300910531440521
+    second: Spritefont aqua_460
+  - first:
+      213: -169630538991600775
+    second: Spritefont aqua_461
+  - first:
+      213: -7225073431116733512
+    second: Spritefont aqua_462
+  - first:
+      213: -7509513054678937722
+    second: Spritefont aqua_463
+  - first:
+      213: -3673875168664419783
+    second: Spritefont aqua_464
+  - first:
+      213: -5110051659598802590
+    second: Spritefont aqua_465
+  - first:
+      213: -5868989352715586811
+    second: Spritefont aqua_466
+  - first:
+      213: -8214547431868617078
+    second: Spritefont aqua_467
+  - first:
+      213: -6114608388309173457
+    second: Spritefont aqua_468
+  - first:
+      213: 6619729522205605622
+    second: Spritefont aqua_469
+  - first:
+      213: 6248715820919901508
+    second: Spritefont aqua_470
+  - first:
+      213: -8273815949352614445
+    second: Spritefont aqua_471
+  - first:
+      213: 8149495683121859140
+    second: Spritefont aqua_472
+  - first:
+      213: 568716388222746405
+    second: Spritefont aqua_473
+  - first:
+      213: -8269742350940354496
+    second: Spritefont aqua_474
+  - first:
+      213: -1654621391380492788
+    second: Spritefont aqua_475
+  - first:
+      213: -1833428445937039492
+    second: Spritefont aqua_476
+  - first:
+      213: 3946382491143913144
+    second: Spritefont aqua_477
+  - first:
+      213: -4038661956227044671
+    second: Spritefont aqua_478
+  - first:
+      213: 8381755257940604285
+    second: Spritefont aqua_479
+  - first:
+      213: -9146670527515754858
+    second: Spritefont aqua_480
+  - first:
+      213: -8701754530943912712
+    second: Spritefont aqua_481
+  - first:
+      213: 1737770250055728852
+    second: Spritefont aqua_482
+  - first:
+      213: 6410504215398600212
+    second: Spritefont aqua_483
+  - first:
+      213: -7058019008564289699
+    second: Spritefont aqua_484
+  - first:
+      213: 7053269043529979995
+    second: Spritefont aqua_485
+  - first:
+      213: 6701211938567205223
+    second: Spritefont aqua_486
+  - first:
+      213: 2794736855740067887
+    second: Spritefont aqua_487
+  - first:
+      213: 5259121215861618377
+    second: Spritefont aqua_488
+  - first:
+      213: -6165503293021623426
+    second: Spritefont aqua_489
+  - first:
+      213: 194694034841398550
+    second: Spritefont aqua_490
+  - first:
+      213: -3247150026477563797
+    second: Spritefont aqua_491
+  - first:
+      213: 392215656539287249
+    second: Spritefont aqua_492
+  - first:
+      213: 8008248198186857680
+    second: Spritefont aqua_493
+  - first:
+      213: -5431938879308604730
+    second: Spritefont aqua_494
+  - first:
+      213: 2258415581404122244
+    second: Spritefont aqua_495
+  - first:
+      213: -2171446211823818922
+    second: Spritefont aqua_496
+  - first:
+      213: 5953424205397670213
+    second: Spritefont aqua_497
+  - first:
+      213: -6387939773900247896
+    second: Spritefont aqua_498
+  - first:
+      213: -8282987796873485891
+    second: Spritefont aqua_499
+  - first:
+      213: 1186502825743418270
+    second: Spritefont aqua_500
+  - first:
+      213: 4317756653164639150
+    second: Spritefont aqua_501
+  - first:
+      213: 5985230077270409810
+    second: Spritefont aqua_502
+  - first:
+      213: 8756479581296542798
+    second: Spritefont aqua_503
+  - first:
+      213: 4664419288928038484
+    second: Spritefont aqua_504
+  - first:
+      213: 8399078129650849
+    second: Spritefont aqua_505
+  - first:
+      213: 675227474140805018
+    second: Spritefont aqua_506
+  - first:
+      213: 5848798042062070381
+    second: Spritefont aqua_507
+  - first:
+      213: -5163731329500352681
+    second: Spritefont aqua_508
+  - first:
+      213: -3619418360490162116
+    second: Spritefont aqua_509
+  - first:
+      213: 6818598963639012881
+    second: Spritefont aqua_510
+  - first:
+      213: 405131418838823309
+    second: Spritefont aqua_511
+  - first:
+      213: -3304060420136516322
+    second: Spritefont aqua_512
+  - first:
+      213: -2547386025830326070
+    second: Spritefont aqua_513
+  - first:
+      213: 7248718270346330600
+    second: Spritefont aqua_514
+  - first:
+      213: -1886211196418266253
+    second: Spritefont aqua_515
+  - first:
+      213: 375938645608392051
+    second: Spritefont aqua_516
+  - first:
+      213: -3761902050672711801
+    second: Spritefont aqua_517
+  - first:
+      213: -8004937432442968785
+    second: Spritefont aqua_518
+  - first:
+      213: 7086438490589202597
+    second: Spritefont aqua_519
+  - first:
+      213: -874707534692838018
+    second: Spritefont aqua_520
+  - first:
+      213: 888903244372459310
+    second: Spritefont aqua_521
+  - first:
+      213: -2050178175174168882
+    second: Spritefont aqua_522
+  - first:
+      213: 4103633019240106415
+    second: Spritefont aqua_523
+  - first:
+      213: 1243133746785526166
+    second: Spritefont aqua_524
+  - first:
+      213: 9021089056046999601
+    second: Spritefont aqua_525
+  - first:
+      213: -8950312723402822980
+    second: Spritefont aqua_526
+  - first:
+      213: 6490135414852402767
+    second: Spritefont aqua_527
+  - first:
+      213: 3211881690650326600
+    second: Spritefont aqua_528
+  - first:
+      213: -8611680508224851145
+    second: Spritefont aqua_529
+  - first:
+      213: -6815762433766019564
+    second: Spritefont aqua_530
+  - first:
+      213: 8196228829478001178
+    second: Spritefont aqua_531
+  - first:
+      213: -2198564331292336876
+    second: Spritefont aqua_532
+  - first:
+      213: -2935339538577204872
+    second: Spritefont aqua_533
+  - first:
+      213: 1937892183548177895
+    second: Spritefont aqua_534
+  - first:
+      213: -155220307690243957
+    second: Spritefont aqua_535
+  - first:
+      213: -5297542617124539569
+    second: Spritefont aqua_536
+  - first:
+      213: -6430809835781305902
+    second: Spritefont aqua_537
+  - first:
+      213: -5392477085270002818
+    second: Spritefont aqua_538
+  - first:
+      213: 2187588532480271701
+    second: Spritefont aqua_539
+  - first:
+      213: 2934108129547066688
+    second: Spritefont aqua_540
+  - first:
+      213: -248751876317953765
+    second: Spritefont aqua_541
+  - first:
+      213: -7985305586538819452
+    second: Spritefont aqua_542
+  - first:
+      213: 6780202346065079695
+    second: Spritefont aqua_543
+  - first:
+      213: -5698257952373755086
+    second: Spritefont aqua_544
+  - first:
+      213: -4071734693175407273
+    second: Spritefont aqua_545
+  - first:
+      213: 1072349635604468400
+    second: Spritefont aqua_546
+  - first:
+      213: 294563673373628428
+    second: Spritefont aqua_547
+  - first:
+      213: -2171683779921349010
+    second: Spritefont aqua_548
+  - first:
+      213: 3535787682042383213
+    second: Spritefont aqua_549
+  - first:
+      213: 5470273650690841936
+    second: Spritefont aqua_550
+  - first:
+      213: 635402878525066090
+    second: Spritefont aqua_551
+  - first:
+      213: -3177300786618418396
+    second: Spritefont aqua_552
+  - first:
+      213: 971879714187364932
+    second: Spritefont aqua_553
+  - first:
+      213: -2942017150500606494
+    second: Spritefont aqua_554
+  - first:
+      213: -8951885796417006635
+    second: Spritefont aqua_555
+  - first:
+      213: 1059727078716892556
+    second: Spritefont aqua_556
+  - first:
+      213: -6946943435941055397
+    second: Spritefont aqua_557
+  - first:
+      213: -1342601291027027532
+    second: Spritefont aqua_558
+  - first:
+      213: -2704905766628340898
+    second: Spritefont aqua_559
+  - first:
+      213: 1599563603109070100
+    second: Spritefont aqua_560
+  - first:
+      213: 331900366810249622
+    second: Spritefont aqua_561
+  - first:
+      213: 9094668990536024067
+    second: Spritefont aqua_562
+  - first:
+      213: -8113910407538209404
+    second: Spritefont aqua_563
+  - first:
+      213: -5069728645584397335
+    second: Spritefont aqua_564
+  - first:
+      213: 8613561861207717411
+    second: Spritefont aqua_565
+  - first:
+      213: -5597813527171809182
+    second: Spritefont aqua_566
+  - first:
+      213: -4269881816815303274
+    second: Spritefont aqua_567
+  - first:
+      213: -5859894705584606514
+    second: Spritefont aqua_568
+  - first:
+      213: -5477056214119614185
+    second: Spritefont aqua_569
+  - first:
+      213: -7826305640286305721
+    second: Spritefont aqua_570
+  - first:
+      213: 8344417574322277531
+    second: Spritefont aqua_571
+  - first:
+      213: -6644124342216387443
+    second: Spritefont aqua_572
+  - first:
+      213: -3792019393299562265
+    second: Spritefont aqua_573
+  - first:
+      213: 3426662030998100918
+    second: Spritefont aqua_574
+  - first:
+      213: -7496976483474680665
+    second: Spritefont aqua_575
+  - first:
+      213: 1250935085558970277
+    second: Spritefont aqua_576
+  - first:
+      213: -6786573196152212071
+    second: Spritefont aqua_577
+  - first:
+      213: 8493821226162481231
+    second: Spritefont aqua_578
+  - first:
+      213: -2889928320209905489
+    second: Spritefont aqua_579
+  - first:
+      213: 3309217771677627680
+    second: Spritefont aqua_580
+  - first:
+      213: 3798824390507380577
+    second: Spritefont aqua_581
+  - first:
+      213: 1779945841779228766
+    second: Spritefont aqua_582
+  - first:
+      213: -5373673720107161121
+    second: Spritefont aqua_583
+  - first:
+      213: 4128139222885486335
+    second: Spritefont aqua_584
+  - first:
+      213: -4315714365102454803
+    second: Spritefont aqua_585
+  - first:
+      213: 3017222836096565142
+    second: Spritefont aqua_586
+  - first:
+      213: 2619822240813920348
+    second: Spritefont aqua_587
+  - first:
+      213: -146143622728881246
+    second: Spritefont aqua_588
+  - first:
+      213: -6641444190922201668
+    second: Spritefont aqua_589
+  - first:
+      213: 4995000804834260750
+    second: Spritefont aqua_590
+  - first:
+      213: 2587071075631176365
+    second: Spritefont aqua_591
+  - first:
+      213: -3905109760120544570
+    second: Spritefont aqua_592
+  - first:
+      213: 2682706320826266223
+    second: Spritefont aqua_593
+  - first:
+      213: -5106578723791046855
+    second: Spritefont aqua_594
+  - first:
+      213: 3635882624893004157
+    second: Spritefont aqua_595
+  - first:
+      213: 4105638634493524013
+    second: Spritefont aqua_596
+  - first:
+      213: -1267971210496596130
+    second: Spritefont aqua_597
+  - first:
+      213: -4086066268314772781
+    second: Spritefont aqua_598
+  - first:
+      213: 3228461697648469501
+    second: Spritefont aqua_599
+  - first:
+      213: 8430278610807567380
+    second: Spritefont aqua_600
+  - first:
+      213: -998693066221713163
+    second: Spritefont aqua_601
+  - first:
+      213: 589794311669755565
+    second: Spritefont aqua_602
+  - first:
+      213: -463368896945921079
+    second: Spritefont aqua_603
+  - first:
+      213: -2541382300466929116
+    second: Spritefont aqua_604
+  - first:
+      213: 3216986143772829998
+    second: Spritefont aqua_605
+  - first:
+      213: -8994570532404720
+    second: Spritefont aqua_606
+  - first:
+      213: 1442186031060681878
+    second: Spritefont aqua_607
+  - first:
+      213: -6194987161637456780
+    second: Spritefont aqua_608
+  - first:
+      213: -5671374465719965045
+    second: Spritefont aqua_609
+  - first:
+      213: 7959262260218709312
+    second: Spritefont aqua_610
+  - first:
+      213: 644857581131239695
+    second: Spritefont aqua_611
+  - first:
+      213: 6259037085975709766
+    second: Spritefont aqua_612
+  - first:
+      213: 2334944262512164446
+    second: Spritefont aqua_613
+  - first:
+      213: -7167835037688329916
+    second: Spritefont aqua_614
+  - first:
+      213: 4221599796234024410
+    second: Spritefont aqua_615
+  - first:
+      213: -8735205629461098399
+    second: Spritefont aqua_616
+  - first:
+      213: 1520107144118124358
+    second: Spritefont aqua_617
+  - first:
+      213: 8368798599492749460
+    second: Spritefont aqua_618
+  - first:
+      213: 8214133724153684546
+    second: Spritefont aqua_619
+  - first:
+      213: -8249926107893962677
+    second: Spritefont aqua_620
+  - first:
+      213: -4202551649540148954
+    second: Spritefont aqua_621
+  - first:
+      213: 6680797087614108948
+    second: Spritefont aqua_622
+  - first:
+      213: 7084350062406795769
+    second: Spritefont aqua_623
+  - first:
+      213: 6326373143586848860
+    second: Spritefont aqua_624
+  - first:
+      213: 831509656250426187
+    second: Spritefont aqua_625
+  - first:
+      213: 9167102056328120053
+    second: Spritefont aqua_626
+  - first:
+      213: -2679443040890388990
+    second: Spritefont aqua_627
+  - first:
+      213: 364739339038285879
+    second: Spritefont aqua_628
+  - first:
+      213: -3318431745199717092
+    second: Spritefont aqua_629
+  - first:
+      213: -7395933202177822890
+    second: Spritefont aqua_630
+  - first:
+      213: 8613749690879682208
+    second: Spritefont aqua_631
+  - first:
+      213: 3764182008207464689
+    second: Spritefont aqua_632
+  - first:
+      213: -505958898024553830
+    second: Spritefont aqua_633
+  - first:
+      213: -2456411635874899678
+    second: Spritefont aqua_634
+  - first:
+      213: -13753619091266672
+    second: Spritefont aqua_635
+  - first:
+      213: -3229325766157888969
+    second: Spritefont aqua_636
+  - first:
+      213: 4731330379409798310
+    second: Spritefont aqua_637
+  - first:
+      213: -1849320350588933564
+    second: Spritefont aqua_638
+  - first:
+      213: -2653030930589656502
+    second: Spritefont aqua_639
+  - first:
+      213: 872470119318149704
+    second: Spritefont aqua_640
+  - first:
+      213: -4386589823080200303
+    second: Spritefont aqua_641
+  - first:
+      213: 8687380623439053285
+    second: Spritefont aqua_642
+  - first:
+      213: -6568108202191528142
+    second: Spritefont aqua_643
+  - first:
+      213: -5702238803392087864
+    second: Spritefont aqua_644
+  - first:
+      213: 1789519567025317717
+    second: Spritefont aqua_645
+  - first:
+      213: -1807092076835821170
+    second: Spritefont aqua_646
+  - first:
+      213: -2566370020979055663
+    second: Spritefont aqua_647
+  - first:
+      213: -8912434589692289785
+    second: Spritefont aqua_648
+  - first:
+      213: -8273415413104020248
+    second: Spritefont aqua_649
+  - first:
+      213: 4086442841702921534
+    second: Spritefont aqua_650
+  - first:
+      213: 1073820542887388688
+    second: Spritefont aqua_651
+  - first:
+      213: 8916140086318539990
+    second: Spritefont aqua_652
+  - first:
+      213: -3555730141169285200
+    second: Spritefont aqua_653
+  - first:
+      213: -6870441033970023983
+    second: Spritefont aqua_654
+  - first:
+      213: -9116599793595421226
+    second: Spritefont aqua_655
+  - first:
+      213: -5656525919331098633
+    second: Spritefont aqua_656
+  - first:
+      213: 2090512364310757810
+    second: Spritefont aqua_657
+  - first:
+      213: -2893792468409330667
+    second: Spritefont aqua_658
+  - first:
+      213: 4524023744894924714
+    second: Spritefont aqua_659
+  - first:
+      213: -1768032440160325392
+    second: Spritefont aqua_660
+  - first:
+      213: 9131268468869997585
+    second: Spritefont aqua_661
+  - first:
+      213: -2188587382575273766
+    second: Spritefont aqua_662
+  - first:
+      213: -8461972710773364561
+    second: Spritefont aqua_663
+  - first:
+      213: 6632252193187650921
+    second: Spritefont aqua_664
+  - first:
+      213: -6523783197010597031
+    second: Spritefont aqua_665
+  - first:
+      213: 4407412658661637743
+    second: Spritefont aqua_666
+  - first:
+      213: -326558790175555936
+    second: Spritefont aqua_667
+  - first:
+      213: 8048777009140763837
+    second: Spritefont aqua_668
+  - first:
+      213: -7825535625956717040
+    second: Spritefont aqua_669
+  - first:
+      213: -7315462703252522744
+    second: Spritefont aqua_670
+  - first:
+      213: 1036565762287595972
+    second: Spritefont aqua_671
+  - first:
+      213: -753716306184820056
+    second: Spritefont aqua_672
+  - first:
+      213: 6422691473660890061
+    second: Spritefont aqua_673
+  - first:
+      213: 7277976409838558219
+    second: Spritefont aqua_674
+  - first:
+      213: -7874971354155096873
+    second: Spritefont aqua_675
+  - first:
+      213: 2411128161840007402
+    second: Spritefont aqua_676
+  - first:
+      213: 726633559090059855
+    second: Spritefont aqua_677
+  - first:
+      213: 7459132163549960328
+    second: Spritefont aqua_678
+  - first:
+      213: -6198654011698275483
+    second: Spritefont aqua_679
+  - first:
+      213: 4763406455435575426
+    second: Spritefont aqua_680
+  - first:
+      213: 2950372179534054097
+    second: Spritefont aqua_681
+  - first:
+      213: 2955968207886025756
+    second: Spritefont aqua_682
+  - first:
+      213: -4325368106717801305
+    second: Spritefont aqua_683
+  - first:
+      213: 5205630802718924944
+    second: Spritefont aqua_684
+  - first:
+      213: 2472604022759650773
+    second: Spritefont aqua_685
+  - first:
+      213: -4917539020015716474
+    second: Spritefont aqua_686
+  - first:
+      213: 2976478167164296327
+    second: Spritefont aqua_687
+  - first:
+      213: -580910005592825938
+    second: Spritefont aqua_688
+  - first:
+      213: -5710497769493926390
+    second: Spritefont aqua_689
+  - first:
+      213: 4042743133138508582
+    second: Spritefont aqua_690
+  - first:
+      213: 6517558000844480403
+    second: Spritefont aqua_691
+  - first:
+      213: 7070883556648602459
+    second: Spritefont aqua_692
+  - first:
+      213: -8139129037951762759
+    second: Spritefont aqua_693
+  - first:
+      213: 3220220910713190625
+    second: Spritefont aqua_694
+  - first:
+      213: -1773171086387263032
+    second: Spritefont aqua_695
+  - first:
+      213: -7998819956599360640
+    second: Spritefont aqua_696
+  - first:
+      213: -6639937326261380255
+    second: Spritefont aqua_697
+  - first:
+      213: -7178819139349745280
+    second: Spritefont aqua_698
+  - first:
+      213: 7725976105392207247
+    second: Spritefont aqua_699
+  - first:
+      213: -3012228083846073807
+    second: Spritefont aqua_700
+  - first:
+      213: 2039308663088818852
+    second: Spritefont aqua_701
+  - first:
+      213: -2907926387917944987
+    second: Spritefont aqua_702
+  - first:
+      213: 8616855725019873755
+    second: Spritefont aqua_703
+  - first:
+      213: -2381193942222514939
+    second: Spritefont aqua_704
+  - first:
+      213: 878345501078936397
+    second: Spritefont aqua_705
+  - first:
+      213: 744895018761378027
+    second: Spritefont aqua_706
+  - first:
+      213: 6074760957902453735
+    second: Spritefont aqua_707
+  - first:
+      213: 7576812028052151099
+    second: Spritefont aqua_708
+  - first:
+      213: -6747579771277498686
+    second: Spritefont aqua_709
+  - first:
+      213: -454716954522427657
+    second: Spritefont aqua_710
+  - first:
+      213: -414529603094213286
+    second: Spritefont aqua_711
+  - first:
+      213: 2286186011027064352
+    second: Spritefont aqua_712
+  - first:
+      213: 1505527065694792864
+    second: Spritefont aqua_713
+  - first:
+      213: -3829334999630400749
+    second: Spritefont aqua_714
+  - first:
+      213: 8308101109291902833
+    second: Spritefont aqua_715
+  - first:
+      213: -3735634697236040837
+    second: Spritefont aqua_716
+  - first:
+      213: -2472711497582868734
+    second: Spritefont aqua_717
+  - first:
+      213: -6158148622191374251
+    second: Spritefont aqua_718
+  - first:
+      213: 7002331249716539383
+    second: Spritefont aqua_719
+  - first:
+      213: 855047298875901412
+    second: Spritefont aqua_720
+  - first:
+      213: -1606506093662280167
+    second: Spritefont aqua_721
+  - first:
+      213: -3721535411727020956
+    second: Spritefont aqua_722
+  - first:
+      213: 1491902345714259016
+    second: Spritefont aqua_723
+  - first:
+      213: 5656325162289981293
+    second: Spritefont aqua_724
+  - first:
+      213: 5709510150936916481
+    second: Spritefont aqua_725
+  - first:
+      213: -5419906475979949081
+    second: Spritefont aqua_726
+  - first:
+      213: 3331987857134063935
+    second: Spritefont aqua_727
+  - first:
+      213: 4699435061583388281
+    second: Spritefont aqua_728
+  - first:
+      213: -2257196608764751994
+    second: Spritefont aqua_729
+  - first:
+      213: -2267638622707686565
+    second: Spritefont aqua_730
+  - first:
+      213: -5776866971408495002
+    second: Spritefont aqua_731
+  - first:
+      213: 6992240609432528028
+    second: Spritefont aqua_732
+  - first:
+      213: -3212049358918054158
+    second: Spritefont aqua_733
+  - first:
+      213: -4432866622555081193
+    second: Spritefont aqua_734
+  - first:
+      213: -1380923258249169645
+    second: Spritefont aqua_735
+  - first:
+      213: -2100840928139734900
+    second: Spritefont aqua_736
+  - first:
+      213: -6035789181000257921
+    second: Spritefont aqua_737
+  - first:
+      213: -5194324989272500455
+    second: Spritefont aqua_738
+  - first:
+      213: -8809878010373015041
+    second: Spritefont aqua_739
+  - first:
+      213: -4490282911544140255
+    second: Spritefont aqua_740
+  - first:
+      213: -270911146106594745
+    second: Spritefont aqua_741
+  - first:
+      213: 4995279472962207879
+    second: Spritefont aqua_742
+  - first:
+      213: -8168689641234508878
+    second: Spritefont aqua_743
+  - first:
+      213: 7982952679244700562
+    second: Spritefont aqua_744
+  - first:
+      213: -4033016012301284667
+    second: Spritefont aqua_745
+  - first:
+      213: 353529088142941369
+    second: Spritefont aqua_746
+  - first:
+      213: 2978385179261167194
+    second: Spritefont aqua_747
+  - first:
+      213: -4780748891146051494
+    second: Spritefont aqua_748
+  - first:
+      213: -4417772713577948871
+    second: Spritefont aqua_749
+  - first:
+      213: -1051657863666838660
+    second: Spritefont aqua_750
+  - first:
+      213: -4585127918474164865
+    second: Spritefont aqua_751
+  - first:
+      213: -2497295053227794148
+    second: Spritefont aqua_752
+  - first:
+      213: -4941876877105958408
+    second: Spritefont aqua_753
+  - first:
+      213: -1702669562192025845
+    second: Spritefont aqua_754
+  - first:
+      213: 6456340346554367928
+    second: Spritefont aqua_755
+  - first:
+      213: -6142732354574004513
+    second: Spritefont aqua_756
+  - first:
+      213: -7195138851714715129
+    second: Spritefont aqua_757
+  - first:
+      213: -8627392760593326563
+    second: Spritefont aqua_758
+  - first:
+      213: -2197503270673707072
+    second: Spritefont aqua_759
+  - first:
+      213: -1044415761485245396
+    second: Spritefont aqua_760
+  - first:
+      213: 8837371035990745213
+    second: Spritefont aqua_761
+  - first:
+      213: 2208278772220572697
+    second: Spritefont aqua_762
+  - first:
+      213: 7105520082275909176
+    second: Spritefont aqua_763
+  - first:
+      213: -7144044806744835854
+    second: Spritefont aqua_764
+  - first:
+      213: -8853316284353856992
+    second: Spritefont aqua_765
+  - first:
+      213: -6848370029985255645
+    second: Spritefont aqua_766
+  - first:
+      213: -2852878363488203399
+    second: Spritefont aqua_767
+  - first:
+      213: 6898245114575705637
+    second: Spritefont aqua_768
+  - first:
+      213: -3900146197592091933
+    second: Spritefont aqua_769
+  - first:
+      213: -6564785039091897611
+    second: Spritefont aqua_770
+  - first:
+      213: 3152414897632214603
+    second: Spritefont aqua_771
+  - first:
+      213: -3395852649533384393
+    second: Spritefont aqua_772
+  - first:
+      213: -1946588667257673864
+    second: Spritefont aqua_773
+  - first:
+      213: 6449998058298515878
+    second: Spritefont aqua_774
+  - first:
+      213: -9086991108716166796
+    second: Spritefont aqua_775
+  - first:
+      213: -955801786329056753
+    second: Spritefont aqua_776
+  - first:
+      213: 1884976914285543649
+    second: Spritefont aqua_777
+  - first:
+      213: -3359120456843183012
+    second: Spritefont aqua_778
+  - first:
+      213: -5169219220210292914
+    second: Spritefont aqua_779
+  - first:
+      213: 3337147415251380662
+    second: Spritefont aqua_780
+  - first:
+      213: -8054898370784168697
+    second: Spritefont aqua_781
+  - first:
+      213: 1173717973049218023
+    second: Spritefont aqua_782
+  - first:
+      213: -3115384229530063727
+    second: Spritefont aqua_783
+  - first:
+      213: 1782584493914460693
+    second: Spritefont aqua_784
+  - first:
+      213: 7309322052642963420
+    second: Spritefont aqua_785
+  - first:
+      213: -6826136964391492365
+    second: Spritefont aqua_786
+  - first:
+      213: 4546492411176521010
+    second: Spritefont aqua_787
+  - first:
+      213: 6947774848719762892
+    second: Spritefont aqua_788
+  - first:
+      213: -3093985291033366397
+    second: Spritefont aqua_789
+  - first:
+      213: 2666881247363775705
+    second: Spritefont aqua_790
+  - first:
+      213: -5753684971280562004
+    second: Spritefont aqua_791
+  - first:
+      213: 3830718744432688012
+    second: Spritefont aqua_792
+  - first:
+      213: 2400664788895213108
+    second: Spritefont aqua_793
+  - first:
+      213: -4183184368972307157
+    second: Spritefont aqua_794
+  - first:
+      213: 6508755257454542348
+    second: Spritefont aqua_795
+  - first:
+      213: 4121099710477202053
+    second: Spritefont aqua_796
+  - first:
+      213: -401816330226217321
+    second: Spritefont aqua_797
+  - first:
+      213: 26190958188791789
+    second: Spritefont aqua_798
+  - first:
+      213: -4497525519408762393
+    second: Spritefont aqua_799
+  - first:
+      213: -7242593399290959482
+    second: Spritefont aqua_800
+  - first:
+      213: 6326564940510571570
+    second: Spritefont aqua_801
+  - first:
+      213: -6931722102947382075
+    second: Spritefont aqua_802
+  - first:
+      213: -4226019692981348358
+    second: Spritefont aqua_803
+  - first:
+      213: -3394020877947180890
+    second: Spritefont aqua_804
+  - first:
+      213: -4283439065228605958
+    second: Spritefont aqua_805
+  - first:
+      213: -6928310495660608376
+    second: Spritefont aqua_806
+  - first:
+      213: -9053605230417344154
+    second: Spritefont aqua_807
+  - first:
+      213: 2912808815665215392
+    second: Spritefont aqua_808
+  - first:
+      213: 4310619748573164808
+    second: Spritefont aqua_809
+  - first:
+      213: 5572629939981090789
+    second: Spritefont aqua_810
+  - first:
+      213: 5674183436958673641
+    second: Spritefont aqua_811
+  - first:
+      213: 559981300878658156
+    second: Spritefont aqua_812
+  - first:
+      213: 467760165278206155
+    second: Spritefont aqua_813
+  - first:
+      213: 6904137697778299233
+    second: Spritefont aqua_814
+  - first:
+      213: -875722704290627176
+    second: Spritefont aqua_815
+  - first:
+      213: -5478177381462471563
+    second: Spritefont aqua_816
+  - first:
+      213: 6618673557289936706
+    second: Spritefont aqua_817
+  - first:
+      213: -5321200961229938993
+    second: Spritefont aqua_818
+  - first:
+      213: -3439825654529746421
+    second: Spritefont aqua_819
+  - first:
+      213: -7562453063516293549
+    second: Spritefont aqua_820
+  - first:
+      213: -6152843242359716380
+    second: Spritefont aqua_821
+  - first:
+      213: -1946110689696271515
+    second: Spritefont aqua_822
+  - first:
+      213: 7177247119002597475
+    second: Spritefont aqua_823
+  - first:
+      213: -2911045023487511799
+    second: Spritefont aqua_824
+  - first:
+      213: 2876990686872234114
+    second: Spritefont aqua_825
+  - first:
+      213: -2079261202274755588
+    second: Spritefont aqua_826
+  - first:
+      213: 3709383931280171027
+    second: Spritefont aqua_827
+  - first:
+      213: -1316842940419272950
+    second: Spritefont aqua_828
+  - first:
+      213: -3075300201618013512
+    second: Spritefont aqua_829
+  - first:
+      213: -6815561829563401997
+    second: Spritefont aqua_830
+  - first:
+      213: 6470823925731489340
+    second: Spritefont aqua_831
+  - first:
+      213: 1759391736140748065
+    second: Spritefont aqua_832
+  - first:
+      213: -3317771056731876633
+    second: Spritefont aqua_833
+  - first:
+      213: 7069013104555919051
+    second: Spritefont aqua_834
+  - first:
+      213: -5240921699416919621
+    second: Spritefont aqua_835
+  - first:
+      213: -3843304504166577273
+    second: Spritefont aqua_836
+  - first:
+      213: 3905836581453666264
+    second: Spritefont aqua_837
+  - first:
+      213: -3134609061574379710
+    second: Spritefont aqua_838
+  - first:
+      213: 2309891131304175206
+    second: Spritefont aqua_839
+  - first:
+      213: 7857712427657308177
+    second: Spritefont aqua_840
+  - first:
+      213: 8636526930100354590
+    second: Spritefont aqua_841
+  - first:
+      213: -3830294506572945439
+    second: Spritefont aqua_842
+  - first:
+      213: -2715566516468162814
+    second: Spritefont aqua_843
+  - first:
+      213: -4550068178019054887
+    second: Spritefont aqua_844
+  - first:
+      213: 3786457851306518693
+    second: Spritefont aqua_845
+  - first:
+      213: 6965607255191054689
+    second: Spritefont aqua_846
+  - first:
+      213: -5674647817668254015
+    second: Spritefont aqua_847
+  - first:
+      213: -4397034921363813305
+    second: Spritefont aqua_848
+  - first:
+      213: -9215277292660486883
+    second: Spritefont aqua_849
+  - first:
+      213: -2094135626140236835
+    second: Spritefont aqua_850
+  - first:
+      213: 8708197377043062946
+    second: Spritefont aqua_851
+  - first:
+      213: 5059858864565873030
+    second: Spritefont aqua_852
+  - first:
+      213: -5132005244205685799
+    second: Spritefont aqua_853
+  - first:
+      213: 7702335565634813593
+    second: Spritefont aqua_854
+  - first:
+      213: 4560094222933404773
+    second: Spritefont aqua_855
+  - first:
+      213: 8606083404481700156
+    second: Spritefont aqua_856
+  - first:
+      213: 3964099238030318003
+    second: Spritefont aqua_857
+  - first:
+      213: 8879421664174621249
+    second: Spritefont aqua_858
+  - first:
+      213: -6621267487633873413
+    second: Spritefont aqua_859
+  - first:
+      213: 5022210403444379680
+    second: Spritefont aqua_860
+  - first:
+      213: 7707024943895025673
+    second: Spritefont aqua_861
+  - first:
+      213: 5160259823160471296
+    second: Spritefont aqua_862
+  - first:
+      213: -7525479808863209664
+    second: Spritefont aqua_863
+  - first:
+      213: 3577589952385681759
+    second: Spritefont aqua_864
+  - first:
+      213: 7000397818282967180
+    second: Spritefont aqua_865
+  - first:
+      213: -2531894100445808333
+    second: Spritefont aqua_866
+  - first:
+      213: -6820264858286947719
+    second: Spritefont aqua_867
+  - first:
+      213: -1551739537513033856
+    second: Spritefont aqua_868
+  - first:
+      213: 1914773647753231987
+    second: Spritefont aqua_869
+  - first:
+      213: -911977299333013502
+    second: Spritefont aqua_870
+  - first:
+      213: 4641197579132656218
+    second: Spritefont aqua_871
+  - first:
+      213: -5420213533837396443
+    second: Spritefont aqua_872
+  - first:
+      213: 3586924291202936736
+    second: Spritefont aqua_873
+  - first:
+      213: 1478188768470290593
+    second: Spritefont aqua_874
+  - first:
+      213: -1266648983653731893
+    second: Spritefont aqua_875
+  - first:
+      213: 2229150971364945674
+    second: Spritefont aqua_876
+  - first:
+      213: 3673367867404921012
+    second: Spritefont aqua_877
+  - first:
+      213: -2869277157070248647
+    second: Spritefont aqua_878
+  - first:
+      213: -2273657866307812460
+    second: Spritefont aqua_879
+  - first:
+      213: -5510871160044635881
+    second: Spritefont aqua_880
+  - first:
+      213: -1447619544913163775
+    second: Spritefont aqua_881
+  - first:
+      213: -8501516606644507679
+    second: Spritefont aqua_882
+  - first:
+      213: 3700877499513062689
+    second: Spritefont aqua_883
+  - first:
+      213: 6831116835379260836
+    second: Spritefont aqua_884
+  - first:
+      213: -5720718579656826588
+    second: Spritefont aqua_885
+  - first:
+      213: -147489507394439888
+    second: Spritefont aqua_886
+  - first:
+      213: -8012803516971330180
+    second: Spritefont aqua_887
+  - first:
+      213: 3538148218834254801
+    second: Spritefont aqua_888
+  - first:
+      213: -5591755302651551782
+    second: Spritefont aqua_889
+  - first:
+      213: -221327737630655701
+    second: Spritefont aqua_890
+  - first:
+      213: 6758487463906777911
+    second: Spritefont aqua_891
+  - first:
+      213: -7742200520301076543
+    second: Spritefont aqua_892
+  - first:
+      213: 4844716736207508183
+    second: Spritefont aqua_893
+  - first:
+      213: -5308999401019903678
+    second: Spritefont aqua_894
+  - first:
+      213: -2812452568703610331
+    second: Spritefont aqua_895
+  - first:
+      213: 6486760121748709005
+    second: Spritefont aqua_896
+  - first:
+      213: 7256115562252594144
+    second: Spritefont aqua_897
+  - first:
+      213: -7396673263709074363
+    second: Spritefont aqua_898
+  - first:
+      213: -8157995279494696314
+    second: Spritefont aqua_899
+  - first:
+      213: 5767999853081145385
+    second: Spritefont aqua_900
+  - first:
+      213: 6412774198707328773
+    second: Spritefont aqua_901
+  - first:
+      213: 653022157786913226
+    second: Spritefont aqua_902
+  - first:
+      213: -8078777604561963994
+    second: Spritefont aqua_903
+  - first:
+      213: 2097524260766909761
+    second: Spritefont aqua_904
+  - first:
+      213: -7462294559565399309
+    second: Spritefont aqua_905
+  - first:
+      213: -5145462114694334607
+    second: Spritefont aqua_906
+  - first:
+      213: 6770122220265882497
+    second: Spritefont aqua_907
+  - first:
+      213: -3474492269790080362
+    second: Spritefont aqua_908
+  - first:
+      213: -8719506407466730868
+    second: Spritefont aqua_909
+  - first:
+      213: -8041410635721411675
+    second: Spritefont aqua_910
+  - first:
+      213: -6984316402385146511
+    second: Spritefont aqua_911
+  - first:
+      213: 7815950971049197656
+    second: Spritefont aqua_912
+  - first:
+      213: -9060499938385876012
+    second: Spritefont aqua_913
+  - first:
+      213: 8313210306498922330
+    second: Spritefont aqua_914
+  - first:
+      213: -7139763743680560100
+    second: Spritefont aqua_915
+  - first:
+      213: 7744509923232796361
+    second: Spritefont aqua_916
+  - first:
+      213: -4992830971276343847
+    second: Spritefont aqua_917
+  - first:
+      213: 6519920330227147906
+    second: Spritefont aqua_918
+  - first:
+      213: 1009551313452118535
+    second: Spritefont aqua_919
+  - first:
+      213: -6816571304507266055
+    second: Spritefont aqua_920
+  - first:
+      213: 7150556729903331836
+    second: Spritefont aqua_921
+  - first:
+      213: 3012213226235034748
+    second: Spritefont aqua_922
+  - first:
+      213: -4099572480879616872
+    second: Spritefont aqua_923
+  - first:
+      213: -8756057577562269889
+    second: Spritefont aqua_924
+  - first:
+      213: -1017037288818389220
+    second: Spritefont aqua_925
+  - first:
+      213: -5095594454217474122
+    second: Spritefont aqua_926
+  - first:
+      213: 8926726589668136263
+    second: Spritefont aqua_927
+  - first:
+      213: 2276733741001834761
+    second: Spritefont aqua_928
+  - first:
+      213: -6859148920383446624
+    second: Spritefont aqua_929
+  - first:
+      213: -4693851542518115688
+    second: Spritefont aqua_930
+  - first:
+      213: 249965261340404631
+    second: Spritefont aqua_931
+  - first:
+      213: 2758208950166984951
+    second: Spritefont aqua_932
+  - first:
+      213: 7199733758281785218
+    second: Spritefont aqua_933
+  - first:
+      213: -4657739283878573692
+    second: Spritefont aqua_934
+  - first:
+      213: -5531352528066995415
+    second: Spritefont aqua_935
+  - first:
+      213: 9053490615489511971
+    second: Spritefont aqua_936
+  - first:
+      213: 1078624919260284120
+    second: Spritefont aqua_937
+  - first:
+      213: -2810643199953112617
+    second: Spritefont aqua_938
+  - first:
+      213: 8272668833574613315
+    second: Spritefont aqua_939
+  - first:
+      213: 8799112677733060638
+    second: Spritefont aqua_940
+  - first:
+      213: -1117219751242122878
+    second: Spritefont aqua_941
+  - first:
+      213: -8109574457864085535
+    second: Spritefont aqua_942
+  - first:
+      213: -6014611843491793653
+    second: Spritefont aqua_943
+  - first:
+      213: -2840458169140220500
+    second: Spritefont aqua_944
+  - first:
+      213: -9186863509575802445
+    second: Spritefont aqua_945
+  - first:
+      213: 6989774423776498402
+    second: Spritefont aqua_946
+  - first:
+      213: -3216485381653359809
+    second: Spritefont aqua_947
+  - first:
+      213: -3935092625511983954
+    second: Spritefont aqua_948
+  - first:
+      213: 2936986144628800656
+    second: Spritefont aqua_949
+  - first:
+      213: 1908151409466006808
+    second: Spritefont aqua_950
+  - first:
+      213: 562465689443551961
+    second: Spritefont aqua_951
+  - first:
+      213: -1425163861760798678
+    second: Spritefont aqua_952
+  - first:
+      213: -5564031645816422747
+    second: Spritefont aqua_953
+  - first:
+      213: -561898897854538291
+    second: Spritefont aqua_954
+  - first:
+      213: 5840235619080668541
+    second: Spritefont aqua_955
+  - first:
+      213: 4788537519742288536
+    second: Spritefont aqua_956
+  - first:
+      213: 5427120323436634922
+    second: Spritefont aqua_957
+  - first:
+      213: 8984810271124952768
+    second: Spritefont aqua_958
+  - first:
+      213: -1029082757377767164
+    second: Spritefont aqua_959
+  - first:
+      213: 6642273726534867065
+    second: Spritefont aqua_960
+  - first:
+      213: -8465412815575969302
+    second: Spritefont aqua_961
+  - first:
+      213: -6182482515200485711
+    second: Spritefont aqua_962
+  - first:
+      213: -6361721679094695828
+    second: Spritefont aqua_963
+  - first:
+      213: 2501884178157470864
+    second: Spritefont aqua_964
+  - first:
+      213: 2153867923195805326
+    second: Spritefont aqua_965
+  - first:
+      213: 8305194842959932955
+    second: Spritefont aqua_966
+  - first:
+      213: -6955389488852574348
+    second: Spritefont aqua_967
+  - first:
+      213: -423901621205140635
+    second: Spritefont aqua_968
+  - first:
+      213: 270859224137423646
+    second: Spritefont aqua_969
+  - first:
+      213: 2603777323994493453
+    second: Spritefont aqua_970
+  - first:
+      213: -3533683444917020150
+    second: Spritefont aqua_971
+  - first:
+      213: -4186299490695978668
+    second: Spritefont aqua_972
+  - first:
+      213: 8940085426882912158
+    second: Spritefont aqua_973
+  - first:
+      213: 8831230116915404672
+    second: Spritefont aqua_974
+  - first:
+      213: -3335963830336055798
+    second: Spritefont aqua_975
+  - first:
+      213: 461555176752488849
+    second: Spritefont aqua_976
+  - first:
+      213: 5205986087587641556
+    second: Spritefont aqua_977
+  - first:
+      213: 5385077052260173335
+    second: Spritefont aqua_978
+  - first:
+      213: 3957359554811139743
+    second: Spritefont aqua_979
+  - first:
+      213: -3288207638227108125
+    second: Spritefont aqua_980
+  - first:
+      213: 4195038550737963643
+    second: Spritefont aqua_981
+  - first:
+      213: 9131952763786233074
+    second: Spritefont aqua_982
+  - first:
+      213: -7020369459233797509
+    second: Spritefont aqua_983
+  - first:
+      213: 2861428164381758593
+    second: Spritefont aqua_984
+  - first:
+      213: 764184126690791865
+    second: Spritefont aqua_985
+  - first:
+      213: -1491185088772486127
+    second: Spritefont aqua_986
+  - first:
+      213: -6363977579007928492
+    second: Spritefont aqua_987
+  - first:
+      213: 5439578908566935925
+    second: Spritefont aqua_988
+  - first:
+      213: -1503487031920295325
+    second: Spritefont aqua_989
+  - first:
+      213: 470437078651207185
+    second: Spritefont aqua_990
+  - first:
+      213: 8855601809139571430
+    second: Spritefont aqua_991
+  - first:
+      213: -4908755496590732051
+    second: Spritefont aqua_992
+  - first:
+      213: 7649183310288439657
+    second: Spritefont aqua_993
+  - first:
+      213: -2680182359743988680
+    second: Spritefont aqua_994
+  - first:
+      213: 5787918086864268581
+    second: Spritefont aqua_995
+  - first:
+      213: 2248790969817320210
+    second: Spritefont aqua_996
+  - first:
+      213: -6981383354818387353
+    second: Spritefont aqua_997
+  - first:
+      213: 3966158300404473677
+    second: Spritefont aqua_998
+  - first:
+      213: -2978316147535818108
+    second: Spritefont aqua_999
+  - first:
+      213: -4960169313485437558
+    second: Spritefont aqua_1000
+  - first:
+      213: 2523491136826988997
+    second: Spritefont aqua_1001
+  - first:
+      213: 6538788673939125745
+    second: Spritefont aqua_1002
+  - first:
+      213: 1545256037927170121
+    second: Spritefont aqua_1003
+  - first:
+      213: -1110171743221517177
+    second: Spritefont aqua_1004
+  - first:
+      213: 3527331965988904984
+    second: Spritefont aqua_1005
+  - first:
+      213: 1208117008680823220
+    second: Spritefont aqua_1006
+  - first:
+      213: -3146594077674348734
+    second: Spritefont aqua_1007
+  - first:
+      213: -1188036111942562159
+    second: Spritefont aqua_1008
+  - first:
+      213: 2619292302544594836
+    second: Spritefont aqua_1009
+  - first:
+      213: -8335058708235439016
+    second: Spritefont aqua_1010
+  - first:
+      213: -1812921431017359325
+    second: Spritefont aqua_1011
+  - first:
+      213: -8329796671349806224
+    second: Spritefont aqua_1012
+  - first:
+      213: -197957636960212655
+    second: Spritefont aqua_1013
+  - first:
+      213: 2734138533583008078
+    second: Spritefont aqua_1014
+  - first:
+      213: 3863453712875763505
+    second: Spritefont aqua_1015
+  - first:
+      213: -3668871064937277359
+    second: Spritefont aqua_1016
+  - first:
+      213: 9012780488523923422
+    second: Spritefont aqua_1017
+  - first:
+      213: -924179807689260845
+    second: Spritefont aqua_1018
+  - first:
+      213: -7731531264810383673
+    second: Spritefont aqua_1019
+  - first:
+      213: 3714452147068051795
+    second: Spritefont aqua_1020
+  - first:
+      213: 5941665533946241596
+    second: Spritefont aqua_1021
+  - first:
+      213: -6516499653358918733
+    second: Spritefont aqua_1022
+  - first:
+      213: 9019065747682916815
+    second: Spritefont aqua_1023
+  - first:
+      213: 7423222908020349545
+    second: Spritefont aqua_1024
+  - first:
+      213: -3430081031212593624
+    second: Spritefont aqua_1025
+  - first:
+      213: 7717876601212835897
+    second: Spritefont aqua_1026
+  - first:
+      213: -2274875340140857345
+    second: Spritefont aqua_1027
+  - first:
+      213: 403417575646874120
+    second: Spritefont aqua_1028
+  - first:
+      213: -7135554807650038366
+    second: Spritefont aqua_1029
+  - first:
+      213: 1084754641521764671
+    second: Spritefont aqua_1030
+  - first:
+      213: -1622602990270853326
+    second: Spritefont aqua_1031
+  - first:
+      213: -6865575506715085644
+    second: Spritefont aqua_1032
+  - first:
+      213: -1862453174898602382
+    second: Spritefont aqua_1033
+  - first:
+      213: 4270563570566349037
+    second: Spritefont aqua_1034
+  - first:
+      213: -4142010050410764727
+    second: Spritefont aqua_1035
+  - first:
+      213: -7219282201214572857
+    second: Spritefont aqua_1036
+  - first:
+      213: -2335148355909913541
+    second: Spritefont aqua_1037
+  - first:
+      213: 5611008802205505252
+    second: Spritefont aqua_1038
+  - first:
+      213: 1564457163814676299
+    second: Spritefont aqua_1039
+  - first:
+      213: 1278582301128867439
+    second: Spritefont aqua_1040
+  - first:
+      213: -5253995642525031069
+    second: Spritefont aqua_1041
+  - first:
+      213: 5028906749373000757
+    second: Spritefont aqua_1042
+  - first:
+      213: -7703272914499666375
+    second: Spritefont aqua_1043
+  - first:
+      213: 4696822865361280192
+    second: Spritefont aqua_1044
+  - first:
+      213: -5285605375840410785
+    second: Spritefont aqua_1045
+  - first:
+      213: -8304327765600015585
+    second: Spritefont aqua_1046
+  - first:
+      213: -3562910241206435320
+    second: Spritefont aqua_1047
+  - first:
+      213: -7195080045022757306
+    second: Spritefont aqua_1048
+  - first:
+      213: 332850974009139275
+    second: Spritefont aqua_1049
+  - first:
+      213: 209193916832440125
+    second: Spritefont aqua_1050
+  - first:
+      213: 8570107895855226934
+    second: Spritefont aqua_1051
+  - first:
+      213: 8206212679240970443
+    second: Spritefont aqua_1052
+  - first:
+      213: 9123406667085017676
+    second: Spritefont aqua_1053
+  - first:
+      213: -2764868764286196418
+    second: Spritefont aqua_1054
+  - first:
+      213: -6445483797647160009
+    second: Spritefont aqua_1055
+  - first:
+      213: -8726803247856126002
+    second: Spritefont aqua_1056
+  - first:
+      213: 9051897910855839732
+    second: Spritefont aqua_1057
+  - first:
+      213: -9197846638187755004
+    second: Spritefont aqua_1058
+  - first:
+      213: -5764413824194275516
+    second: Spritefont aqua_1059
+  - first:
+      213: 2470313071264791249
+    second: Spritefont aqua_1060
+  - first:
+      213: 2600197355976685756
+    second: Spritefont aqua_1061
+  - first:
+      213: -5400190655297566811
+    second: Spritefont aqua_1062
+  - first:
+      213: -7578917749002243111
+    second: Spritefont aqua_1063
+  - first:
+      213: 6109569087615672267
+    second: Spritefont aqua_1064
+  - first:
+      213: -814148492645898321
+    second: Spritefont aqua_1065
+  - first:
+      213: -3631061986951249086
+    second: Spritefont aqua_1066
+  - first:
+      213: 6288987992410280471
+    second: Spritefont aqua_1067
+  - first:
+      213: -8115351808815923881
+    second: Spritefont aqua_1068
+  - first:
+      213: 5617945501467413654
+    second: Spritefont aqua_1069
+  - first:
+      213: -4767762951679632712
+    second: Spritefont aqua_1070
+  - first:
+      213: -700661272000454330
+    second: Spritefont aqua_1071
+  - first:
+      213: -72833480938018462
+    second: Spritefont aqua_1072
+  - first:
+      213: 2954188406982858737
+    second: Spritefont aqua_1073
+  - first:
+      213: -5068131978130938483
+    second: Spritefont aqua_1074
+  - first:
+      213: -3151537712916361111
+    second: Spritefont aqua_1075
+  - first:
+      213: -7474641807470009517
+    second: Spritefont aqua_1076
+  - first:
+      213: -3834010216634360202
+    second: Spritefont aqua_1077
+  - first:
+      213: 4592183677788558605
+    second: Spritefont aqua_1078
+  - first:
+      213: 796974476103001643
+    second: Spritefont aqua_1079
+  - first:
+      213: 8966798984422002505
+    second: Spritefont aqua_1080
+  - first:
+      213: 2964886200702508382
+    second: Spritefont aqua_1081
+  - first:
+      213: -1069601278335670784
+    second: Spritefont aqua_1082
+  - first:
+      213: -3461815091057164091
+    second: Spritefont aqua_1083
+  - first:
+      213: 1627141968126179645
+    second: Spritefont aqua_1084
+  - first:
+      213: -6422884495503327600
+    second: Spritefont aqua_1085
+  - first:
+      213: 9167489860255022817
+    second: Spritefont aqua_1086
+  - first:
+      213: 1583782282686617077
+    second: Spritefont aqua_1087
+  - first:
+      213: 5953667022150578255
+    second: Spritefont aqua_1088
+  - first:
+      213: -234111532522494924
+    second: Spritefont aqua_1089
+  - first:
+      213: 679394763258435583
+    second: Spritefont aqua_1090
+  - first:
+      213: 723963754058622759
+    second: Spritefont aqua_1091
+  - first:
+      213: 7691502769241685899
+    second: Spritefont aqua_1092
+  - first:
+      213: -2811952325226637176
+    second: Spritefont aqua_1093
+  - first:
+      213: -1351394987154689976
+    second: Spritefont aqua_1094
+  - first:
+      213: 6097538234711391455
+    second: Spritefont aqua_1095
+  - first:
+      213: 2709788461519315309
+    second: Spritefont aqua_1096
+  - first:
+      213: -2625498434813824440
+    second: Spritefont aqua_1097
+  - first:
+      213: 6803547754800943396
+    second: Spritefont aqua_1098
+  - first:
+      213: 366607179520582502
+    second: Spritefont aqua_1099
+  - first:
+      213: -1383940817427735100
+    second: Spritefont aqua_1100
+  - first:
+      213: -5062764602237980671
+    second: Spritefont aqua_1101
+  - first:
+      213: 6542735740522978087
+    second: Spritefont aqua_1102
+  - first:
+      213: -3840993327635880021
+    second: Spritefont aqua_1103
+  - first:
+      213: -8891626649740450953
+    second: Spritefont aqua_1104
+  - first:
+      213: -4099600323071157611
+    second: Spritefont aqua_1105
+  - first:
+      213: 7329372340688558363
+    second: Spritefont aqua_1106
+  - first:
+      213: -3492734903218964113
+    second: Spritefont aqua_1107
+  - first:
+      213: 8738446982535643621
+    second: Spritefont aqua_1108
+  - first:
+      213: -8995403349518339262
+    second: Spritefont aqua_1109
+  - first:
+      213: 6994924202380399679
+    second: Spritefont aqua_1110
+  - first:
+      213: 974165460521339492
+    second: Spritefont aqua_1111
+  - first:
+      213: 1430624374700566031
+    second: Spritefont aqua_1112
+  - first:
+      213: -6383099468136852826
+    second: Spritefont aqua_1113
+  - first:
+      213: 2670000639443297779
+    second: Spritefont aqua_1114
+  - first:
+      213: -4855829774828334587
+    second: Spritefont aqua_1115
+  - first:
+      213: 7385395802594789601
+    second: Spritefont aqua_1116
+  - first:
+      213: -4550168269088117170
+    second: Spritefont aqua_1117
+  - first:
+      213: 1193299219208651237
+    second: Spritefont aqua_1118
+  - first:
+      213: 3176826812413412556
+    second: Spritefont aqua_1119
+  - first:
+      213: 4420005690948995856
+    second: Spritefont aqua_1120
+  - first:
+      213: -2700663987617675438
+    second: Spritefont aqua_1121
+  - first:
+      213: 9108518898545218223
+    second: Spritefont aqua_1122
+  - first:
+      213: 3004339546276489990
+    second: Spritefont aqua_1123
+  - first:
+      213: -8146589481105278797
+    second: Spritefont aqua_1124
+  - first:
+      213: -2906872965209665292
+    second: Spritefont aqua_1125
+  - first:
+      213: 2940409955066103735
+    second: Spritefont aqua_1126
+  - first:
+      213: 4458242364660539815
+    second: Spritefont aqua_1127
+  - first:
+      213: 1729219006421127423
+    second: Spritefont aqua_1128
+  - first:
+      213: -7852776233989241257
+    second: Spritefont aqua_1129
+  - first:
+      213: 106896125687005366
+    second: Spritefont aqua_1130
+  - first:
+      213: -7455685142792407059
+    second: Spritefont aqua_1131
+  - first:
+      213: -4986811242568163417
+    second: Spritefont aqua_1132
+  - first:
+      213: 2773175120750741652
+    second: Spritefont aqua_1133
+  - first:
+      213: -2339724137768483933
+    second: Spritefont aqua_1134
+  - first:
+      213: 8129216670278412279
+    second: Spritefont aqua_1135
+  - first:
+      213: -1857451650312732502
+    second: Spritefont aqua_1136
+  - first:
+      213: 6352407249321756951
+    second: Spritefont aqua_1137
+  - first:
+      213: -8049109956540926436
+    second: Spritefont aqua_1138
+  - first:
+      213: -6554743631732299751
+    second: Spritefont aqua_1139
+  - first:
+      213: -7450700233187560194
+    second: Spritefont aqua_1140
+  - first:
+      213: 4542423967794126728
+    second: Spritefont aqua_1141
+  - first:
+      213: -1181767007240175926
+    second: Spritefont aqua_1142
+  - first:
+      213: 4625374721237004526
+    second: Spritefont aqua_1143
+  - first:
+      213: 2580041952666818375
+    second: Spritefont aqua_1144
+  - first:
+      213: 1532650857771016831
+    second: Spritefont aqua_1145
+  - first:
+      213: -3143225289204913298
+    second: Spritefont aqua_1146
+  - first:
+      213: -7616364702441128387
+    second: Spritefont aqua_1147
+  - first:
+      213: -3377802715678245912
+    second: Spritefont aqua_1148
+  - first:
+      213: 4264063929934136007
+    second: Spritefont aqua_1149
+  - first:
+      213: -9090603604596699872
+    second: Spritefont aqua_1150
+  - first:
+      213: -7158555651284841323
+    second: Spritefont aqua_1151
+  - first:
+      213: 8161035295582604193
+    second: Spritefont aqua_1152
+  - first:
+      213: 3247097286343804377
+    second: Spritefont aqua_1153
+  - first:
+      213: -3443997390184982380
+    second: Spritefont aqua_1154
+  - first:
+      213: 9215786207832674670
+    second: Spritefont aqua_1155
+  - first:
+      213: 5514390672663378189
+    second: Spritefont aqua_1156
+  - first:
+      213: 708594470467335222
+    second: Spritefont aqua_1157
+  - first:
+      213: -3950719767509116254
+    second: Spritefont aqua_1158
+  - first:
+      213: -4260163893232599762
+    second: Spritefont aqua_1159
+  - first:
+      213: -8491568701618194296
+    second: Spritefont aqua_1160
+  - first:
+      213: 2792655140627498504
+    second: Spritefont aqua_1161
+  - first:
+      213: -2754446000940399273
+    second: Spritefont aqua_1162
+  - first:
+      213: 1765679384319108838
+    second: Spritefont aqua_1163
+  - first:
+      213: 614155566338622959
+    second: Spritefont aqua_1164
+  - first:
+      213: 2910559647523281176
+    second: Spritefont aqua_1165
+  - first:
+      213: 8907036708172368109
+    second: Spritefont aqua_1166
+  - first:
+      213: -7069979354622456219
+    second: Spritefont aqua_1167
+  - first:
+      213: -4920144076886609164
+    second: Spritefont aqua_1168
+  - first:
+      213: 4658729180051029233
+    second: Spritefont aqua_1169
+  - first:
+      213: 8550622322766700446
+    second: Spritefont aqua_1170
+  - first:
+      213: 6743115889138056898
+    second: Spritefont aqua_1171
+  - first:
+      213: 1009767194769617117
+    second: Spritefont aqua_1172
+  - first:
+      213: -6963787617042311439
+    second: Spritefont aqua_1173
+  - first:
+      213: 1753260432264535827
+    second: Spritefont aqua_1174
+  - first:
+      213: 2188786245976624763
+    second: Spritefont aqua_1175
+  - first:
+      213: -6900782323905499338
+    second: Spritefont aqua_1176
+  - first:
+      213: -7921047676575505166
+    second: Spritefont aqua_1177
+  - first:
+      213: -607064625571183069
+    second: Spritefont aqua_1178
+  - first:
+      213: -4666086091175721357
+    second: Spritefont aqua_1179
+  - first:
+      213: 8501423335055146444
+    second: Spritefont aqua_1180
+  - first:
+      213: -841597946366092790
+    second: Spritefont aqua_1181
+  - first:
+      213: -614191063132887764
+    second: Spritefont aqua_1182
+  - first:
+      213: -6493021746978773136
+    second: Spritefont aqua_1183
+  - first:
+      213: 704566396485581165
+    second: Spritefont aqua_1184
+  - first:
+      213: -940144281681538762
+    second: Spritefont aqua_1185
+  - first:
+      213: 8729692043028075015
+    second: Spritefont aqua_1186
+  - first:
+      213: -5988914821057335515
+    second: Spritefont aqua_1187
+  - first:
+      213: -4801673367542650619
+    second: Spritefont aqua_1188
+  - first:
+      213: -6275936684133473587
+    second: Spritefont aqua_1189
+  - first:
+      213: -5930240401919857745
+    second: Spritefont aqua_1190
+  - first:
+      213: -4399639195115102830
+    second: Spritefont aqua_1191
+  - first:
+      213: -4684759384807044232
+    second: Spritefont aqua_1192
+  - first:
+      213: -1379494392163986695
+    second: Spritefont aqua_1193
+  - first:
+      213: 6357077347263234525
+    second: Spritefont aqua_1194
+  - first:
+      213: -1759478815202606925
+    second: Spritefont aqua_1195
+  - first:
+      213: 1560334464087070268
+    second: Spritefont aqua_1196
+  - first:
+      213: -9077082138576322416
+    second: Spritefont aqua_1197
+  - first:
+      213: 3082570231566156889
+    second: Spritefont aqua_1198
+  - first:
+      213: -1540965217661359119
+    second: Spritefont aqua_1199
+  - first:
+      213: 531363114066986506
+    second: Spritefont aqua_1200
+  - first:
+      213: 6058630816333995798
+    second: Spritefont aqua_1201
+  - first:
+      213: 7628871108059614070
+    second: Spritefont aqua_1202
+  - first:
+      213: 1185165671103334857
+    second: Spritefont aqua_1203
+  - first:
+      213: -5255920691562956753
+    second: Spritefont aqua_1204
+  - first:
+      213: -6040114106347424401
+    second: Spritefont aqua_1205
+  - first:
+      213: 4872695012841160644
+    second: Spritefont aqua_1206
+  - first:
+      213: 1705583798224159657
+    second: Spritefont aqua_1207
+  - first:
+      213: 6243560865257875346
+    second: Spritefont aqua_1208
+  - first:
+      213: 9097543082322172810
+    second: Spritefont aqua_1209
+  - first:
+      213: -6300315150050843160
+    second: Spritefont aqua_1210
+  - first:
+      213: -8859247347896812347
+    second: Spritefont aqua_1211
+  - first:
+      213: -8366349135317755398
+    second: Spritefont aqua_1212
+  - first:
+      213: -3247786519301759944
+    second: Spritefont aqua_1213
+  - first:
+      213: 5202566718591608395
+    second: Spritefont aqua_1214
+  - first:
+      213: 2993547629772243283
+    second: Spritefont aqua_1215
+  - first:
+      213: 2287246187024178507
+    second: Spritefont aqua_1216
+  - first:
+      213: -5682209489273549586
+    second: Spritefont aqua_1217
+  - first:
+      213: -7023480369097376223
+    second: Spritefont aqua_1218
+  - first:
+      213: 7271622315186882210
+    second: Spritefont aqua_1219
+  - first:
+      213: -8534554217275221213
+    second: Spritefont aqua_1220
+  - first:
+      213: 2286599346335511298
+    second: Spritefont aqua_1221
+  - first:
+      213: -5671797974815479629
+    second: Spritefont aqua_1222
+  - first:
+      213: -6669181043697558015
+    second: Spritefont aqua_1223
+  - first:
+      213: -6215251377343062640
+    second: Spritefont aqua_1224
+  - first:
+      213: 8552885281728763474
+    second: Spritefont aqua_1225
+  - first:
+      213: 4862276539486902938
+    second: Spritefont aqua_1226
+  - first:
+      213: -7276315395362850670
+    second: Spritefont aqua_1227
+  - first:
+      213: 5248563676472980935
+    second: Spritefont aqua_1228
+  - first:
+      213: -6366471352951563037
+    second: Spritefont aqua_1229
+  - first:
+      213: 5980918331382645058
+    second: Spritefont aqua_1230
+  - first:
+      213: -6900013671090138695
+    second: Spritefont aqua_1231
+  - first:
+      213: -6904380797165134028
+    second: Spritefont aqua_1232
+  - first:
+      213: 9067123195255814648
+    second: Spritefont aqua_1233
+  - first:
+      213: -2643384288403417349
+    second: Spritefont aqua_1234
+  - first:
+      213: 1645777115936275522
+    second: Spritefont aqua_1235
+  - first:
+      213: 8643083179594651291
+    second: Spritefont aqua_1236
+  - first:
+      213: 8511846988421186887
+    second: Spritefont aqua_1237
+  - first:
+      213: 8251925783136967
+    second: Spritefont aqua_1238
+  - first:
+      213: -6980209205640501255
+    second: Spritefont aqua_1239
+  - first:
+      213: 1231442906672197477
+    second: Spritefont aqua_1240
+  - first:
+      213: -3300976192409017919
+    second: Spritefont aqua_1241
+  - first:
+      213: 1358403728802369521
+    second: Spritefont aqua_1242
+  - first:
+      213: -6266950227205869384
+    second: Spritefont aqua_1243
+  - first:
+      213: -6227204389208610210
+    second: Spritefont aqua_1244
+  - first:
+      213: -1760661927411670711
+    second: Spritefont aqua_1245
+  - first:
+      213: -3247665865104292918
+    second: Spritefont aqua_1246
+  - first:
+      213: -6091959233687137425
+    second: Spritefont aqua_1247
+  - first:
+      213: 2695716310898683778
+    second: Spritefont aqua_1248
+  - first:
+      213: 2117434674715079767
+    second: Spritefont aqua_1249
+  - first:
+      213: -2995462710728628575
+    second: Spritefont aqua_1250
+  - first:
+      213: 2546642569775852259
+    second: Spritefont aqua_1251
+  - first:
+      213: 6365703467091815757
+    second: Spritefont aqua_1252
+  - first:
+      213: 4427725395286529410
+    second: Spritefont aqua_1253
+  - first:
+      213: 6413086754523363072
+    second: Spritefont aqua_1254
+  - first:
+      213: 2414189452620320252
+    second: Spritefont aqua_1255
+  - first:
+      213: -4171541347616477905
+    second: Spritefont aqua_1256
+  - first:
+      213: 5471964140906945226
+    second: Spritefont aqua_1257
+  - first:
+      213: -7455185714237321514
+    second: Spritefont aqua_1258
+  - first:
+      213: 798255035219477481
+    second: Spritefont aqua_1259
+  - first:
+      213: 8390243281318933785
+    second: Spritefont aqua_1260
+  - first:
+      213: -9203240262825583419
+    second: Spritefont aqua_1261
+  - first:
+      213: -6294314752194495971
+    second: Spritefont aqua_1262
+  - first:
+      213: -4105477974106087648
+    second: Spritefont aqua_1263
+  - first:
+      213: 2020007745911480562
+    second: Spritefont aqua_1264
+  - first:
+      213: 5392973333662557435
+    second: Spritefont aqua_1265
+  - first:
+      213: 6790337451003107769
+    second: Spritefont aqua_1266
+  - first:
+      213: -5897455608540815373
+    second: Spritefont aqua_1267
+  - first:
+      213: -8037453360111873379
+    second: Spritefont aqua_1268
+  - first:
+      213: -1735695934043783622
+    second: Spritefont aqua_1269
+  - first:
+      213: -632305386049480581
+    second: Spritefont aqua_1270
+  - first:
+      213: -306849507686753175
+    second: Spritefont aqua_1271
+  - first:
+      213: 1910351061248513643
+    second: Spritefont aqua_1272
+  - first:
+      213: -9146196566598082773
+    second: Spritefont aqua_1273
+  - first:
+      213: -1399204653348902959
+    second: Spritefont aqua_1274
+  - first:
+      213: -2642337174954057670
+    second: Spritefont aqua_1275
+  - first:
+      213: -8326001229360573724
+    second: Spritefont aqua_1276
+  - first:
+      213: -3370384960761574325
+    second: Spritefont aqua_1277
+  - first:
+      213: -8121456717836134042
+    second: Spritefont aqua_1278
+  - first:
+      213: -8315613927912092303
+    second: Spritefont aqua_1279
+  - first:
+      213: 4669673069636010313
+    second: Spritefont aqua_1280
+  - first:
+      213: 5867986213569535303
+    second: Spritefont aqua_1281
+  - first:
+      213: -4943111174658594109
+    second: Spritefont aqua_1282
+  - first:
+      213: -472501802932671381
+    second: Spritefont aqua_1283
+  - first:
+      213: -5735841319127500068
+    second: Spritefont aqua_1284
+  - first:
+      213: 1953770062022257906
+    second: Spritefont aqua_1285
+  - first:
+      213: 640348272918494004
+    second: Spritefont aqua_1286
+  - first:
+      213: -5113288232890858719
+    second: Spritefont aqua_1287
+  - first:
+      213: 9107835767474108201
+    second: Spritefont aqua_1288
+  - first:
+      213: 4084179554311977741
+    second: Spritefont aqua_1289
+  - first:
+      213: -222800014515944898
+    second: Spritefont aqua_1290
+  - first:
+      213: 6499313241984157370
+    second: Spritefont aqua_1291
+  - first:
+      213: 121237315805085902
+    second: Spritefont aqua_1292
+  - first:
+      213: 378089922713624806
+    second: Spritefont aqua_1293
+  - first:
+      213: 4187859649978949071
+    second: Spritefont aqua_1294
+  - first:
+      213: -6215183109090528134
+    second: Spritefont aqua_1295
+  - first:
+      213: 4761102390097822255
+    second: Spritefont aqua_1296
+  - first:
+      213: 6974621630574327315
+    second: Spritefont aqua_1297
+  - first:
+      213: -6926279765415061254
+    second: Spritefont aqua_1298
+  - first:
+      213: -7096113554242187210
+    second: Spritefont aqua_1299
+  - first:
+      213: 8830436447138808448
+    second: Spritefont aqua_1300
+  - first:
+      213: -5518542426426747768
+    second: Spritefont aqua_1301
+  - first:
+      213: -7447471443776003783
+    second: Spritefont aqua_1302
+  - first:
+      213: -2718738815880712784
+    second: Spritefont aqua_1303
+  - first:
+      213: -4496823050763448175
+    second: Spritefont aqua_1304
+  - first:
+      213: -1956604252684103279
+    second: Spritefont aqua_1305
+  - first:
+      213: 3949492374081205703
+    second: Spritefont aqua_1306
+  - first:
+      213: -3172788582325452579
+    second: Spritefont aqua_1307
+  - first:
+      213: 7344268729526077830
+    second: Spritefont aqua_1308
+  - first:
+      213: 8797587320441277611
+    second: Spritefont aqua_1309
+  - first:
+      213: 6204745167790808211
+    second: Spritefont aqua_1310
+  - first:
+      213: 4690990636668744858
+    second: Spritefont aqua_1311
+  - first:
+      213: -609151219835097174
+    second: Spritefont aqua_1312
+  - first:
+      213: -5180983219838034772
+    second: Spritefont aqua_1313
+  - first:
+      213: -6092144332287143401
+    second: Spritefont aqua_1314
+  - first:
+      213: -687830220578593705
+    second: Spritefont aqua_1315
+  - first:
+      213: -3730409680385181900
+    second: Spritefont aqua_1316
+  - first:
+      213: -475105904573511205
+    second: Spritefont aqua_1317
+  - first:
+      213: 1557160419749330759
+    second: Spritefont aqua_1318
+  - first:
+      213: -246645481487807427
+    second: Spritefont aqua_1319
+  - first:
+      213: 5267661702864179774
+    second: Spritefont aqua_1320
+  - first:
+      213: 4647221922153290607
+    second: Spritefont aqua_1321
+  - first:
+      213: 6772135213446325307
+    second: Spritefont aqua_1322
+  - first:
+      213: 6510240495176641283
+    second: Spritefont aqua_1323
+  - first:
+      213: 4969005287842516063
+    second: Spritefont aqua_1324
+  - first:
+      213: 5610528390826220698
+    second: Spritefont aqua_1325
+  - first:
+      213: -8422305994948122162
+    second: Spritefont aqua_1326
+  - first:
+      213: 62655455908822191
+    second: Spritefont aqua_1327
+  - first:
+      213: 8183325176641854093
+    second: Spritefont aqua_1328
+  - first:
+      213: 9175524009764408681
+    second: Spritefont aqua_1329
+  - first:
+      213: 628962017429010128
+    second: Spritefont aqua_1330
+  - first:
+      213: 8032063600343351992
+    second: Spritefont aqua_1331
+  - first:
+      213: -2255036854340088441
+    second: Spritefont aqua_1332
+  - first:
+      213: -7534118993911424798
+    second: Spritefont aqua_1333
+  - first:
+      213: -8585880574646073837
+    second: Spritefont aqua_1334
+  - first:
+      213: 6686841210868386353
+    second: Spritefont aqua_1335
+  - first:
+      213: -6558080367046847591
+    second: Spritefont aqua_1336
+  - first:
+      213: -898400070189909730
+    second: Spritefont aqua_1337
+  - first:
+      213: -1089988347764419656
+    second: Spritefont aqua_1338
+  - first:
+      213: 5651028695412647703
+    second: Spritefont aqua_1339
+  - first:
+      213: -1268632696631397255
+    second: Spritefont aqua_1340
+  - first:
+      213: -4415637047770076319
+    second: Spritefont aqua_1341
+  - first:
+      213: -7801934035881981538
+    second: Spritefont aqua_1342
+  - first:
+      213: -1379666381977792267
+    second: Spritefont aqua_1343
+  - first:
+      213: 5209767491794516276
+    second: Spritefont aqua_1344
+  - first:
+      213: 5000293830551540099
+    second: Spritefont aqua_1345
+  - first:
+      213: -960619982646702783
+    second: Spritefont aqua_1346
+  - first:
+      213: -4663391831504210981
+    second: Spritefont aqua_1347
+  - first:
+      213: 1793918033212844693
+    second: Spritefont aqua_1348
+  - first:
+      213: 4212456291240751164
+    second: Spritefont aqua_1349
+  - first:
+      213: 4062098932719292025
+    second: Spritefont aqua_1350
+  - first:
+      213: 1951326609674876693
+    second: Spritefont aqua_1351
+  - first:
+      213: 2905804097666147516
+    second: Spritefont aqua_1352
+  - first:
+      213: -1747053246066001881
+    second: Spritefont aqua_1353
+  - first:
+      213: 3686755191022289577
+    second: Spritefont aqua_1354
+  - first:
+      213: 941743019307158063
+    second: Spritefont aqua_1355
+  - first:
+      213: -1780604621464646352
+    second: Spritefont aqua_1356
+  - first:
+      213: -7733095832328909326
+    second: Spritefont aqua_1357
+  - first:
+      213: 8056952954613571074
+    second: Spritefont aqua_1358
+  - first:
+      213: -6397988473796404827
+    second: Spritefont aqua_1359
+  - first:
+      213: 143399307467340460
+    second: Spritefont aqua_1360
+  - first:
+      213: -5959468734890125441
+    second: Spritefont aqua_1361
+  - first:
+      213: -7030138392179291954
+    second: Spritefont aqua_1362
+  - first:
+      213: -1274053164875325617
+    second: Spritefont aqua_1363
+  - first:
+      213: 3318907647441658693
+    second: Spritefont aqua_1364
+  - first:
+      213: 2648058211020295092
+    second: Spritefont aqua_1365
+  - first:
+      213: -2677727789324574109
+    second: Spritefont aqua_1366
+  - first:
+      213: 3847942456001727333
+    second: Spritefont aqua_1367
+  - first:
+      213: -7142052527962221881
+    second: Spritefont aqua_1368
+  - first:
+      213: -4581084050700151888
+    second: Spritefont aqua_1369
+  - first:
+      213: -397268868535001867
+    second: Spritefont aqua_1370
+  - first:
+      213: 8355871227294674831
+    second: Spritefont aqua_1371
+  - first:
+      213: -5652254880923019306
+    second: Spritefont aqua_1372
+  - first:
+      213: 6549066026422220104
+    second: Spritefont aqua_1373
+  - first:
+      213: -4649276365633309931
+    second: Spritefont aqua_1374
+  - first:
+      213: 3064689327515633778
+    second: Spritefont aqua_1375
+  - first:
+      213: -8449807271998748616
+    second: Spritefont aqua_1376
+  - first:
+      213: -4274758648613290452
+    second: Spritefont aqua_1377
+  - first:
+      213: 2968781748725623375
+    second: Spritefont aqua_1378
+  - first:
+      213: -5341177385695280500
+    second: Spritefont aqua_1379
+  - first:
+      213: 8164601251748493431
+    second: Spritefont aqua_1380
+  - first:
+      213: 7674114193650949276
+    second: Spritefont aqua_1381
+  - first:
+      213: 7426636872383180143
+    second: Spritefont aqua_1382
+  - first:
+      213: -2989595794308227466
+    second: Spritefont aqua_1383
+  - first:
+      213: 8281090921553450395
+    second: Spritefont aqua_1384
+  - first:
+      213: -2219616716423508310
+    second: Spritefont aqua_1385
+  - first:
+      213: 8308723301495032277
+    second: Spritefont aqua_1386
+  - first:
+      213: 5774406474211629129
+    second: Spritefont aqua_1387
+  - first:
+      213: -1223052865896868117
+    second: Spritefont aqua_1388
+  - first:
+      213: 4522903419240982271
+    second: Spritefont aqua_1389
+  - first:
+      213: 3752357898290408282
+    second: Spritefont aqua_1390
+  - first:
+      213: -7757833279466097902
+    second: Spritefont aqua_1391
+  - first:
+      213: -8206721216566018584
+    second: Spritefont aqua_1392
+  - first:
+      213: 6315564731927369525
+    second: Spritefont aqua_1393
+  - first:
+      213: 6715103927247899637
+    second: Spritefont aqua_1394
+  - first:
+      213: 7729769388460423652
+    second: Spritefont aqua_1395
+  - first:
+      213: -8305260020688003131
+    second: Spritefont aqua_1396
+  - first:
+      213: -8179400779066054626
+    second: Spritefont aqua_1397
+  - first:
+      213: -3119359548203075578
+    second: Spritefont aqua_1398
+  - first:
+      213: 2328456733916735540
+    second: Spritefont aqua_1399
+  - first:
+      213: 4160393274342228512
+    second: Spritefont aqua_1400
+  - first:
+      213: 5030605470083445105
+    second: Spritefont aqua_1401
+  - first:
+      213: -3116907575854549421
+    second: Spritefont aqua_1402
+  - first:
+      213: 4683632350366691413
+    second: Spritefont aqua_1403
+  - first:
+      213: -6373602726321038869
+    second: Spritefont aqua_1404
+  - first:
+      213: 2679192765151514690
+    second: Spritefont aqua_1405
+  - first:
+      213: 3708906013345092368
+    second: Spritefont aqua_1406
+  - first:
+      213: -4975355620352207028
+    second: Spritefont aqua_1407
+  - first:
+      213: -2609997750175571470
+    second: Spritefont aqua_1408
+  - first:
+      213: -4781915635609319828
+    second: Spritefont aqua_1409
+  - first:
+      213: 2116350648207556980
+    second: Spritefont aqua_1410
+  - first:
+      213: -3482113000073453813
+    second: Spritefont aqua_1411
+  - first:
+      213: 5607978945804047206
+    second: Spritefont aqua_1412
+  - first:
+      213: -6479680651441490577
+    second: Spritefont aqua_1413
+  - first:
+      213: 271931399936556100
+    second: Spritefont aqua_1414
+  - first:
+      213: -6608157048735540427
+    second: Spritefont aqua_1415
+  - first:
+      213: -7809689341495902595
+    second: Spritefont aqua_1416
+  - first:
+      213: 6982172706281385257
+    second: Spritefont aqua_1417
+  - first:
+      213: 7965122023296907329
+    second: Spritefont aqua_1418
+  - first:
+      213: 3193971708966628078
+    second: Spritefont aqua_1419
+  - first:
+      213: -6545580010245162504
+    second: Spritefont aqua_1420
+  - first:
+      213: -2020090433088713352
+    second: Spritefont aqua_1421
+  - first:
+      213: -5367784565163874824
+    second: Spritefont aqua_1422
+  - first:
+      213: 1636316497999523339
+    second: Spritefont aqua_1423
+  - first:
+      213: -1782227134332771133
+    second: Spritefont aqua_1424
+  - first:
+      213: -8266043043698711109
+    second: Spritefont aqua_1425
+  - first:
+      213: -4045293195268420682
+    second: Spritefont aqua_1426
+  - first:
+      213: 6199813290341826082
+    second: Spritefont aqua_1427
+  - first:
+      213: -2319658731535936499
+    second: Spritefont aqua_1428
+  - first:
+      213: -2804716297362721409
+    second: Spritefont aqua_1429
+  - first:
+      213: 1330926208935832634
+    second: Spritefont aqua_1430
+  - first:
+      213: 7307813397322509954
+    second: Spritefont aqua_1431
+  - first:
+      213: -1779935126871341446
+    second: Spritefont aqua_1432
+  - first:
+      213: -5912054488090101388
+    second: Spritefont aqua_1433
+  - first:
+      213: -8450091051379435290
+    second: Spritefont aqua_1434
+  - first:
+      213: 2826071881445141132
+    second: Spritefont aqua_1435
+  - first:
+      213: 4141969654112144924
+    second: Spritefont aqua_1436
+  - first:
+      213: 7659265851006977385
+    second: Spritefont aqua_1437
+  - first:
+      213: -8310594259983570509
+    second: Spritefont aqua_1438
+  - first:
+      213: 5156281717856261356
+    second: Spritefont aqua_1439
+  - first:
+      213: 8704398930376369678
+    second: Spritefont aqua_1440
+  - first:
+      213: 7680621394095211231
+    second: Spritefont aqua_1441
+  - first:
+      213: 2761268722964900341
+    second: Spritefont aqua_1442
+  - first:
+      213: 102193261174247081
+    second: Spritefont aqua_1443
+  - first:
+      213: 1440756539116810778
+    second: Spritefont aqua_1444
+  - first:
+      213: -3368749684219975964
+    second: Spritefont aqua_1445
+  - first:
+      213: -2512740225990835154
+    second: Spritefont aqua_1446
+  - first:
+      213: 2810802350794924940
+    second: Spritefont aqua_1447
+  - first:
+      213: 2926592314885768323
+    second: Spritefont aqua_1448
+  - first:
+      213: 18319603226870737
+    second: Spritefont aqua_1449
+  - first:
+      213: 2128158582156978392
+    second: Spritefont aqua_1450
+  - first:
+      213: 7174557399190705612
+    second: Spritefont aqua_1451
+  - first:
+      213: -1779786809109776627
+    second: Spritefont aqua_1452
+  - first:
+      213: 8977362282058472716
+    second: Spritefont aqua_1453
+  - first:
+      213: -4890242286273999306
+    second: Spritefont aqua_1454
+  - first:
+      213: -7395458234148864121
+    second: Spritefont aqua_1455
+  - first:
+      213: 764841196402268269
+    second: Spritefont aqua_1456
+  - first:
+      213: 3535610928968040701
+    second: Spritefont aqua_1457
+  - first:
+      213: -830164944514781542
+    second: Spritefont aqua_1458
+  - first:
+      213: 3778996455197442572
+    second: Spritefont aqua_1459
+  - first:
+      213: 5659193320954375690
+    second: Spritefont aqua_1460
+  - first:
+      213: -4716844195398609036
+    second: Spritefont aqua_1461
+  - first:
+      213: 8841978689477309325
+    second: Spritefont aqua_1462
+  - first:
+      213: 722035219482204594
+    second: Spritefont aqua_1463
+  - first:
+      213: -3334364016025479584
+    second: Spritefont aqua_1464
+  - first:
+      213: -3821409646960279187
+    second: Spritefont aqua_1465
+  - first:
+      213: -2158043248646308878
+    second: Spritefont aqua_1466
+  - first:
+      213: 1302179711470493549
+    second: Spritefont aqua_1467
+  - first:
+      213: -3033025974418961755
+    second: Spritefont aqua_1468
+  - first:
+      213: -1434637645951857215
+    second: Spritefont aqua_1469
+  - first:
+      213: 5181262835772182214
+    second: Spritefont aqua_1470
+  - first:
+      213: 2889047953276301970
+    second: Spritefont aqua_1471
+  - first:
+      213: -7464150135127734453
+    second: Spritefont aqua_1472
+  - first:
+      213: 1689155779198065618
+    second: Spritefont aqua_1473
+  - first:
+      213: 1383706285640133504
+    second: Spritefont aqua_1474
+  - first:
+      213: 2765139740125700215
+    second: Spritefont aqua_1475
+  - first:
+      213: -5376328367142129166
+    second: Spritefont aqua_1476
+  - first:
+      213: 7358778173215963760
+    second: Spritefont aqua_1477
+  - first:
+      213: 2740328848049127968
+    second: Spritefont aqua_1478
+  - first:
+      213: -5202465779341160435
+    second: Spritefont aqua_1479
+  - first:
+      213: 380227880945513456
+    second: Spritefont aqua_1480
+  - first:
+      213: -5112788207122752379
+    second: Spritefont aqua_1481
+  - first:
+      213: -8910571943726288765
+    second: Spritefont aqua_1482
+  - first:
+      213: 6509878334754501295
+    second: Spritefont aqua_1483
+  - first:
+      213: -6354355403161609418
+    second: Spritefont aqua_1484
+  - first:
+      213: 5177595722663915545
+    second: Spritefont aqua_1485
+  - first:
+      213: -1375036980783161473
+    second: Spritefont aqua_1486
+  - first:
+      213: -6785653378108062524
+    second: Spritefont aqua_1487
+  - first:
+      213: 2092163886589223471
+    second: Spritefont aqua_1488
+  - first:
+      213: 5551635327890072918
+    second: Spritefont aqua_1489
+  - first:
+      213: 4164087471310390750
+    second: Spritefont aqua_1490
+  - first:
+      213: 6657970852378093514
+    second: Spritefont aqua_1491
+  - first:
+      213: 4532915215124322669
+    second: Spritefont aqua_1492
+  - first:
+      213: 2017940069575476383
+    second: Spritefont aqua_1493
+  - first:
+      213: 7124102661986964303
+    second: Spritefont aqua_1494
+  - first:
+      213: -4165048736716809384
+    second: Spritefont aqua_1495
+  - first:
+      213: -1422641292642835255
+    second: Spritefont aqua_1496
+  - first:
+      213: 4947166356799663964
+    second: Spritefont aqua_1497
+  - first:
+      213: 1929991662419449535
+    second: Spritefont aqua_1498
+  - first:
+      213: -7923672396455876807
+    second: Spritefont aqua_1499
+  - first:
+      213: -6238944784015072834
+    second: Spritefont aqua_1500
+  - first:
+      213: -201118515309474719
+    second: Spritefont aqua_1501
+  - first:
+      213: 5485555868742445038
+    second: Spritefont aqua_1502
+  - first:
+      213: -5150137542603695767
+    second: Spritefont aqua_1503
+  - first:
+      213: 8587222273120675950
+    second: Spritefont aqua_1504
+  - first:
+      213: 7452567713156803800
+    second: Spritefont aqua_1505
+  - first:
+      213: -8799917840371200362
+    second: Spritefont aqua_1506
+  - first:
+      213: 7306954324073284961
+    second: Spritefont aqua_1507
+  - first:
+      213: 1362037457661637311
+    second: Spritefont aqua_1508
+  - first:
+      213: 2026841239715864463
+    second: Spritefont aqua_1509
+  - first:
+      213: 4142780484396586443
+    second: Spritefont aqua_1510
+  - first:
+      213: 2418882829899458592
+    second: Spritefont aqua_1511
+  - first:
+      213: -351200332086393776
+    second: Spritefont aqua_1512
+  - first:
+      213: 5895834614774571280
+    second: Spritefont aqua_1513
+  - first:
+      213: -8793625652791672657
+    second: Spritefont aqua_1514
+  - first:
+      213: 3637255608455646954
+    second: Spritefont aqua_1515
+  - first:
+      213: -4765662199357307894
+    second: Spritefont aqua_1516
+  - first:
+      213: 8329484337009318662
+    second: Spritefont aqua_1517
+  - first:
+      213: 2737194267279385540
+    second: Spritefont aqua_1518
+  - first:
+      213: 8352853706249736620
+    second: Spritefont aqua_1519
+  - first:
+      213: -1948121304109300067
+    second: Spritefont aqua_1520
+  - first:
+      213: -8507120766120193025
+    second: Spritefont aqua_1521
+  - first:
+      213: 5984486316097836242
+    second: Spritefont aqua_1522
+  - first:
+      213: 6959718328191892834
+    second: Spritefont aqua_1523
+  - first:
+      213: -5212547729795860646
+    second: Spritefont aqua_1524
+  - first:
+      213: 7305913449060035056
+    second: Spritefont aqua_1525
+  - first:
+      213: 7476198793811041008
+    second: Spritefont aqua_1526
+  - first:
+      213: 4598684534014183611
+    second: Spritefont aqua_1527
+  - first:
+      213: -5688393783842976617
+    second: Spritefont aqua_1528
+  - first:
+      213: -8458724996465172495
+    second: Spritefont aqua_1529
+  - first:
+      213: 2028505468789009654
+    second: Spritefont aqua_1530
+  - first:
+      213: 4948725381332257472
+    second: Spritefont aqua_1531
+  - first:
+      213: -2542214346684157053
+    second: Spritefont aqua_1532
+  - first:
+      213: -289185459418606322
+    second: Spritefont aqua_1533
+  - first:
+      213: -240468796479043097
+    second: Spritefont aqua_1534
+  - first:
+      213: 2729483481241962148
+    second: Spritefont aqua_1535
+  - first:
+      213: 4196664259446750009
+    second: Spritefont aqua_1536
+  - first:
+      213: 7846073353630573541
+    second: Spritefont aqua_1537
+  - first:
+      213: 5805767634828751612
+    second: Spritefont aqua_1538
+  - first:
+      213: 278207817056662647
+    second: Spritefont aqua_1539
+  - first:
+      213: 3862316034263498689
+    second: Spritefont aqua_1540
+  - first:
+      213: -4585071471204593282
+    second: Spritefont aqua_1541
+  - first:
+      213: -2684673704145412983
+    second: Spritefont aqua_1542
+  - first:
+      213: -1051625592961171795
+    second: Spritefont aqua_1543
+  - first:
+      213: -3600264202791662117
+    second: Spritefont aqua_1544
+  - first:
+      213: 2281906880772331164
+    second: Spritefont aqua_1545
+  - first:
+      213: -6004328687843487753
+    second: Spritefont aqua_1546
+  - first:
+      213: 5671019008326798510
+    second: Spritefont aqua_1547
+  - first:
+      213: -1606195905764355497
+    second: Spritefont aqua_1548
+  - first:
+      213: 2905966692459387011
+    second: Spritefont aqua_1549
+  - first:
+      213: -4935473151525902411
+    second: Spritefont aqua_1550
+  - first:
+      213: -8651529135174415858
+    second: Spritefont aqua_1551
+  - first:
+      213: 1510270359213508151
+    second: Spritefont aqua_1552
+  - first:
+      213: 4785449685516501293
+    second: Spritefont aqua_1553
+  - first:
+      213: -7349297866924008257
+    second: Spritefont aqua_1554
+  - first:
+      213: 6254256974010842870
+    second: Spritefont aqua_1555
+  - first:
+      213: -3479484829532999986
+    second: Spritefont aqua_1556
+  - first:
+      213: -1618106728185562057
+    second: Spritefont aqua_1557
+  - first:
+      213: 47732854189215649
+    second: Spritefont aqua_1558
+  - first:
+      213: 1201702154637412138
+    second: Spritefont aqua_1559
+  - first:
+      213: -6294939452222646619
+    second: Spritefont aqua_1560
+  - first:
+      213: -2590326424086993670
+    second: Spritefont aqua_1561
+  - first:
+      213: 7945810771545871396
+    second: Spritefont aqua_1562
+  - first:
+      213: -3281118033082930381
+    second: Spritefont aqua_1563
+  - first:
+      213: -4993619710553966080
+    second: Spritefont aqua_1564
+  - first:
+      213: -7032958014913076595
+    second: Spritefont aqua_1565
+  - first:
+      213: 4432241085923492728
+    second: Spritefont aqua_1566
+  - first:
+      213: 1432223779284304758
+    second: Spritefont aqua_1567
+  - first:
+      213: 6959232809267570874
+    second: Spritefont aqua_1568
+  - first:
+      213: 7521210833154437790
+    second: Spritefont aqua_1569
+  - first:
+      213: -3388004388020037150
+    second: Spritefont aqua_1570
+  - first:
+      213: 1785854937506093888
+    second: Spritefont aqua_1571
+  - first:
+      213: -6594300963483956997
+    second: Spritefont aqua_1572
+  - first:
+      213: -8584219382987616431
+    second: Spritefont aqua_1573
+  - first:
+      213: -7116365470271812985
+    second: Spritefont aqua_1574
+  - first:
+      213: -4069015377105282013
+    second: Spritefont aqua_1575
+  - first:
+      213: -1388092941087410483
+    second: Spritefont aqua_1576
+  - first:
+      213: -3689553287162548910
+    second: Spritefont aqua_1577
+  - first:
+      213: 1704547778600044166
+    second: Spritefont aqua_1578
+  - first:
+      213: 3652853362272757333
+    second: Spritefont aqua_1579
+  - first:
+      213: -8997450061000507977
+    second: Spritefont aqua_1580
+  - first:
+      213: -2816908647729856296
+    second: Spritefont aqua_1581
+  - first:
+      213: 8866132107559574386
+    second: Spritefont aqua_1582
+  - first:
+      213: 8356618733754975654
+    second: Spritefont aqua_1583
+  - first:
+      213: 5044778079268715340
+    second: Spritefont aqua_1584
+  - first:
+      213: -5587493539678553840
+    second: Spritefont aqua_1585
+  - first:
+      213: -8016010702499037294
+    second: Spritefont aqua_1586
+  - first:
+      213: -6079286693293186910
+    second: Spritefont aqua_1587
+  - first:
+      213: -2736581927404847897
+    second: Spritefont aqua_1588
+  - first:
+      213: 5532352051395722826
+    second: Spritefont aqua_1589
+  - first:
+      213: 1690979617459968382
+    second: Spritefont aqua_1590
+  - first:
+      213: -1163185459005203236
+    second: Spritefont aqua_1591
+  - first:
+      213: 438067650821430199
+    second: Spritefont aqua_1592
+  - first:
+      213: -3192648214274596564
+    second: Spritefont aqua_1593
+  - first:
+      213: -7648669886644020036
+    second: Spritefont aqua_1594
+  - first:
+      213: -5934941651503049777
+    second: Spritefont aqua_1595
+  - first:
+      213: 7292179384370590535
+    second: Spritefont aqua_1596
+  - first:
+      213: -2305404608643033191
+    second: Spritefont aqua_1597
+  - first:
+      213: 4734360567530224569
+    second: Spritefont aqua_1598
+  - first:
+      213: 5796738797674752136
+    second: Spritefont aqua_1599
+  - first:
+      213: -5901410384443214513
+    second: Spritefont aqua_1600
+  - first:
+      213: 4481442450485035894
+    second: Spritefont aqua_1601
+  - first:
+      213: 6321371514810699336
+    second: Spritefont aqua_1602
+  - first:
+      213: 6909108388064697487
+    second: Spritefont aqua_1603
+  - first:
+      213: 6029192916548635892
+    second: Spritefont aqua_1604
+  - first:
+      213: -3367842702902569716
+    second: Spritefont aqua_1605
+  - first:
+      213: 5801497054494244021
+    second: Spritefont aqua_1606
+  - first:
+      213: 7752661075241440918
+    second: Spritefont aqua_1607
+  - first:
+      213: 4053527773836014521
+    second: Spritefont aqua_1608
+  - first:
+      213: -887412771109955074
+    second: Spritefont aqua_1609
+  - first:
+      213: -2793192338239809058
+    second: Spritefont aqua_1610
+  - first:
+      213: 2047429497338028826
+    second: Spritefont aqua_1611
+  - first:
+      213: 5522634909480915529
+    second: Spritefont aqua_1612
+  - first:
+      213: -85759630713676485
+    second: Spritefont aqua_1613
+  - first:
+      213: -5876493005880026818
+    second: Spritefont aqua_1614
+  - first:
+      213: -8515281056206228086
+    second: Spritefont aqua_1615
+  - first:
+      213: 8705776046182615223
+    second: Spritefont aqua_1616
+  - first:
+      213: 3017070176895828766
+    second: Spritefont aqua_1617
+  - first:
+      213: -6802339256986696758
+    second: Spritefont aqua_1618
+  - first:
+      213: 823181728724308316
+    second: Spritefont aqua_1619
+  - first:
+      213: -5492116685741291239
+    second: Spritefont aqua_1620
+  - first:
+      213: -4492273326882259138
+    second: Spritefont aqua_1621
+  - first:
+      213: 536622215556429883
+    second: Spritefont aqua_1622
+  - first:
+      213: -7974333154409777529
+    second: Spritefont aqua_1623
+  - first:
+      213: -3528926755136323229
+    second: Spritefont aqua_1624
+  - first:
+      213: 751207148360751151
+    second: Spritefont aqua_1625
+  - first:
+      213: -4494545685655401105
+    second: Spritefont aqua_1626
+  - first:
+      213: 1760557778865189032
+    second: Spritefont aqua_1627
+  - first:
+      213: 1555756629265150990
+    second: Spritefont aqua_1628
+  - first:
+      213: -3439293743664573351
+    second: Spritefont aqua_1629
+  - first:
+      213: -1744254981200783217
+    second: Spritefont aqua_1630
+  - first:
+      213: 2383306882354963381
+    second: Spritefont aqua_1631
+  - first:
+      213: -4447003013563288725
+    second: Spritefont aqua_1632
+  - first:
+      213: 5290738271763652757
+    second: Spritefont aqua_1633
+  - first:
+      213: 2313585945991848595
+    second: Spritefont aqua_1634
+  - first:
+      213: -605649380621014349
+    second: Spritefont aqua_1635
+  - first:
+      213: 1442562524376890058
+    second: Spritefont aqua_1636
+  - first:
+      213: 6597128611214227004
+    second: Spritefont aqua_1637
+  - first:
+      213: 5258547260740931625
+    second: Spritefont aqua_1638
+  - first:
+      213: 8432111208573466846
+    second: Spritefont aqua_1639
+  - first:
+      213: -4561592679673712717
+    second: Spritefont aqua_1640
+  - first:
+      213: 8785701520954534508
+    second: Spritefont aqua_1641
+  - first:
+      213: -4194712743471706785
+    second: Spritefont aqua_1642
+  - first:
+      213: -4108611059991666503
+    second: Spritefont aqua_1643
+  - first:
+      213: -3368972556423267238
+    second: Spritefont aqua_1644
+  - first:
+      213: 5690119285528220985
+    second: Spritefont aqua_1645
+  - first:
+      213: -1987839403111474490
+    second: Spritefont aqua_1646
+  - first:
+      213: 6295054942707274852
+    second: Spritefont aqua_1647
+  - first:
+      213: -915836200650142173
+    second: Spritefont aqua_1648
+  - first:
+      213: 2484951143268018069
+    second: Spritefont aqua_1649
+  - first:
+      213: 4566527733904315115
+    second: Spritefont aqua_1650
+  - first:
+      213: 2767521862570363439
+    second: Spritefont aqua_1651
+  - first:
+      213: -8933433526676452442
+    second: Spritefont aqua_1652
+  - first:
+      213: -4146816806437081617
+    second: Spritefont aqua_1653
+  - first:
+      213: -1649108237736754134
+    second: Spritefont aqua_1654
+  - first:
+      213: 4785941147806505891
+    second: Spritefont aqua_1655
+  - first:
+      213: -6699384702328129512
+    second: Spritefont aqua_1656
+  - first:
+      213: -3408500952097929590
+    second: Spritefont aqua_1657
+  - first:
+      213: -5937619991725011997
+    second: Spritefont aqua_1658
+  - first:
+      213: -7101807905053994539
+    second: Spritefont aqua_1659
+  - first:
+      213: -1475599414471307515
+    second: Spritefont aqua_1660
+  - first:
+      213: 7019191375791916056
+    second: Spritefont aqua_1661
+  - first:
+      213: -1891122043233129679
+    second: Spritefont aqua_1662
+  - first:
+      213: 2978049082457037634
+    second: Spritefont aqua_1663
+  - first:
+      213: 5959168584088204329
+    second: Spritefont aqua_1664
+  - first:
+      213: -4626146281925236234
+    second: Spritefont aqua_1665
+  - first:
+      213: 8062841319689023208
+    second: Spritefont aqua_1666
+  - first:
+      213: -7466622931371431213
+    second: Spritefont aqua_1667
+  - first:
+      213: -1998278672880623205
+    second: Spritefont aqua_1668
+  - first:
+      213: 1699056910237710022
+    second: Spritefont aqua_1669
+  - first:
+      213: 92434477644834452
+    second: Spritefont aqua_1670
+  - first:
+      213: -8561227761426242141
+    second: Spritefont aqua_1671
+  - first:
+      213: 6339040065933711405
+    second: Spritefont aqua_1672
+  - first:
+      213: -2841157653654407854
+    second: Spritefont aqua_1673
+  - first:
+      213: 1081356638205266940
+    second: Spritefont aqua_1674
+  - first:
+      213: 6546874234602732222
+    second: Spritefont aqua_1675
+  - first:
+      213: -545518418540273674
+    second: Spritefont aqua_1676
+  - first:
+      213: 2379765033292905367
+    second: Spritefont aqua_1677
+  - first:
+      213: -5248599413961643923
+    second: Spritefont aqua_1678
+  - first:
+      213: 70409697492537942
+    second: Spritefont aqua_1679
+  - first:
+      213: 4653214735750187417
+    second: Spritefont aqua_1680
+  - first:
+      213: 1210049882947845045
+    second: Spritefont aqua_1681
+  - first:
+      213: -3054020906105192032
+    second: Spritefont aqua_1682
+  - first:
+      213: -6854514572367108160
+    second: Spritefont aqua_1683
+  - first:
+      213: -7219228109657451650
+    second: Spritefont aqua_1684
+  - first:
+      213: -1976696672143869545
+    second: Spritefont aqua_1685
+  - first:
+      213: 6247929405787591712
+    second: Spritefont aqua_1686
+  - first:
+      213: 2409009124086944149
+    second: Spritefont aqua_1687
+  - first:
+      213: -3678457343373687472
+    second: Spritefont aqua_1688
+  - first:
+      213: -2523660304415615115
+    second: Spritefont aqua_1689
+  - first:
+      213: 2058618205896412856
+    second: Spritefont aqua_1690
+  - first:
+      213: -918345927496748656
+    second: Spritefont aqua_1691
+  - first:
+      213: 6357539813015039157
+    second: Spritefont aqua_1692
+  - first:
+      213: 3597414309702942267
+    second: Spritefont aqua_1693
+  - first:
+      213: 5542351315902803872
+    second: Spritefont aqua_1694
+  - first:
+      213: 882465454699323232
+    second: Spritefont aqua_1695
+  - first:
+      213: -1011558790515423624
+    second: Spritefont aqua_1696
+  - first:
+      213: -8306163877400923780
+    second: Spritefont aqua_1697
+  - first:
+      213: 8293445267081556087
+    second: Spritefont aqua_1698
+  - first:
+      213: 156601428590911837
+    second: Spritefont aqua_1699
+  - first:
+      213: -6512617731646931502
+    second: Spritefont aqua_1700
+  - first:
+      213: 3984470888579754292
+    second: Spritefont aqua_1701
+  - first:
+      213: -3186686916776548366
+    second: Spritefont aqua_1702
+  - first:
+      213: -5818272573428455423
+    second: Spritefont aqua_1703
+  - first:
+      213: -8634360365579916312
+    second: Spritefont aqua_1704
+  - first:
+      213: 210520648689615615
+    second: Spritefont aqua_1705
+  - first:
+      213: 8005032111948808445
+    second: Spritefont aqua_1706
+  - first:
+      213: -5235544484520319022
+    second: Spritefont aqua_1707
+  - first:
+      213: 4597049075125024735
+    second: Spritefont aqua_1708
+  - first:
+      213: 4342770245624054104
+    second: Spritefont aqua_1709
+  - first:
+      213: 8402003349334416316
+    second: Spritefont aqua_1710
+  - first:
+      213: -4582292716273294074
+    second: Spritefont aqua_1711
+  - first:
+      213: -8001642855129635337
+    second: Spritefont aqua_1712
+  - first:
+      213: 4377607614404852668
+    second: Spritefont aqua_1713
+  - first:
+      213: -7002836343656596968
+    second: Spritefont aqua_1714
+  - first:
+      213: -364498939500486376
+    second: Spritefont aqua_1715
+  - first:
+      213: 3369099543713464146
+    second: Spritefont aqua_1716
+  - first:
+      213: 3666522812885236054
+    second: Spritefont aqua_1717
+  - first:
+      213: 5944006875071702090
+    second: Spritefont aqua_1718
+  - first:
+      213: -1068172289086120622
+    second: Spritefont aqua_1719
+  - first:
+      213: -5624543893042351666
+    second: Spritefont aqua_1720
+  - first:
+      213: 6558428377324797363
+    second: Spritefont aqua_1721
+  - first:
+      213: 4646429430217024031
+    second: Spritefont aqua_1722
+  - first:
+      213: 8921498814791666764
+    second: Spritefont aqua_1723
+  - first:
+      213: -6821813851807523349
+    second: Spritefont aqua_1724
+  - first:
+      213: 1686051974243341972
+    second: Spritefont aqua_1725
+  - first:
+      213: 1878412497152522595
+    second: Spritefont aqua_1726
+  - first:
+      213: -1867036905099111264
+    second: Spritefont aqua_1727
+  - first:
+      213: 1740633364972812940
+    second: Spritefont aqua_1728
+  - first:
+      213: 8396787304591576032
+    second: Spritefont aqua_1729
+  - first:
+      213: 7453854530182565220
+    second: Spritefont aqua_1730
+  - first:
+      213: -1851533009227663633
+    second: Spritefont aqua_1731
+  - first:
+      213: 1430189623767848107
+    second: Spritefont aqua_1732
+  - first:
+      213: -7844338800009894492
+    second: Spritefont aqua_1733
+  - first:
+      213: 3025636299537905309
+    second: Spritefont aqua_1734
+  - first:
+      213: -7845141015140116547
+    second: Spritefont aqua_1735
+  - first:
+      213: 2479034662592972904
+    second: Spritefont aqua_1736
+  - first:
+      213: -4062676583501039654
+    second: Spritefont aqua_1737
+  - first:
+      213: 7659542357387410136
+    second: Spritefont aqua_1738
+  - first:
+      213: 2535972359513438426
+    second: Spritefont aqua_1739
+  - first:
+      213: 4018524845072736702
+    second: Spritefont aqua_1740
+  - first:
+      213: 1185347753954715852
+    second: Spritefont aqua_1741
+  - first:
+      213: -2534164523089565247
+    second: Spritefont aqua_1742
+  - first:
+      213: 4858558458855100661
+    second: Spritefont aqua_1743
+  - first:
+      213: -3948464463320992791
+    second: Spritefont aqua_1744
+  - first:
+      213: -5272173009937092553
+    second: Spritefont aqua_1745
+  - first:
+      213: -1821244631270204963
+    second: Spritefont aqua_1746
+  - first:
+      213: -6679192885306295435
+    second: Spritefont aqua_1747
+  - first:
+      213: -8479417299613749031
+    second: Spritefont aqua_1748
+  - first:
+      213: -983584387660646722
+    second: Spritefont aqua_1749
+  - first:
+      213: -3333683398879396148
+    second: Spritefont aqua_1750
+  - first:
+      213: -5553554660188783221
+    second: Spritefont aqua_1751
+  - first:
+      213: 7625741075042926344
+    second: Spritefont aqua_1752
+  - first:
+      213: 5845048362938569772
+    second: Spritefont aqua_1753
+  - first:
+      213: -3651587739416326440
+    second: Spritefont aqua_1754
+  - first:
+      213: 4473996505550435029
+    second: Spritefont aqua_1755
+  - first:
+      213: -4471223380477321645
+    second: Spritefont aqua_1756
+  - first:
+      213: -5621310501435998745
+    second: Spritefont aqua_1757
+  - first:
+      213: -2918484174762113822
+    second: Spritefont aqua_1758
+  - first:
+      213: -2194442762339876073
+    second: Spritefont aqua_1759
+  - first:
+      213: -5130356340922983948
+    second: Spritefont aqua_1760
+  - first:
+      213: 5751149878341441558
+    second: Spritefont aqua_1761
+  - first:
+      213: 4775760807073572245
+    second: Spritefont aqua_1762
+  - first:
+      213: -6328417470554961255
+    second: Spritefont aqua_1763
+  - first:
+      213: -5077063308005343762
+    second: Spritefont aqua_1764
+  - first:
+      213: -7274577970836815112
+    second: Spritefont aqua_1765
+  - first:
+      213: -7327350796246823736
+    second: Spritefont aqua_1766
+  - first:
+      213: 921784083404995797
+    second: Spritefont aqua_1767
+  - first:
+      213: 2055579715927675215
+    second: Spritefont aqua_1768
+  - first:
+      213: -5734244577989647529
+    second: Spritefont aqua_1769
+  - first:
+      213: 8070716184755641131
+    second: Spritefont aqua_1770
+  - first:
+      213: 6803038313541179975
+    second: Spritefont aqua_1771
+  - first:
+      213: -5056740211404577656
+    second: Spritefont aqua_1772
+  - first:
+      213: 4088027078583478086
+    second: Spritefont aqua_1773
+  - first:
+      213: 5667297901795871652
+    second: Spritefont aqua_1774
+  - first:
+      213: 6982919001120381
+    second: Spritefont aqua_1775
+  - first:
+      213: 5921420480497220457
+    second: Spritefont aqua_1776
+  - first:
+      213: 3900058786215487154
+    second: Spritefont aqua_1777
+  - first:
+      213: 5182913058023545340
+    second: Spritefont aqua_1778
+  - first:
+      213: -2318253012353074775
+    second: Spritefont aqua_1779
+  - first:
+      213: 2606622925917973867
+    second: Spritefont aqua_1780
+  - first:
+      213: 413715758932433360
+    second: Spritefont aqua_1781
+  - first:
+      213: 9031069230657346486
+    second: Spritefont aqua_1782
+  - first:
+      213: -6500822168310489599
+    second: Spritefont aqua_1783
+  - first:
+      213: -2598301291850993019
+    second: Spritefont aqua_1784
+  - first:
+      213: 2522170866342805340
+    second: Spritefont aqua_1785
+  - first:
+      213: -3882252580987519738
+    second: Spritefont aqua_1786
+  - first:
+      213: -1000956027854493730
+    second: Spritefont aqua_1787
+  - first:
+      213: 8007400745072871346
+    second: Spritefont aqua_1788
+  - first:
+      213: -3508377846336147922
+    second: Spritefont aqua_1789
+  - first:
+      213: 1113954320516445062
+    second: Spritefont aqua_1790
+  - first:
+      213: 9087074813142598415
+    second: Spritefont aqua_1791
+  - first:
+      213: -5120103417055374517
+    second: Spritefont aqua_1792
+  - first:
+      213: 5506228818869937084
+    second: Spritefont aqua_1793
+  - first:
+      213: -2199570948065740010
+    second: Spritefont aqua_1794
+  - first:
+      213: -4113143366318665984
+    second: Spritefont aqua_1795
+  - first:
+      213: -8358062865010889146
+    second: Spritefont aqua_1796
+  - first:
+      213: -4843426120802466875
+    second: Spritefont aqua_1797
+  - first:
+      213: -4585051853402598092
+    second: Spritefont aqua_1798
+  - first:
+      213: -7784023851695011086
+    second: Spritefont aqua_1799
+  - first:
+      213: -2315038008340154274
+    second: Spritefont aqua_1800
+  - first:
+      213: 566653109276842926
+    second: Spritefont aqua_1801
+  - first:
+      213: 1471490980650885600
+    second: Spritefont aqua_1802
+  - first:
+      213: 4819303608213240347
+    second: Spritefont aqua_1803
+  - first:
+      213: -6588870281902413746
+    second: Spritefont aqua_1804
+  - first:
+      213: -2512570187850977507
+    second: Spritefont aqua_1805
+  - first:
+      213: 5982988952453567706
+    second: Spritefont aqua_1806
+  - first:
+      213: -1501576003521919772
+    second: Spritefont aqua_1807
+  - first:
+      213: 8088625560839827923
+    second: Spritefont aqua_1808
+  - first:
+      213: 1986204467726368685
+    second: Spritefont aqua_1809
+  - first:
+      213: -8041436031657727770
+    second: Spritefont aqua_1810
+  - first:
+      213: 3746627197889358909
+    second: Spritefont aqua_1811
+  - first:
+      213: -1409669245029836718
+    second: Spritefont aqua_1812
+  - first:
+      213: 503412953286118442
+    second: Spritefont aqua_1813
+  - first:
+      213: -6776837311457943880
+    second: Spritefont aqua_1814
+  - first:
+      213: -7253031356221901617
+    second: Spritefont aqua_1815
+  - first:
+      213: -5047524321818422433
+    second: Spritefont aqua_1816
+  - first:
+      213: 7542766582361371716
+    second: Spritefont aqua_1817
+  - first:
+      213: 4670536758365137155
+    second: Spritefont aqua_1818
+  - first:
+      213: -5184293778477422250
+    second: Spritefont aqua_1819
+  - first:
+      213: -8075960380627390271
+    second: Spritefont aqua_1820
+  - first:
+      213: 502500580168649402
+    second: Spritefont aqua_1821
+  - first:
+      213: 3254661654456682726
+    second: Spritefont aqua_1822
+  - first:
+      213: -1123564628277272002
+    second: Spritefont aqua_1823
+  - first:
+      213: 6999947859762835
+    second: Spritefont aqua_1824
+  - first:
+      213: -6516150207452664853
+    second: Spritefont aqua_1825
+  - first:
+      213: 4710388362970371220
+    second: Spritefont aqua_1826
+  - first:
+      213: -1129611856009528111
+    second: Spritefont aqua_1827
+  - first:
+      213: -8432562063763299581
+    second: Spritefont aqua_1828
+  - first:
+      213: -2642450758416456797
+    second: Spritefont aqua_1829
+  - first:
+      213: -7751049309880926772
+    second: Spritefont aqua_1830
+  - first:
+      213: 9009516417016943540
+    second: Spritefont aqua_1831
+  - first:
+      213: 8749061801104096144
+    second: Spritefont aqua_1832
+  - first:
+      213: 3665570567787927529
+    second: Spritefont aqua_1833
+  - first:
+      213: -9206704995059591626
+    second: Spritefont aqua_1834
+  - first:
+      213: 3866921383276985819
+    second: Spritefont aqua_1835
+  - first:
+      213: -6568272527488509433
+    second: Spritefont aqua_1836
+  - first:
+      213: -3757607803512247007
+    second: Spritefont aqua_1837
+  - first:
+      213: 5724344462748076888
+    second: Spritefont aqua_1838
+  - first:
+      213: -1775103248794929099
+    second: Spritefont aqua_1839
+  - first:
+      213: -795362045684562189
+    second: Spritefont aqua_1840
+  - first:
+      213: 1382880955842017068
+    second: Spritefont aqua_1841
+  - first:
+      213: -4499996498902591640
+    second: Spritefont aqua_1842
+  - first:
+      213: -5192938883612457129
+    second: Spritefont aqua_1843
+  - first:
+      213: 7343975846674240722
+    second: Spritefont aqua_1844
+  - first:
+      213: 4247366826655733448
+    second: Spritefont aqua_1845
+  - first:
+      213: 8486783122060675781
+    second: Spritefont aqua_1846
+  - first:
+      213: 3640144103813994731
+    second: Spritefont aqua_1847
+  - first:
+      213: 2996316611699592327
+    second: Spritefont aqua_1848
+  - first:
+      213: -4389950855836889968
+    second: Spritefont aqua_1849
+  - first:
+      213: 8830932039173408305
+    second: Spritefont aqua_1850
+  - first:
+      213: 6212996564219631685
+    second: Spritefont aqua_1851
+  - first:
+      213: -618847537277791396
+    second: Spritefont aqua_1852
+  - first:
+      213: 3587924239237346114
+    second: Spritefont aqua_1853
+  - first:
+      213: 1035164609953694672
+    second: Spritefont aqua_1854
+  - first:
+      213: -232755279200199867
+    second: Spritefont aqua_1855
+  - first:
+      213: 8706133954883767975
+    second: Spritefont aqua_1856
+  - first:
+      213: 442617328701820250
+    second: Spritefont aqua_1857
+  - first:
+      213: 134332866110439959
+    second: Spritefont aqua_1858
+  - first:
+      213: 2084168897019508070
+    second: Spritefont aqua_1859
+  - first:
+      213: 7070032697154165346
+    second: Spritefont aqua_1860
+  - first:
+      213: 43473830034232546
+    second: Spritefont aqua_1861
+  - first:
+      213: 1517808252071241735
+    second: Spritefont aqua_1862
+  - first:
+      213: -8172131730132584001
+    second: Spritefont aqua_1863
+  - first:
+      213: -7408089635719067250
+    second: Spritefont aqua_1864
+  - first:
+      213: 6795357849842216947
+    second: Spritefont aqua_1865
+  - first:
+      213: 5289756613941880248
+    second: Spritefont aqua_1866
+  - first:
+      213: -7202316301695267903
+    second: Spritefont aqua_1867
+  - first:
+      213: -3997955624776097243
+    second: Spritefont aqua_1868
+  - first:
+      213: 3449621214437052005
+    second: Spritefont aqua_1869
+  - first:
+      213: 9192437636631433373
+    second: Spritefont aqua_1870
+  - first:
+      213: 4294710185997587101
+    second: Spritefont aqua_1871
+  - first:
+      213: -6256452505603919871
+    second: Spritefont aqua_1872
+  - first:
+      213: 3272083823407593946
+    second: Spritefont aqua_1873
+  - first:
+      213: -1797619528429771011
+    second: Spritefont aqua_1874
+  - first:
+      213: 4696539616352050753
+    second: Spritefont aqua_1875
+  - first:
+      213: 1168421672278674821
+    second: Spritefont aqua_1876
+  - first:
+      213: -3950345597710046429
+    second: Spritefont aqua_1877
+  - first:
+      213: -1697146218212509778
+    second: Spritefont aqua_1878
+  - first:
+      213: 329216212112923296
+    second: Spritefont aqua_1879
+  - first:
+      213: 2157061083943628204
+    second: Spritefont aqua_1880
+  - first:
+      213: -3740151455597904747
+    second: Spritefont aqua_1881
+  - first:
+      213: -8422930000121212686
+    second: Spritefont aqua_1882
+  - first:
+      213: -8634865574294560644
+    second: Spritefont aqua_1883
+  - first:
+      213: 9190362199246788461
+    second: Spritefont aqua_1884
+  - first:
+      213: 6328539509117845905
+    second: Spritefont aqua_1885
+  - first:
+      213: 7323951664653945740
+    second: Spritefont aqua_1886
+  - first:
+      213: 7877380416448455608
+    second: Spritefont aqua_1887
+  - first:
+      213: -7906004489715020242
+    second: Spritefont aqua_1888
+  - first:
+      213: -6942435165440813579
+    second: Spritefont aqua_1889
+  - first:
+      213: -7214489102412845142
+    second: Spritefont aqua_1890
+  - first:
+      213: 1180122958202463237
+    second: Spritefont aqua_1891
+  - first:
+      213: 2421565236285573778
+    second: Spritefont aqua_1892
+  - first:
+      213: -8148645195435490741
+    second: Spritefont aqua_1893
+  - first:
+      213: 8278365536018914427
+    second: Spritefont aqua_1894
+  - first:
+      213: -9136745955650655124
+    second: Spritefont aqua_1895
+  - first:
+      213: -2239058365210291218
+    second: Spritefont aqua_1896
+  - first:
+      213: 6331291314439464890
+    second: Spritefont aqua_1897
+  - first:
+      213: -6863224845243720445
+    second: Spritefont aqua_1898
+  - first:
+      213: 3058827958057998360
+    second: Spritefont aqua_1899
+  - first:
+      213: -587046471910731282
+    second: Spritefont aqua_1900
+  - first:
+      213: -4457860451216137977
+    second: Spritefont aqua_1901
+  - first:
+      213: -5992118168713542716
+    second: Spritefont aqua_1902
+  - first:
+      213: 9189710201212049217
+    second: Spritefont aqua_1903
+  - first:
+      213: -6021135856615083988
+    second: Spritefont aqua_1904
+  - first:
+      213: 4577569426616072407
+    second: Spritefont aqua_1905
+  - first:
+      213: -7359987878368461935
+    second: Spritefont aqua_1906
+  - first:
+      213: 1352147571293258848
+    second: Spritefont aqua_1907
+  - first:
+      213: 6794897771672097315
+    second: Spritefont aqua_1908
+  - first:
+      213: 4457435889428941068
+    second: Spritefont aqua_1909
+  - first:
+      213: -8701948672179323723
+    second: Spritefont aqua_1910
+  - first:
+      213: -5210352624972693373
+    second: Spritefont aqua_1911
+  - first:
+      213: -150759390436984512
+    second: Spritefont aqua_1912
+  - first:
+      213: -7022435740978310512
+    second: Spritefont aqua_1913
+  - first:
+      213: 3239023537011477234
+    second: Spritefont aqua_1914
+  - first:
+      213: -971872179735335582
+    second: Spritefont aqua_1915
+  - first:
+      213: 4518676528357121526
+    second: Spritefont aqua_1916
+  - first:
+      213: 1129080666361591904
+    second: Spritefont aqua_1917
+  - first:
+      213: -6997624342401836803
+    second: Spritefont aqua_1918
+  - first:
+      213: 7825039996472859798
+    second: Spritefont aqua_1919
+  - first:
+      213: 3123116499900430232
+    second: Spritefont aqua_1920
+  - first:
+      213: -76860839466109075
+    second: Spritefont aqua_1921
+  - first:
+      213: -3706318262253831444
+    second: Spritefont aqua_1922
+  - first:
+      213: -2550502615841916543
+    second: Spritefont aqua_1923
+  - first:
+      213: -2407510956060523855
+    second: Spritefont aqua_1924
+  - first:
+      213: 3287318098402125941
+    second: Spritefont aqua_1925
+  - first:
+      213: 380394137768651118
+    second: Spritefont aqua_1926
+  - first:
+      213: -3339191133389474856
+    second: Spritefont aqua_1927
+  - first:
+      213: -2454571546225185419
+    second: Spritefont aqua_1928
+  - first:
+      213: 2998278461868565217
+    second: Spritefont aqua_1929
+  - first:
+      213: 2779437783122367619
+    second: Spritefont aqua_1930
+  - first:
+      213: -4288002171001019196
+    second: Spritefont aqua_1931
+  - first:
+      213: -6837907902458265215
+    second: Spritefont aqua_1932
+  - first:
+      213: 2631035250524439366
+    second: Spritefont aqua_1933
+  - first:
+      213: -1546307028815897542
+    second: Spritefont aqua_1934
+  - first:
+      213: 3229149206191145504
+    second: Spritefont aqua_1935
+  - first:
+      213: 1826503539487776402
+    second: Spritefont aqua_1936
+  - first:
+      213: 7501018139966787101
+    second: Spritefont aqua_1937
+  - first:
+      213: 1094500460786456337
+    second: Spritefont aqua_1938
+  - first:
+      213: 3421335397386760462
+    second: Spritefont aqua_1939
+  - first:
+      213: 8254954967866794152
+    second: Spritefont aqua_1940
+  - first:
+      213: 1328878303817173947
+    second: Spritefont aqua_1941
+  - first:
+      213: 8035364716807798693
+    second: Spritefont aqua_1942
+  - first:
+      213: 3467866494936355605
+    second: Spritefont aqua_1943
+  - first:
+      213: -4291087759705681791
+    second: Spritefont aqua_1944
+  - first:
+      213: -162145649830549472
+    second: Spritefont aqua_1945
+  - first:
+      213: 1140447443677989301
+    second: Spritefont aqua_1946
+  - first:
+      213: -6306632512870732450
+    second: Spritefont aqua_1947
+  - first:
+      213: 2572047946270002243
+    second: Spritefont aqua_1948
+  - first:
+      213: -1973936498850209442
+    second: Spritefont aqua_1949
+  - first:
+      213: -5534325678332092538
+    second: Spritefont aqua_1950
+  - first:
+      213: 122272611307449464
+    second: Spritefont aqua_1951
+  - first:
+      213: -717097390834753312
+    second: Spritefont aqua_1952
+  - first:
+      213: -8970281051448713050
+    second: Spritefont aqua_1953
+  - first:
+      213: -925362482249603934
+    second: Spritefont aqua_1954
+  - first:
+      213: -261988034612955817
+    second: Spritefont aqua_1955
+  - first:
+      213: -9063271733669228803
+    second: Spritefont aqua_1956
+  - first:
+      213: -4953460631395485955
+    second: Spritefont aqua_1957
+  - first:
+      213: 2035702340481956458
+    second: Spritefont aqua_1958
+  - first:
+      213: -658434315811533270
+    second: Spritefont aqua_1959
+  - first:
+      213: -6996276128662456741
+    second: Spritefont aqua_1960
+  - first:
+      213: -6326645752741103465
+    second: Spritefont aqua_1961
+  - first:
+      213: -5873088843873376633
+    second: Spritefont aqua_1962
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritefont aqua_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 759
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115dac95a0511b020800000000000000
+      internalID: 2355687214291801361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 760
+        width: 95
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3a8c10aaa98c870800000000000000
+      internalID: 8703376334858527694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_2
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 754
+        width: 100
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc718e2abfda3b1f0800000000000000
+      internalID: -1030288593456195635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_3
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 751
+        width: 111
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f6fecbc696809d0800000000000000
+      internalID: -2807878451918311654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_4
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 739
+        width: 107
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273d3d8aca4bbda20800000000000000
+      internalID: 3088260623152436082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_5
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 751
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7f98761509f6270800000000000000
+      internalID: 8245968122042513336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_6
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 755
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc0194fafc299ca0800000000000000
+      internalID: -6009722771392623408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_7
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 753
+        width: 112
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4432600c3fb2bfa0800000000000000
+      internalID: -5786352306792287158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_8
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 756
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976e41dd1e5e23e00800000000000000
+      internalID: 1023132823606060665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_9
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 749
+        width: 81
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daccb520452abf9d0800000000000000
+      internalID: -2739417466624291667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_10
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 745
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70c236ce1863bf00800000000000000
+      internalID: 1131362412783648895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_11
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 748
+        width: 91
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de244636ccced2850800000000000000
+      internalID: 6353995011874636525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_12
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 585
+        width: 143
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20164f6c8c7a04310800000000000000
+      internalID: 1387293166003314946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 588
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15cc7abffec243b0800000000000000
+      internalID: -5529629794716826337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_14
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 584
+        width: 113
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d60ff5afdecb0ae0800000000000000
+      internalID: -1581943384132614445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_15
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 583
+        width: 98
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b77061e93c9bf910800000000000000
+      internalID: 1872261842510837688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_16
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 585
+        width: 124
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001c62ca0e8b6c2d0800000000000000
+      internalID: -3258714005255569152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_17
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 583
+        width: 100
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6260fe959d5bc2010800000000000000
+      internalID: 1165506348703483430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_18
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 589
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175055f96edd70330800000000000000
+      internalID: 3677151603356665201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_19
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 591
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d72b78effd9be70800000000000000
+      internalID: 9131576003761700193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_20
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 598
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f7e0b1985321170800000000000000
+      internalID: 8147633538847375105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_21
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 419
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a95443b442408310800000000000000
+      internalID: 1405195946572405152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_22
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 419
+        width: 135
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e941b22edaab97e40800000000000000
+      internalID: 5654756063126951070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_23
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 420
+        width: 108
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250c57a82d78d70f0800000000000000
+      internalID: -1117587794182160302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_24
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 422
+        width: 103
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c01120321c36890800000000000000
+      internalID: -7465911401147462573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_25
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 426
+        width: 110
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d171f1f6529e820800000000000000
+      internalID: 2947928590283906328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a0862aad273d3a0800000000000000
+      internalID: -6641838742088185260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_27
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 257
+        width: 109
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2e572ed6a2450f0800000000000000
+      internalID: -1129230955123973430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_28
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 252
+        width: 90
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042b14ca8f94a7b10800000000000000
+      internalID: 1979976318573457984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_29
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 244
+        width: 107
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9bdb82329548ee0800000000000000
+      internalID: -1259783988214646344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_30
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 246
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd1053ac83a50770800000000000000
+      internalID: 8576440889827663312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_31
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 258
+        width: 94
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e8add5b07518cf0800000000000000
+      internalID: -251824397825175962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_32
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 251
+        width: 92
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dc7bc7534f3df50800000000000000
+      internalID: 6905131164251966787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_33
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 256
+        width: 92
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af5a610c09291c80800000000000000
+      internalID: -8351598902441779287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_34
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 256
+        width: 91
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18a6840ad6ed0e90800000000000000
+      internalID: -7057731216966506469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_35
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 254
+        width: 107
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282ec73b9643d2a30800000000000000
+      internalID: 4192064456739316354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_36
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 244
+        width: 56
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aeba85e9d373de10800000000000000
+      internalID: 2221246420919959201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritefont aqua_37
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 239
+        width: 83
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaec8315717c47630800000000000000
+      internalID: 3923980078307397290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
