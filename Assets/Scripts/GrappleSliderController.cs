@@ -39,7 +39,7 @@ public class GrappleSliderController : Singleton<GrappleSliderController>
                 stopSlider = true;
             }
             zipTimeSlider.value = time;
-            Debug.Log("Hold down time is: " + time);
+            // Debug.Log("Hold down time is: " + time);
 
             yield return null;
         }

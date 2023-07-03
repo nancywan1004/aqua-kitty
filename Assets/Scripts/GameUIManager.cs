@@ -20,7 +20,7 @@ public class GameUIManager : Singleton<GameUIManager>
 
     private void Awake()
     {
-        Debug.Log("Awake:" + SceneManager.GetActiveScene().name);
+        //Debug.Log("Awake:" + SceneManager.GetActiveScene().name);
     }
 
     // called first

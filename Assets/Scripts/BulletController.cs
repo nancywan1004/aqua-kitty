@@ -32,7 +32,6 @@ public class BulletController : MonoBehaviour
 
     IEnumerator stopPops()
     {
-        Debug.Log("Wait here!");
         yield return new WaitForSeconds(.4f);
         //pops.GetComponent<ParticleSystem>().Stop();
     }

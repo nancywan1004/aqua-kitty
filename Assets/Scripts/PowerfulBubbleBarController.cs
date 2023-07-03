@@ -31,7 +31,7 @@ public class PowerfulBubbleBarController : Singleton<PowerfulBubbleBarController
         }
         else
         {
-            Debug.Log("bubble has run out!");
+            //Debug.Log("bubble has run out!");
             bubbleRemaining = 0;
         }
     }
@@ -58,7 +58,7 @@ public class PowerfulBubbleBarController : Singleton<PowerfulBubbleBarController
                 {
                     bubbles[i].sprite = bubbleIcon;
                     bubbles[i].color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
-                    Debug.Log("Power bubble shown: " + bubble);
+                    //Debug.Log("Power bubble shown: " + bubble);
                 }
                 else
                 {
