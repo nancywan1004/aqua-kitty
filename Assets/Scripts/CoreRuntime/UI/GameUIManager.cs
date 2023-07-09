@@ -121,13 +121,11 @@ public class GameUIManager : Singleton<GameUIManager>
         Time.timeScale = 0;
         isLevelEnd = true;
         SoundManager.StopSound();
-        //SoundManager.PlaySound("background2");
     }
 
     public void RestartGame()
     {
         SoundManager.StopSound();
-        //SoundManager.PlaySound("background1");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -137,7 +135,6 @@ public class GameUIManager : Singleton<GameUIManager>
         Time.timeScale = 0;
         GameIsPaused = true;
         SoundManager.PauseSound();
-        //SoundManager.PlaySound("background2");
     }
 
     public void ResumeGame()
@@ -145,7 +142,6 @@ public class GameUIManager : Singleton<GameUIManager>
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1;
         GameIsPaused = false;
-        //SoundManager.StopSound();
         SoundManager.ResumeSound();
     }
 
@@ -153,7 +149,7 @@ public class GameUIManager : Singleton<GameUIManager>
     public void loadNewScene()
     {
         //load another scene
-        SceneManager.LoadScene("SampleScene2");
+        SceneManager.LoadScene("3_Pond");
     }
 
 }

@@ -24,6 +24,6 @@ public class MainMenuUIManager : MonoBehaviour
     private void loadOnBoardingScene()
     {
         //SoundManager.StopSound();
-        SceneManager.LoadScene("OnBoarding", LoadSceneMode.Additive);
+        SceneManager.LoadScene("1_OnBoarding", LoadSceneMode.Additive);
     }
 }
