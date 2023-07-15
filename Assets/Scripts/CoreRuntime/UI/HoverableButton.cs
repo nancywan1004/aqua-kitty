@@ -4,19 +4,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class StartButtonUIController : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class HoverableButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {

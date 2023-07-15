@@ -1,8 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Singleton<PlayerController>
 {
     public float movementSpeed = 1.2f;
     public float jumpForce = 10.0f;
@@ -16,7 +15,6 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
     private GameObject webZip;
-    private HelperController helper;
     private State state;
     private Vector3 mousePos;
     private float rotateY;
@@ -36,17 +34,11 @@ public class PlayerController : MonoBehaviour
         WebZippingSliding,
         Attached,
         Dizzy
-
     }
 
     private void Awake()
     {
         state = State.Normal;
-    }
-
-    // Start is called before the first frame update
-    private void Start()
-    {
         _rigidbody = GetComponent<Rigidbody2D>();
         GrappleSliderController.Instance.HideSlider();
     }
@@ -142,11 +134,11 @@ public class PlayerController : MonoBehaviour
             GameObject bullet = Instantiate(bulletPrefab, firePoint.transform.position, firePoint.transform.rotation);
             float oxygenSpeed = 1f;
             BubbleBarController.Instance.ConsumeBubble(oxygenSpeed);
-            StartCoroutine(destroyBubble(bullet));
+            StartCoroutine(DestroyBubble(bullet));
         }
     }
 
-    IEnumerator destroyBubble(GameObject bullet)
+    IEnumerator DestroyBubble(GameObject bullet)
     {
         yield return new WaitForSeconds(3f);
         if (bullet != null)
@@ -183,7 +175,6 @@ public class PlayerController : MonoBehaviour
                 {
                     GrappleSliderController.Instance.InitSlider(holdDownStartTime);
                     SoundManager.PlaySound("grapple");
-                    helper = hit.collider.GetComponent<HelperController>();
                     webZipTargetPosition = mousePos;
                     webZipDir = (webZipTargetPosition - transform.position).normalized;
 
@@ -259,7 +250,6 @@ public class PlayerController : MonoBehaviour
         if (webZipSpeed <= 0.8f)
         {
             if (webZip.gameObject != null) Destroy(webZip.gameObject);
-            //transform.position = helper.transform.position;
             state = State.Normal;
         }
     }

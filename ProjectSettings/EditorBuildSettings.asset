@@ -12,9 +12,14 @@ EditorBuildSettings:
     path: Assets/Content/Scenes/Onboarding/1_OnBoarding.unity
     guid: 3870f18c05b955744b4e0383b71f0304
   - enabled: 1
+    path: Assets/Content/Scenes/Runtime/Level-Runtime.unity
+    guid: 4dd3fa1ce0d2cdc4eb270a8d9cd82cb9
+  - enabled: 1
     path: Assets/Content/Scenes/Runtime/Legacy/2_Lake.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Content/Scenes/Runtime/Legacy/3_Pond.unity
     guid: 15b159aaf92a7444e88ce20f304a70a0
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: c92a3c7e9f288654aa7bbe3f42816a95,
+      type: 2}

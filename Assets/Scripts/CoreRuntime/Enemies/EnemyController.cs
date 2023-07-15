@@ -4,26 +4,18 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-
-    public float dist = 5.0f;
-    public float theAngle = 45.0f;
-    public int segments = 10;
-
     public LineRenderer laserLineRenderer;
     public float laserWidth = 0.1f;
     public float laserMaxLength = 5f;
-
     public Animator animator;
-    [SerializeField]
-    private GameObject player;
+    private PlayerController player;
+    
     [SerializeField]
     private Transform castPoint;
     [SerializeField]
     private float swimmingVelocity;
     [SerializeField]
     private float attackVelocity;
-    [SerializeField]
-    private bool horizontalOnly;
     [SerializeField]
     private Transform[] enemyPath;
     [SerializeField]
@@ -50,15 +42,12 @@ public class EnemyController : MonoBehaviour
 
     private int pathIndex;
 
-    public delegate void CallbackEventHandler();
-
     private enum State
     {
         Swimming,
         Detecting,
         ChaseTarget,
         GoingBackToStart,
-        PushedAway,
         RandomMoving
     }
 
@@ -66,6 +55,7 @@ public class EnemyController : MonoBehaviour
 
     private void Awake()
     {
+        player = PlayerController.Instance;
         rb = GetComponent<Rigidbody2D>();
         collider = GetComponent<Collider2D>();
         pathIndex = 0;
@@ -80,20 +70,6 @@ public class EnemyController : MonoBehaviour
         startPosition = transform.position;
         latestDirectionChangeTime = 0f;
         latestTargettingTime = 0f;
-        //calcuateNewMovementVector();
-    }
-
-    void calcuateNewMovementVector()
-    {
-        //create a random direction vector with the magnitude of 1, later multiply it with the velocity of the enemy
-        if (horizontalOnly)
-        {
-            movementDirection = new Vector2(Random.Range(-1.0f, 1.0f), 0).normalized;
-        } else
-        {
-            movementDirection = new Vector2(Random.Range(-1.0f, 1.0f), Random.Range(-1.0f, 1.0f)).normalized;
-        }
-        movementPerSecond = movementDirection * characterVelocity;
     }
 
     void Update()
@@ -142,25 +118,18 @@ public class EnemyController : MonoBehaviour
                 collider.isTrigger = false;
                 characterVelocity = attackVelocity;
                 LookAt(player.transform.position);
-
-                //float stopChaseDistance = 10.0f;
-                //Debug.Log("CanSeePlayer: " + canSeePlayer);
                 canSeePlayer = CanSeePlayer(agroRange);
                 // Vector2.Distance(transform.position, player.transform.position) > stopChaseDistance
                 if (canSeePlayer == false)
                 {
-                    //isFlipped = false;
                     state = State.GoingBackToStart;
-                    //SoundManager.PlaySound("background1");
                 }
                 break;
-            //default:
             case State.GoingBackToStart:
                 isDetecting = false;
                 laserLineRenderer.enabled = false;
                 collider.isTrigger = true;
                 characterVelocity = swimmingVelocity;
-                //isFlipped = false;
                 LookAt(startPosition);
                 if (Vector2.Distance(transform.position, startPosition) < 0.1f)
                 {
@@ -168,7 +137,6 @@ public class EnemyController : MonoBehaviour
                 }
                 break;
             case State.RandomMoving:
-                //collider.isTrigger = false;
                 if (Vector2.Distance(transform.position, player.transform.position) > 10.0f)
                 {
                     state = State.GoingBackToStart;
@@ -195,38 +163,18 @@ public class EnemyController : MonoBehaviour
             case State.GoingBackToStart:
                 MoveTo(movementDirection);
                 break;
-            case State.PushedAway:
-                 rb.AddForce(force * 20.0f, ForceMode2D.Impulse);
-                 state = State.RandomMoving;
-                break;
         }
 
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Debug.Log("Attacked cat!!");
         if (state == State.ChaseTarget && collision.gameObject.CompareTag("Player"))
         {
             SoundManager.PlaySound("meow");
             HealthBarController.Instance.GetAttacked(attackPower);
             state = State.GoingBackToStart;
         }
-
-        if (collision.gameObject.CompareTag("PowerBubble"))
-        {
-            //Debug.Log("PowerCollision!");
-            state = State.PushedAway;
-            force = (transform.position - collision.gameObject.transform.position).normalized;
-        }
-    }
-
-    IEnumerator backToChasing()
-    {
-        //Debug.Log("Wait here!");
-        yield return new WaitForSeconds(.5f);
-        state = State.ChaseTarget;
-        //pops.GetComponent<ParticleSystem>().Stop();
     }
 
     private void LookAt(Vector2 target)
@@ -235,7 +183,6 @@ public class EnemyController : MonoBehaviour
         movementDirection.y = target.y - transform.position.y;
         float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
         rb.rotation = angle;
-        
     }
 
     private void MoveTo(Vector2 direction) {
@@ -243,14 +190,12 @@ public class EnemyController : MonoBehaviour
         rb.MovePosition((Vector2) transform.position + (direction * characterVelocity * Time.deltaTime));
     }
 
-
     private void FindTarget() 
     {
         // player within target range
         if (Time.time - latestDirectionChangeTime > directionChangeTime)
         {
             latestDirectionChangeTime = Time.time;
-            //isFlipped = false;
             if (pathIndex < enemyPath.Length - 1)
             {
                 pathIndex++;
@@ -271,21 +216,19 @@ public class EnemyController : MonoBehaviour
         canSeePlayer = CanSeePlayer(agroRange);
         
         if (canSeePlayer)
-            {
+        {
             if (Vector2.Distance(castPoint.position, player.transform.position) <= agroRange)
             {
-                //isFlipped = false;
                 state = State.ChaseTarget;
-                //SoundManager.PlaySound("attackBackground");
             }
 
-            }
+        }
         if (Time.time - latestTargettingTime > idlePeriod)
         {
             latestTargettingTime = Time.time;
             state = State.Swimming;
         }
-        }
+    }
 
 
     private bool CanSeePlayer(float distance)
@@ -295,11 +238,6 @@ public class EnemyController : MonoBehaviour
         //Vector3 dir = movementDirection;
         endPos = castPoint.position + dir.normalized * distance; // new Vector3(position.x + distance)
         hits = Physics2D.RaycastAll(castPoint.position, dir.normalized, distance, 1 << LayerMask.NameToLayer("Action"));
-
-        /*        foreach (RaycastHit2D hit in hits)
-                {
-                    Debug.Log("Hit what le: " + hit.collider);
-                }*/
 
         if (hits != null && hits.Length > 0)
         {

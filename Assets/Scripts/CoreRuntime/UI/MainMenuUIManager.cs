@@ -11,19 +11,12 @@ public class MainMenuUIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startButton.onClick.AddListener(loadOnBoardingScene);
+        startButton.onClick.AddListener(LoadOnBoardingScene);
         SoundManager.PlaySound("background2");
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LoadOnBoardingScene()
     {
-        
-    }
-
-    private void loadOnBoardingScene()
-    {
-        //SoundManager.StopSound();
         SceneManager.LoadScene("1_OnBoarding", LoadSceneMode.Additive);
     }
 }

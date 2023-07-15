@@ -61,11 +61,7 @@ public class GrappleSliderController : Singleton<GrappleSliderController>
 
     public void HideSlider()
     {
-/*        if (zipTimeSlider != null)
-        {*/
-            zipTimeSlider.gameObject.SetActive(false);
-        //}
-
+        zipTimeSlider.gameObject.SetActive(false);
     }
 
 
