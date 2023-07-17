@@ -45,7 +45,7 @@ public class OnBoardingUIManager : MonoBehaviour
     IEnumerator loadGameScene()
     {
         yield return new WaitForSeconds(1.0f);
-        SceneManager.LoadScene("2_Lake", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Level-Runtime", LoadSceneMode.Single);
     }
 
 }

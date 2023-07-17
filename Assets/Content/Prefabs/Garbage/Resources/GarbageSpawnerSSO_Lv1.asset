@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e77c25200b40a29a199335f4f7b821, type: 3}
+  m_Name: GarbageSpawnerSSO_Lv1
+  m_EditorClassIdentifier: 
+  GarbagePrefabs:
+  - {fileID: 8289245460227492125, guid: 0e2906e62eaf3c141bf6b8ccc8d3b35d, type: 3}
+  SpawnNumber: 5
+  SpawnPointIndices: 000000000100000005000000080000000a000000
