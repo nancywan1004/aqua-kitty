@@ -1,5 +1,6 @@
 using System.IO;
 using CoreRuntime.Garbage;
+using CoreRuntime.Helpers;
 using CoreSystem.StateMachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,7 +10,8 @@ public class GameState : IBaseState
     // class variable not instance variable
     public static bool GameIsPaused = false;
     private GlobalUIStateMachine _stateMachine;
-    private const string GARBAGE_SPAWNER_SETTINGS_DIRECTORY_PATH = "Assets/Content/Garbabge/Resources";
+    private const string GARBAGE_SPAWNER_SETTINGS_DIRECTORY_PATH = "Garbage";
+    private const string HELPER_SPAWNER_SETTINGS_DIRECTORY_PATH = "Helpers";
 
     public void RestartGame()
     {
@@ -38,6 +40,7 @@ public class GameState : IBaseState
     public void OnStateEnter(BaseStateMachine stateMachine)
     {
         _stateMachine = (GlobalUIStateMachine)stateMachine;
+        _stateMachine.ResumeButtonUI.onClick.AddListener(ResumeGame);
         if (_stateMachine.CurrentLevel > 0)
         {
             UnloadLevel(_stateMachine.CurrentLevel);
@@ -49,13 +52,14 @@ public class GameState : IBaseState
         Time.timeScale = 1;
         BubbleBarController.Instance.InitBubbleBar();
         HealthBarController.Instance.InitHealthBar();
-        GarbageSpawner.Instance.ConfigureSpawnerSetting(Resources.Load<GarbageSpawnerSSO>(Path.Combine(GARBAGE_SPAWNER_SETTINGS_DIRECTORY_PATH, "GarbageSpawnerSettings_Lv", _stateMachine.CurrentLevel.ToString())));
+        GarbageSpawner.Instance.ConfigureSpawnerSetting(_stateMachine.CurrentLevel);
+        HelperSpawner.Instance.ConfigureSpawnerSetting(_stateMachine.CurrentLevel);
         SoundManager.PlaySound("background1");
     }
 
     public void OnStateExit(BaseStateMachine stateMachine)
     {
-        //SceneManager.UnloadSceneAsync(_currentSceneName);
+
     }
 
     public void UpdateState(BaseStateMachine stateMachine)

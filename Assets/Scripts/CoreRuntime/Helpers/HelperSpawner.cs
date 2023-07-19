@@ -1,38 +1,51 @@
-using System.Collections;
 using System.Collections.Generic;
+using CoreRuntime.Helpers;
+using CoreSystem.Spawner;
 using UnityEngine;
 
-public class HelperSpawner : Singleton<HelperSpawner>
+public class HelperSpawner : Singleton<HelperSpawner>, IBaseSpawner
 {
-    public List<Transform> SpawnPoints;
-    public List<GameObject> HelperPrefabs;
-    public int spawnNum;
+    [SerializeField] private List<HelperSpawnerSettingsSO> _helperSpawnerSettingsSOList;
+    private HelperSpawnerSettingsSO _currentSpawnerSetting;
 
-    // Start is called before the first frame update
-    private void Awake()
+    public void SpawnRandom(int spawnNum)
     {
-        spawnHelperRandom(spawnNum);
+        int helperCount = spawnNum;
+        List<Transform> nonSpawnedPoints = new List<Transform>();
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            if (_currentSpawnerSetting.SpawnIndices.Contains(i))
+            {
+                nonSpawnedPoints.Add(transform.GetChild(i));
+            }
+        }
+        while (helperCount > 0)
+        {
+            int randEnemy = Random.Range(0, _currentSpawnerSetting.Prefabs.Count);
+            int randSpawnPoint = Random.Range(0, helperCount);
+            Transform randHelper = nonSpawnedPoints[randSpawnPoint];
+            Instantiate(_currentSpawnerSetting.Prefabs[randEnemy], randHelper.position, Quaternion.identity);
+            nonSpawnedPoints.Remove(randHelper);
+            helperCount--;
+
+        }
     }
 
-    public void spawnHelperRandom(int spawnNum)
+    public void ConfigureSpawnerSetting(int level)
     {
-        int garbageCount = spawnNum;
-        List<Transform> nonSpawnedPoints = SpawnPoints;
-        List<GameObject> nonSpawnedPrefabs = HelperPrefabs;
-
-        while (garbageCount > 0)
+        _currentSpawnerSetting = _helperSpawnerSettingsSOList[level-1];
+        if (level > 1)
         {
-            int randEnemy = Random.Range(0, HelperPrefabs.Count);
-            int randSpawnPoint = Random.Range(0, garbageCount);
-            Transform randGarbage = nonSpawnedPoints[randSpawnPoint];
-            Instantiate(HelperPrefabs[randEnemy], randGarbage.position, Quaternion.identity);
-            nonSpawnedPoints.Remove(randGarbage);
-            if (HelperPrefabs[randEnemy].transform.childCount > 0 && HelperPrefabs[randEnemy].transform.GetChild(0).CompareTag("Dialogue"))
-            {
-                nonSpawnedPrefabs.Remove(HelperPrefabs[randEnemy]);
-            }
-            garbageCount--;
+            ClearHelpers();
+        }
+        SpawnRandom(_currentSpawnerSetting.SpawnNum);
+    }
 
+    public void ClearHelpers()
+    {
+        foreach (var helper in FindObjectsOfType<HelperController>())
+        {
+            GameObject.Destroy(helper.gameObject);
         }
     }
 }

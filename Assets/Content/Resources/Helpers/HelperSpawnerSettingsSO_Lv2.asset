@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b594395def40cfae091092d7536ce1, type: 3}
+  m_Name: HelperSpawnerSettingsSO_Lv2
+  m_EditorClassIdentifier: 
+  SpawnIndices: 00000000010000000200000003000000
+  Prefabs:
+  - {fileID: 805121158104675178, guid: 3ca2416769270c949a706ee9494fe829, type: 3}
+  - {fileID: 4591782302915803669, guid: e72534f4be195494b996c67389dffe05, type: 3}
+  SpawnNum: 3

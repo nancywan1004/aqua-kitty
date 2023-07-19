@@ -1,45 +1,35 @@
 using System.Collections.Generic;
-using System.Linq;
 using CoreRuntime.Garbage;
+using CoreSystem.Spawner;
 using UnityEngine;
 
-public class GarbageSpawner : Singleton<GarbageSpawner>
+public class GarbageSpawner : Singleton<GarbageSpawner>, IBaseSpawner
 {
-    [SerializeField] private GarbageSpawnerSSO _garbageSpawnerSetting;
+    [SerializeField] private List<GarbageSpawnerSettingsSO> _garbageSpawnerSettingSOList;
+    private GarbageSpawnerSettingsSO _currentSpawnerSetting;
 
     private float garbageRemained;
 
-    private void Awake()
-    {
-        SpawnGarbageRandom(_garbageSpawnerSetting.SpawnNumber);
-        garbageRemained = _garbageSpawnerSetting.SpawnNumber;
-    }
-
-    public void SpawnGarbageRandom(int spawnNum)
+    public void SpawnRandom(int spawnNum)
     {
         int garbageCount = spawnNum;
         List<Transform> nonSpawnedPoints = new List<Transform>();
         for (int i = 0; i < transform.childCount; i++)
         {
-            if (_garbageSpawnerSetting.SpawnPointIndices.Contains(i))
+            if (_currentSpawnerSetting.SpawnIndices.Contains(i))
             {
                 nonSpawnedPoints.Add(transform.GetChild(i));
             }
         }
-        List<GameObject> nonSpawnedPrefabs = _garbageSpawnerSetting.GarbagePrefabs;
 
         while (garbageCount > 0)
         {
-            int randGarbageIndex = Random.Range(0, _garbageSpawnerSetting.GarbagePrefabs.Count);
+            int randGarbageIndex = Random.Range(0, _currentSpawnerSetting.Prefabs.Count);
             int randSpawnPointIndex = Random.Range(0, garbageCount);
             Transform randGarbage = nonSpawnedPoints[randSpawnPointIndex];
-            Instantiate(_garbageSpawnerSetting.GarbagePrefabs[randGarbageIndex], randGarbage.position, Quaternion.identity);
+            Instantiate(_currentSpawnerSetting.Prefabs[randGarbageIndex], randGarbage.position, Quaternion.identity);
             nonSpawnedPoints.Remove(randGarbage);
-            if (_garbageSpawnerSetting.GarbagePrefabs[randGarbageIndex].transform.childCount > 0) {
-                nonSpawnedPrefabs.Remove(_garbageSpawnerSetting.GarbagePrefabs[randGarbageIndex]);
-            } 
             garbageCount--;
-
         }
     }
 
@@ -56,8 +46,10 @@ public class GarbageSpawner : Singleton<GarbageSpawner>
         return garbageRemained;
     }
 
-    public void ConfigureSpawnerSetting(GarbageSpawnerSSO levelSetting)
+    public void ConfigureSpawnerSetting(int level)
     {
-        _garbageSpawnerSetting = levelSetting;
+        _currentSpawnerSetting = _garbageSpawnerSettingSOList[level-1];
+        SpawnRandom(_currentSpawnerSetting.SpawnNum);
+        garbageRemained = _currentSpawnerSetting.SpawnNum;
     }
 }

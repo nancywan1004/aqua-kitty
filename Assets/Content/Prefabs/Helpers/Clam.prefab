@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7487428470230142884}
   - component: {fileID: 4078623733182541887}
   m_Layer: 6
-  m_Name: Helper
+  m_Name: Clam
   m_TagString: Helper
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
