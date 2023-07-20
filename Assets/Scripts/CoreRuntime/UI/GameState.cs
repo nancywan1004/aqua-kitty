@@ -41,11 +41,14 @@ public class GameState : IBaseState
     {
         _stateMachine = (GlobalUIStateMachine)stateMachine;
         _stateMachine.ResumeButtonUI.onClick.AddListener(ResumeGame);
-        if (_stateMachine.CurrentLevel > 0)
+        _stateMachine.CurrentLevel += 1;
+        if (_stateMachine.CurrentLevel > 1)
+        {
+            UnloadLevel(_stateMachine.CurrentLevel - 1);
+        } else if (IsSceneLoaded(_stateMachine.CurrentLevel))
         {
             UnloadLevel(_stateMachine.CurrentLevel);
         }
-        _stateMachine.CurrentLevel += 1;
         LoadLevel(_stateMachine.CurrentLevel);
         _stateMachine.RestartMenuUI.SetActive(false);
         _stateMachine.PauseMenuUI.SetActive(false);
@@ -83,19 +86,26 @@ public class GameState : IBaseState
         }
     }
 
-    private void LoadLevel(int level)
+    private static bool IsSceneLoaded(int level)
     {
-        string path = SceneUtility.GetScenePathByBuildIndex(level + 2);
-        string sceneName = path.Substring(0, path.Length - 6).Substring(path.LastIndexOf('/') + 1);
-        Debug.Log("Current loading scene is: " + sceneName);
-        SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+        return SceneManager.GetSceneByName(GetSceneName(level)).isLoaded;
+    }
+
+    private static void LoadLevel(int level)
+    {
+        SceneManager.LoadSceneAsync(GetSceneName(level), LoadSceneMode.Additive);
     }
     
-    private void UnloadLevel(int level)
+    private static void UnloadLevel(int level)
+    {
+        SceneManager.UnloadSceneAsync(GetSceneName(level));
+    }
+
+    private static string GetSceneName(int level)
     {
         string path = SceneUtility.GetScenePathByBuildIndex(level + 2);
         string sceneName = path.Substring(0, path.Length - 6).Substring(path.LastIndexOf('/') + 1);
         Debug.Log("Current loading scene is: " + sceneName);
-        SceneManager.UnloadSceneAsync(sceneName);
-    } 
+        return sceneName;
+    }
 }
