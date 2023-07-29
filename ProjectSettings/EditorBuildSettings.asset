@@ -21,5 +21,5 @@ EditorBuildSettings:
     path: Assets/Content/Scenes/Runtime/Legacy/3_Pond.unity
     guid: 15b159aaf92a7444e88ce20f304a70a0
   m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: c92a3c7e9f288654aa7bbe3f42816a95,
+    com.unity.input.settings: {fileID: 11400000, guid: b74e37b9d9e3fdf44bf07a99f40b8ca5,
       type: 2}

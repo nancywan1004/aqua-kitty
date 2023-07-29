@@ -6,7 +6,7 @@ namespace CoreSystem.StateMachine
     {
         protected IBaseState _currState;
         
-        public virtual void SetState(IBaseState newState)
+        public void SetState(IBaseState newState)
         {
             if (_currState != null) _currState.OnStateExit(this);
             _currState = newState;

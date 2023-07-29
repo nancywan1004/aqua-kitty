@@ -1,0 +1,71 @@
+{
+    "name": "GlobalInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "2d260d8b-1057-4814-bb46-fea0ba97bd7a",
+            "actions": [
+                {
+                    "name": "Bubbleshoot",
+                    "type": "Button",
+                    "id": "2aeb5e9a-5133-4265-863b-0e1a99de056b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Grapple",
+                    "type": "Button",
+                    "id": "b95b545b-ad78-40fe-8bcd-02e2210e6925",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "04090680-d4e1-46e8-90f8-008a94ade779",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "253e3979-a38f-4164-8cb0-bd61e95bc534",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bubbleshoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8313655b-ec32-4829-89d9-89e2eb88890f",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grapple",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1e5e47b-dde9-44b5-80d6-386baae376a8",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

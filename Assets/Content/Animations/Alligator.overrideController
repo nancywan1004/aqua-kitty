@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Alligator
+  m_Controller: {fileID: 9100000, guid: 84ced50e03f5d4d2699fd654fdebedc5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 049c7f445ae614e96bb4354cbb76e336, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 09fd85f9f1caa684dba0d68d400bdf86, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9e5e8476f99be3142ac91b94d4980698, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d2e449a426bd181479b2f6d54cfcd67c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 46b68686e5c804cc4bafc73b23cd875e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bc5f4cf38d17b0b41bb8c10f3a36656f, type: 2}

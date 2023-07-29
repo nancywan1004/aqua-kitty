@@ -1,11 +1,12 @@
 using CoreSystem.StateMachine;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TransitionState : IBaseState
 {
     private GlobalUIStateMachine _stateMachine;
+    public Action OnGameRestart;
+    public Action OnGameProceed;
     
     public void OnStateEnter(BaseStateMachine stateMachine)
     {
@@ -50,18 +51,23 @@ public class TransitionState : IBaseState
     private void ShowNextMenu()
     {
         _stateMachine.RestartText.text = "WELL DONE";
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        _stateMachine.RestartButtonUI.onClick.AddListener(() =>
         {
-            _stateMachine.RestartButtonUI.onClick.AddListener(() =>
-            {
-                _stateMachine.CurrentLevel -= 1;
-                _stateMachine.SetState(_stateMachine.GameState);
-            });
+            _stateMachine.SetState(_stateMachine.GameState);
+        });
+        if (_stateMachine.HasNextLevel)
+        {
             _stateMachine.NextLevelButtonUI.gameObject.SetActive(true);
+            _stateMachine.NextLevelButtonUI.GetComponentInChildren<Text>().text = "LEVEL " + (_stateMachine.CurrentLevel+1);
             _stateMachine.NextLevelButtonUI.onClick.AddListener(() =>
             {
+                _stateMachine.CurrentLevel += 1;
                 _stateMachine.SetState(_stateMachine.GameState);
             });
+        }
+        else
+        {
+            _stateMachine.NextLevelButtonUI.gameObject.SetActive(false);
         }
     }
 }

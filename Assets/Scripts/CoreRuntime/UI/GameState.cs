@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using CoreRuntime.Garbage;
 using CoreRuntime.Helpers;
@@ -39,25 +40,32 @@ public class GameState : IBaseState
     
     public void OnStateEnter(BaseStateMachine stateMachine)
     {
-        _stateMachine = (GlobalUIStateMachine)stateMachine;
-        _stateMachine.ResumeButtonUI.onClick.AddListener(ResumeGame);
-        _stateMachine.CurrentLevel += 1;
-        if (_stateMachine.CurrentLevel > 1)
+        try
         {
-            UnloadLevel(_stateMachine.CurrentLevel - 1);
-        } else if (IsSceneLoaded(_stateMachine.CurrentLevel))
-        {
-            UnloadLevel(_stateMachine.CurrentLevel);
+            _stateMachine = (GlobalUIStateMachine)stateMachine;
+            _stateMachine.ResumeButtonUI.onClick.AddListener(ResumeGame);
+            if (_stateMachine.CurrentLevel > 1 && !IsSceneLoaded(_stateMachine.CurrentLevel))
+            {
+                UnloadLevel(_stateMachine.CurrentLevel - 1);
+            } else if (IsSceneLoaded(_stateMachine.CurrentLevel))
+            {
+                UnloadLevel(_stateMachine.CurrentLevel);
+            }
+            LoadLevel(_stateMachine.CurrentLevel);
+            _stateMachine.RestartMenuUI.SetActive(false);
+            _stateMachine.PauseMenuUI.SetActive(false);
+            BubbleBarController.Instance.InitBubbleBar();
+            HealthBarController.Instance.InitHealthBar();
+            GarbageSpawner.Instance.ConfigureSpawnerSetting(_stateMachine.CurrentLevel);
+            HelperSpawner.Instance.ConfigureSpawnerSetting(_stateMachine.CurrentLevel);
+            Time.timeScale = 1;
+            SoundManager.PlaySound("background1");
         }
-        LoadLevel(_stateMachine.CurrentLevel);
-        _stateMachine.RestartMenuUI.SetActive(false);
-        _stateMachine.PauseMenuUI.SetActive(false);
-        Time.timeScale = 1;
-        BubbleBarController.Instance.InitBubbleBar();
-        HealthBarController.Instance.InitHealthBar();
-        GarbageSpawner.Instance.ConfigureSpawnerSetting(_stateMachine.CurrentLevel);
-        HelperSpawner.Instance.ConfigureSpawnerSetting(_stateMachine.CurrentLevel);
-        SoundManager.PlaySound("background1");
+        catch (Exception e)
+        {
+            Debug.Log(e);
+        }
+
     }
 
     public void OnStateExit(BaseStateMachine stateMachine)
@@ -105,7 +113,7 @@ public class GameState : IBaseState
     {
         string path = SceneUtility.GetScenePathByBuildIndex(level + 2);
         string sceneName = path.Substring(0, path.Length - 6).Substring(path.LastIndexOf('/') + 1);
-        Debug.Log("Current loading scene is: " + sceneName);
+        //Debug.Log("Current loading scene is: " + sceneName);
         return sceneName;
     }
 }

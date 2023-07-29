@@ -1,5 +1,7 @@
+using System;
 using CoreSystem.StateMachine;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GlobalUIStateMachine : BaseStateMachine
@@ -7,6 +9,8 @@ public class GlobalUIStateMachine : BaseStateMachine
     public GameState GameState { get; private set; }
     public TransitionState TransitionState { get; private set; }
     public int CurrentLevel { get; set; }
+    public bool HasNextLevel { get; private set; }
+    public const int LEVEL_COUNT = 2;
 
     public GameObject PauseMenuUI
     {
@@ -50,9 +54,28 @@ public class GlobalUIStateMachine : BaseStateMachine
 
     private void Awake()
     {
-        CurrentLevel = 0;
+        CurrentLevel = 1;
         GameState = new GameState();
         TransitionState = new TransitionState();
+        HasNextLevel = true;
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (int.TryParse(scene.name.Substring(0, 1), out var sceneIndex) && sceneIndex >= LEVEL_COUNT + 1 && mode == LoadSceneMode.Additive)
+        {
+            HasNextLevel = false;
+        }
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void Start()

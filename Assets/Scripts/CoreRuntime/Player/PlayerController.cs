@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -26,6 +27,10 @@ public class PlayerController : Singleton<PlayerController>
     private Vector3 webZipTargetPosition;
     private float webZipSpeed;
     private SpriteRenderer webZipSpriteRenderer;
+    private Vector2 webZipStart;
+    private Vector2 webZipEnd;
+
+    private GlobalInputActions _inputActions;
 
     private enum State
     {
@@ -38,46 +43,73 @@ public class PlayerController : Singleton<PlayerController>
 
     private void Awake()
     {
+        _inputActions = new GlobalInputActions();
+        _inputActions.Player.Bubbleshoot.performed += context => Shoot();
+        _inputActions.Player.Grapple.started += context =>
+        {
+            HandleWebZipStart();
+        };
+        _inputActions.Player.Grapple.performed += context =>
+        {
+            webZip.transform.position = firePoint.transform.position;
+            webZipSpriteRenderer = webZip.GetComponent<SpriteRenderer>();
+            webZipStart = new Vector2(webZip.GetComponent<SpriteRenderer>().size.x, 0);
+            webZipEnd = new Vector2(webZip.GetComponent<SpriteRenderer>().size.x,
+                Vector3.Distance(firePoint.transform.position, webZipTargetPosition));
+
+            webZipSpriteRenderer.size = webZipEnd;
+        };
+        _inputActions.Player.Grapple.canceled += context =>
+        {
+            HandleWebZipping();
+        };
         state = State.Normal;
         _rigidbody = GetComponent<Rigidbody2D>();
-        GrappleSliderController.Instance.HideSlider();
+    }
+    
+    public void OnEnable()
+    {
+        _inputActions.Enable();
     }
 
+    public void OnDisable()
+    {
+        _inputActions.Disable();
+    }
+    
     // Update is called once per frame
     private void Update()
     {
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        var move = _inputActions.Player.Move.ReadValue<Vector2>();
+        mousePos = Camera.main.ScreenToWorldPoint(move);
         switch (state)
         {
             case State.Normal:
                 animator.Play("Cat_Swim");
                 HandleMovement();
-                HandleWebZipStart();
+                //HandleWebZipStart();
                 break;
             case State.WebZipping:
-                HandleWebZipping();
+                //HandleWebZipping();
                 break;
             case State.WebZippingSliding:
                 HandleWebZippingSliding();
                 break;
             case State.Attached:
                 HandleRelativeRotation();
-                HandleWebZipStart();
+                //HandleWebZipStart();
                 break;
             case State.Dizzy:
                 if (webZip != null)
                 {
-                    Destroy(webZip);
+                    webZip.gameObject.SetActive(false);
                 }
                 animator.Play("Cat_Dizzy");
                 return;
         }
-        if (Input.GetButtonDown("Fire1")) {
-            Shoot();
-        }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
@@ -112,15 +144,13 @@ public class PlayerController : Singleton<PlayerController>
         transform.localRotation = Quaternion.Euler(0, rotateY, 0);
     }
 
-        private void HandleMovement() {
+    private void HandleMovement() {
         rotateY = 0f;
         if (mousePos.x > transform.position.x)
         {
             rotateY = 180f;
         }
-        transform.eulerAngles = new Vector3(transform.rotation.x, rotateY, transform.rotation.z);
-
-        mousePos.z = Camera.main.transform.position.z + Camera.main.nearClipPlane;
+        transform.rotation = Quaternion.Euler(0, rotateY, 0);
         Vector3 moveVector = (mousePos - transform.position).normalized;
         transform.position += moveVector * Time.deltaTime * movementSpeed;
     }
@@ -165,31 +195,23 @@ public class PlayerController : Singleton<PlayerController>
 
         GrappleSliderController.Instance.HideSlider();
 
-        if (Input.GetMouseButtonDown(1))
+        holdDownStartTime = Time.time;
+        RaycastHit2D hit = Physics2D.Raycast(new Vector2(mousePos.x, mousePos.y), Vector2.zero);
+
+        //Debug.Log(hit.collider);
+        if (hit.collider != null && hit.collider.CompareTag("Helper"))
         {
-            holdDownStartTime = Time.time;
-            RaycastHit2D hit = Physics2D.Raycast(new Vector2(mousePos.x, mousePos.y), Vector2.zero);
+            GrappleSliderController.Instance.InitSlider(holdDownStartTime);
+            SoundManager.PlaySound("grapple");
+            webZipTargetPosition = mousePos;
+            webZipDir = (webZipTargetPosition - transform.position).normalized;
 
-                //Debug.Log(hit.collider);
-                if (hit.collider != null && hit.collider.CompareTag("Helper"))
-                {
-                    GrappleSliderController.Instance.InitSlider(holdDownStartTime);
-                    SoundManager.PlaySound("grapple");
-                    webZipTargetPosition = mousePos;
-                    webZipDir = (webZipTargetPosition - transform.position).normalized;
+            spawnWebZip(firePoint.transform.position, firePoint.transform.rotation);
+            Vector3 webDir = (webZipTargetPosition - firePoint.transform.position).normalized;
+            webZip.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(webDir.y, webDir.x) * Mathf.Rad2Deg - 90);
 
-                    spawnWebZip(firePoint.transform.position, firePoint.transform.rotation);
-                    Vector3 webDir = (webZipTargetPosition - firePoint.transform.position).normalized;
-                    webZip.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(webDir.y, webDir.x) * Mathf.Rad2Deg - 90);
-
-                    webZipSpeed = 20.0f;
-                    state = State.WebZipping;
-                    //_rigidbody.isKinematic = true;
-            }
-            else
-            {
-                state = State.Normal;
-            }
+            webZipSpeed = 20.0f;
+            state = State.WebZipping;
         }
 
     }
@@ -197,46 +219,29 @@ public class PlayerController : Singleton<PlayerController>
     private void HandleWebZipping()
     {
         //Debug.Log("HandleWebZipping status");
+        GrappleSliderController.Instance.HideSlider();
+        holdDownTime = Time.time - holdDownStartTime;
+        webZipSpriteRenderer.size = Vector2.Lerp(webZipStart, webZipEnd, holdDownTime);
 
-        webZip.transform.position = firePoint.transform.position;
-        webZipSpriteRenderer = webZip.GetComponent<SpriteRenderer>();
-
-        Vector2 webZipStart = new Vector2(webZip.GetComponent<SpriteRenderer>().size.x, 0);
-        Vector2 webZipEnd = new Vector2(webZip.GetComponent<SpriteRenderer>().size.x, Vector3.Distance(firePoint.transform.position, webZipTargetPosition));
-
-        webZipSpriteRenderer.size = webZipEnd;
-
-        if (Input.GetMouseButtonUp(1))
+        float travelDistance = Vector2.Distance(transform.position, webZipTargetPosition);
+        if (webZipSpeed * holdDownTime >= travelDistance)
         {
-            GrappleSliderController.Instance.HideSlider();
-            holdDownTime = Time.time - holdDownStartTime;
-            webZipSpriteRenderer.size = Vector2.Lerp(webZipStart, webZipEnd, holdDownTime);
-
-            //Vector3 targetPos = transform.position + new Vector3(-webZipSpriteRenderer.size.x, -webZipSpriteRenderer.size.y, 0);
-            /*        webZipSpriteRenderer.size = new Vector2(
-                        webZipSpriteRenderer.size.x,
-                        Vector3.Distance(firePoint.transform.position, webZipTargetPosition)
-                    );*/
-            float travelDistance = Vector2.Distance(transform.position, webZipTargetPosition);
-            if (webZipSpeed * holdDownTime >= travelDistance)
-            {
-               // Debug.Log("Hold for too long!");
-                transform.position = Vector2.MoveTowards(
-                    transform.position,
-                    webZipTargetPosition,
-                    webZipSpeed * (travelDistance / webZipSpeed)
-              );
-            } else
-            {
-                transform.position = Vector2.MoveTowards(
+           // Debug.Log("Hold for too long!");
+            transform.position = Vector2.MoveTowards(
                 transform.position,
                 webZipTargetPosition,
-                webZipSpeed * holdDownTime
-            );
-            }
-
-            state = State.WebZippingSliding;
+                webZipSpeed * (travelDistance / webZipSpeed)
+          );
+        } else
+        {
+            transform.position = Vector2.MoveTowards(
+            transform.position,
+            webZipTargetPosition,
+            webZipSpeed * holdDownTime
+        );
         }
+
+        state = State.WebZippingSliding;
 
     }
 
@@ -249,7 +254,7 @@ public class PlayerController : Singleton<PlayerController>
         //Debug.Log("webZipSpeed is: " + webZipSpeed);
         if (webZipSpeed <= 0.8f)
         {
-            if (webZip.gameObject != null) Destroy(webZip.gameObject);
+            webZip.gameObject.SetActive(false);
             state = State.Normal;
         }
     }
@@ -259,6 +264,12 @@ public class PlayerController : Singleton<PlayerController>
         if (webZip == null)
         {
             webZip = Instantiate(webZipPrefab, position, rotation);
+        }
+        else
+        {
+            webZip.transform.position = position;
+            webZip.transform.rotation = rotation;
+            webZip.gameObject.SetActive(true);
         }
     }
 
