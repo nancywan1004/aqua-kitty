@@ -5,17 +5,16 @@ using UnityEngine;
 public class PlayerController : Singleton<PlayerController>
 {
     public float movementSpeed = 1.2f;
-    public float jumpForce = 10.0f;
 
     public GameObject bulletPrefab;
-    public GameObject webZipPrefab;
+    //public GameObject webZipPrefab;
     public GameObject popsPrefab;
     public Transform firePoint;
 
     public Animator animator;
 
     private Rigidbody2D _rigidbody;
-    private GameObject webZip;
+    //private GameObject webZip;
     private State state;
     private Vector3 mousePos;
     private float rotateY;
@@ -26,7 +25,7 @@ public class PlayerController : Singleton<PlayerController>
     private Vector3 webZipDir;
     private Vector3 webZipTargetPosition;
     private float webZipSpeed;
-    private SpriteRenderer webZipSpriteRenderer;
+    //private SpriteRenderer webZipSpriteRenderer;
     private Vector2 webZipStart;
     private Vector2 webZipEnd;
 
@@ -49,22 +48,23 @@ public class PlayerController : Singleton<PlayerController>
         {
             HandleWebZipStart();
         };
-        _inputActions.Player.Grapple.performed += context =>
-        {
-            webZip.transform.position = firePoint.transform.position;
-            webZipSpriteRenderer = webZip.GetComponent<SpriteRenderer>();
-            webZipStart = new Vector2(webZip.GetComponent<SpriteRenderer>().size.x, 0);
-            webZipEnd = new Vector2(webZip.GetComponent<SpriteRenderer>().size.x,
-                Vector3.Distance(firePoint.transform.position, webZipTargetPosition));
-
-            webZipSpriteRenderer.size = webZipEnd;
-        };
+        // _inputActions.Player.Grapple.performed += context =>
+        // {
+        //     webZip.transform.position = firePoint.transform.position;
+        //     webZipSpriteRenderer = webZip.GetComponent<SpriteRenderer>();
+        //     webZipStart = new Vector2(webZip.GetComponent<SpriteRenderer>().size.x, 0);
+        //     webZipEnd = new Vector2(webZip.GetComponent<SpriteRenderer>().size.x,
+        //         Vector3.Distance(firePoint.transform.position, webZipTargetPosition));
+        //
+        //     webZipSpriteRenderer.size = webZipEnd;
+        // };
         _inputActions.Player.Grapple.canceled += context =>
         {
             HandleWebZipping();
         };
         state = State.Normal;
         _rigidbody = GetComponent<Rigidbody2D>();
+        _rigidbody.isKinematic = false;
     }
     
     public void OnEnable()
@@ -87,23 +87,20 @@ public class PlayerController : Singleton<PlayerController>
             case State.Normal:
                 animator.Play("Cat_Swim");
                 HandleMovement();
-                //HandleWebZipStart();
                 break;
             case State.WebZipping:
-                //HandleWebZipping();
                 break;
             case State.WebZippingSliding:
                 HandleWebZippingSliding();
                 break;
             case State.Attached:
                 HandleRelativeRotation();
-                //HandleWebZipStart();
                 break;
             case State.Dizzy:
-                if (webZip != null)
-                {
-                    webZip.gameObject.SetActive(false);
-                }
+                // if (webZip != null)
+                // {
+                //     webZip.gameObject.SetActive(false);
+                // }
                 animator.Play("Cat_Dizzy");
                 return;
         }
@@ -199,20 +196,20 @@ public class PlayerController : Singleton<PlayerController>
         RaycastHit2D hit = Physics2D.Raycast(new Vector2(mousePos.x, mousePos.y), Vector2.zero);
 
         //Debug.Log(hit.collider);
-        if (hit.collider != null && hit.collider.CompareTag("Helper"))
-        {
+        // if (hit.collider != null && hit.collider.CompareTag("Helper"))
+        // {
             GrappleSliderController.Instance.InitSlider(holdDownStartTime);
             SoundManager.PlaySound("grapple");
             webZipTargetPosition = mousePos;
             webZipDir = (webZipTargetPosition - transform.position).normalized;
 
-            spawnWebZip(firePoint.transform.position, firePoint.transform.rotation);
-            Vector3 webDir = (webZipTargetPosition - firePoint.transform.position).normalized;
-            webZip.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(webDir.y, webDir.x) * Mathf.Rad2Deg - 90);
+            //spawnWebZip(firePoint.transform.position, firePoint.transform.rotation);
+            //Vector3 webDir = (webZipTargetPosition - firePoint.transform.position).normalized;
+            //webZip.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(webDir.y, webDir.x) * Mathf.Rad2Deg - 90);
 
             webZipSpeed = 20.0f;
             state = State.WebZipping;
-        }
+        //}
 
     }
 
@@ -221,7 +218,7 @@ public class PlayerController : Singleton<PlayerController>
         //Debug.Log("HandleWebZipping status");
         GrappleSliderController.Instance.HideSlider();
         holdDownTime = Time.time - holdDownStartTime;
-        webZipSpriteRenderer.size = Vector2.Lerp(webZipStart, webZipEnd, holdDownTime);
+        //webZipSpriteRenderer.size = Vector2.Lerp(webZipStart, webZipEnd, holdDownTime);
 
         float travelDistance = Vector2.Distance(transform.position, webZipTargetPosition);
         if (webZipSpeed * holdDownTime >= travelDistance)
@@ -254,23 +251,23 @@ public class PlayerController : Singleton<PlayerController>
         //Debug.Log("webZipSpeed is: " + webZipSpeed);
         if (webZipSpeed <= 0.8f)
         {
-            webZip.gameObject.SetActive(false);
+            //webZip.gameObject.SetActive(false);
             state = State.Normal;
         }
     }
 
-    private void spawnWebZip(Vector2 position, Quaternion rotation)
-    {
-        if (webZip == null)
-        {
-            webZip = Instantiate(webZipPrefab, position, rotation);
-        }
-        else
-        {
-            webZip.transform.position = position;
-            webZip.transform.rotation = rotation;
-            webZip.gameObject.SetActive(true);
-        }
-    }
+    // private void spawnWebZip(Vector2 position, Quaternion rotation)
+    // {
+    //     if (webZip == null)
+    //     {
+    //         webZip = Instantiate(webZipPrefab, position, rotation);
+    //     }
+    //     else
+    //     {
+    //         webZip.transform.position = position;
+    //         webZip.transform.rotation = rotation;
+    //         webZip.gameObject.SetActive(true);
+    //     }
+    // }
 
 }
