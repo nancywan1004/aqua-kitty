@@ -639,7 +639,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: GAMEOBJECT_HEADER;DEFAULT_INSPECTORS;CUSTOM_INSPECTORS
+    1: 
     13: 
   additionalCompilerArguments: {}
   platformArchitecture:

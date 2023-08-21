@@ -35,10 +35,4 @@ public class BulletController : MonoBehaviour
         yield return new WaitForSeconds(.4f);
         //pops.GetComponent<ParticleSystem>().Stop();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

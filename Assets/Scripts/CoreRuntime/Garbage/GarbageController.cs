@@ -12,12 +12,7 @@ public class GarbageController : MonoBehaviour
     [SerializeField]
     private GameObject comboPrefab;
     [SerializeField]
-    private GameObject comboTextObj; 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private GameObject comboTextObj;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -40,24 +35,7 @@ public class GarbageController : MonoBehaviour
             pops.GetComponent<ParticleSystem>().Play();
             Destroy(pops, 3f);
             Destroy(comboText, 2f);
-            //StartCoroutine(WaitAndClearText(2.0f))
         }
-    }
-
-/*    private IEnumerator WaitAndClearText(float waitTime)
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(waitTime);
-            comboText.text = "";
-            //print("WaitAndPrint " + Time.time);
-        }
-    }
-*/
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
 

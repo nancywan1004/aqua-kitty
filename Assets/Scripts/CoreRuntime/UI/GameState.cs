@@ -58,6 +58,7 @@ public class GameState : IBaseState
             HealthBarController.Instance.InitHealthBar();
             GarbageSpawner.Instance.ConfigureSpawnerSetting(_stateMachine.CurrentLevel);
             HelperSpawner.Instance.ConfigureSpawnerSetting(_stateMachine.CurrentLevel);
+            PlayerController.Instance.EnableInputActions();
             Time.timeScale = 1;
             SoundManager.PlaySound("background1");
         }

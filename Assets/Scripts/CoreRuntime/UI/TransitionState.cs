@@ -14,6 +14,7 @@ public class TransitionState : IBaseState
         _stateMachine.RestartMenuUI.SetActive(true);
         Time.timeScale = 0;
         SoundManager.StopSound();
+        PlayerController.Instance.DisableInputActions();
         if (HealthBarController.Instance.isRunout())
         {
             ShowRestartMenu();

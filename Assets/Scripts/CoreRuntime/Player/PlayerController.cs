@@ -1,26 +1,25 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : Singleton<PlayerController>
 {
     public float movementSpeed = 1.2f;
 
-    public GameObject bulletPrefab;
     //public GameObject webZipPrefab;
-    public GameObject popsPrefab;
-    public Transform firePoint;
 
     public Animator animator;
-
     private Rigidbody2D _rigidbody;
     //private GameObject webZip;
-    private State state;
+    private PlayerState playerState;
     private Vector3 mousePos;
     private float rotateY;
     private GameObject pops;
     private float holdDownStartTime;
     private float holdDownTime;
+    private float moveStartTime;
+    private float moveHoldTime;
 
     private Vector3 webZipDir;
     private Vector3 webZipTargetPosition;
@@ -28,10 +27,14 @@ public class PlayerController : Singleton<PlayerController>
     //private SpriteRenderer webZipSpriteRenderer;
     private Vector2 webZipStart;
     private Vector2 webZipEnd;
+    private Inventory _inventory;
+    [SerializeField] private UI_Inventory _uiInventory;
+    [SerializeField] private List<InventoryItem> _inventoryItems;
+    [SerializeField] private WeaponController weaponController;
 
     private GlobalInputActions _inputActions;
 
-    private enum State
+    private enum PlayerState
     {
         Normal,
         WebZipping,
@@ -43,7 +46,10 @@ public class PlayerController : Singleton<PlayerController>
     private void Awake()
     {
         _inputActions = new GlobalInputActions();
-        _inputActions.Player.Bubbleshoot.performed += context => Shoot();
+        _inputActions.Player.Bubbleshoot.performed += context =>
+        {
+            weaponController.Shoot();
+        };
         _inputActions.Player.Grapple.started += context =>
         {
             HandleWebZipStart();
@@ -62,17 +68,55 @@ public class PlayerController : Singleton<PlayerController>
         {
             HandleWebZipping();
         };
-        state = State.Normal;
+        _inputActions.Player.SwitchWeapon.performed += context =>
+        {
+            _inventory.SwitchInventoryItem();
+        };
+        // _inputActions.Player.MoveLeft.started += context =>
+        // {
+        //     rotateY = 0f;
+        //     transform.rotation = Quaternion.Euler(0, rotateY, 0);
+        //     moveStartTime = Time.time;
+        // };
+        // _inputActions.Player.MoveLeft.performed += context =>
+        // {
+        //     moveHoldTime = Time.time - moveStartTime;
+        //     transform.position = Vector2.MoveTowards(transform.position,-transform.right * moveHoldTime * movementSpeed, moveHoldTime);
+        // };
+        // _inputActions.Player.MoveRight.started += context =>
+        // {
+        //     rotateY = 180f;
+        //     transform.rotation = Quaternion.Euler(0, rotateY, 0);
+        //     moveStartTime = Time.time;
+        // };
+        // _inputActions.Player.MoveRight.performed += context =>
+        // {
+        //     moveHoldTime = Time.time - moveStartTime;
+        //     transform.position = Vector2.MoveTowards(transform.position,-transform.right * moveHoldTime * movementSpeed, moveHoldTime);
+        // };
+        playerState = PlayerState.Normal;
         _rigidbody = GetComponent<Rigidbody2D>();
         _rigidbody.isKinematic = false;
+        _inventory = new Inventory(_inventoryItems);
+        _uiInventory.SetInventory(_inventory);
     }
     
     public void OnEnable()
     {
-        _inputActions.Enable();
+        EnableInputActions();
     }
 
     public void OnDisable()
+    {
+        DisableInputActions();
+    }
+
+    public void EnableInputActions()
+    {
+        _inputActions.Enable();
+    }
+
+    public void DisableInputActions()
     {
         _inputActions.Disable();
     }
@@ -82,21 +126,21 @@ public class PlayerController : Singleton<PlayerController>
     {
         var move = _inputActions.Player.Move.ReadValue<Vector2>();
         mousePos = Camera.main.ScreenToWorldPoint(move);
-        switch (state)
+        switch (playerState)
         {
-            case State.Normal:
+            case PlayerState.Normal:
                 animator.Play("Cat_Swim");
                 HandleMovement();
                 break;
-            case State.WebZipping:
+            case PlayerState.WebZipping:
                 break;
-            case State.WebZippingSliding:
+            case PlayerState.WebZippingSliding:
                 HandleWebZippingSliding();
                 break;
-            case State.Attached:
+            case PlayerState.Attached:
                 HandleRelativeRotation();
                 break;
-            case State.Dizzy:
+            case PlayerState.Dizzy:
                 // if (webZip != null)
                 // {
                 //     webZip.gameObject.SetActive(false);
@@ -110,22 +154,22 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            state = State.Dizzy;
-            StartCoroutine(backToNormal());
+            playerState = PlayerState.Dizzy;
+            StartCoroutine(BackToNormal());
         }
     }
 
-    IEnumerator backToNormal()
+    IEnumerator BackToNormal()
     {
         yield return new WaitForSeconds(2.0f);
-        state = State.Normal;
+        playerState = PlayerState.Normal;
     }
 
     private void FixedUpdate()
      {
-        switch (state)
+        switch (playerState)
         {
-            case State.Normal:
+            case PlayerState.Normal:
                 _rigidbody.velocity = new Vector2(0, 0);
                 break;
         }
@@ -152,42 +196,6 @@ public class PlayerController : Singleton<PlayerController>
         transform.position += moveVector * Time.deltaTime * movementSpeed;
     }
 
-
-    private void Shoot ()
-    {
-        if (BubbleBarController.Instance.GetCurrBubble() > 0)
-        {
-            // Spawn bullets
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.transform.position, firePoint.transform.rotation);
-            float oxygenSpeed = 1f;
-            BubbleBarController.Instance.ConsumeBubble(oxygenSpeed);
-            StartCoroutine(DestroyBubble(bullet));
-        }
-    }
-
-    IEnumerator DestroyBubble(GameObject bullet)
-    {
-        yield return new WaitForSeconds(3f);
-        if (bullet != null)
-        {
-            pops = Instantiate(popsPrefab, bullet.gameObject.transform.position, Quaternion.identity);
-            pops.GetComponent<ParticleSystem>().Play();
-            //Debug.Log("childCount is: " + bullet.transform.childCount);
-            if (bullet.transform.childCount > 0)
-            {
-               // Debug.Log("the child is: " + bullet.transform.GetChild(0).transform);
-                for (float i = bullet.transform.childCount; i > 0; i--)
-                {
-                    GarbageSpawner.Instance.RemoveGarbage();
-                }
-            }
-            //SoundManager.PlaySound("bubblePop");
-            Destroy(bullet);
-            Destroy(pops, 3f);
-        }
-    }
-
-
     private void HandleWebZipStart() {
 
         GrappleSliderController.Instance.HideSlider();
@@ -208,7 +216,7 @@ public class PlayerController : Singleton<PlayerController>
             //webZip.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(webDir.y, webDir.x) * Mathf.Rad2Deg - 90);
 
             webZipSpeed = 20.0f;
-            state = State.WebZipping;
+            playerState = PlayerState.WebZipping;
         //}
 
     }
@@ -238,7 +246,7 @@ public class PlayerController : Singleton<PlayerController>
         );
         }
 
-        state = State.WebZippingSliding;
+        playerState = PlayerState.WebZippingSliding;
 
     }
 
@@ -252,7 +260,7 @@ public class PlayerController : Singleton<PlayerController>
         if (webZipSpeed <= 0.8f)
         {
             //webZip.gameObject.SetActive(false);
-            state = State.Normal;
+            playerState = PlayerState.Normal;
         }
     }
 

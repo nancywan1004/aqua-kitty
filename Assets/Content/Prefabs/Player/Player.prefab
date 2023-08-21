@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 640925413890062809}
   - component: {fileID: 640925413890062808}
   m_Layer: 6
-  m_Name: Gun
+  m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,16 +221,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 727a00c2bdeb34c5b8e5106f29687548, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _persistent: 1
   movementSpeed: 1.5
-  jumpForce: 5
   bulletPrefab: {fileID: 2158599359079160727, guid: 523a5e86e16564b2db1213b352da7b55,
-    type: 3}
-  webZipPrefab: {fileID: 221545640379021180, guid: e8e865e4cbfab49a6ad575fc3129f318,
     type: 3}
   popsPrefab: {fileID: 8246082090119767270, guid: 91b31503da3b841a78899562ae05a81c,
     type: 3}
   firePoint: {fileID: 640925413268250624}
   animator: {fileID: 641458950144440957}
+  _uiInventory: {fileID: 0}
+  _inventoryItems: []
 --- !u!212 &641458950144440958
 SpriteRenderer:
   m_ObjectHideFlags: 0
