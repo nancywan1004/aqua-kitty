@@ -125,7 +125,7 @@ public class @GlobalInputActions : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""Button With One Modifier"",
-                    ""id"": ""3c511996-a5d5-4650-a1c0-df5415770b8d"",
+                    ""id"": ""477e3f29-25c8-4c95-b0ca-72eef81eba53"",
                     ""path"": ""ButtonWithOneModifier"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -136,7 +136,7 @@ public class @GlobalInputActions : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""modifier"",
-                    ""id"": ""8fec6ad6-d2bc-42de-9005-948a5fb5df74"",
+                    ""id"": ""58e97b5d-988b-4c95-a637-bfc158824e11"",
                     ""path"": ""<Keyboard>/tab"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -147,8 +147,8 @@ public class @GlobalInputActions : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""button"",
-                    ""id"": ""37f1c6c9-01ba-457c-9d0c-faf6c87d1037"",
-                    ""path"": ""<Keyboard>/leftShift"",
+                    ""id"": ""30d58b89-da24-4ba5-9baa-7564fead8a89"",
+                    ""path"": ""<Keyboard>/shift"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

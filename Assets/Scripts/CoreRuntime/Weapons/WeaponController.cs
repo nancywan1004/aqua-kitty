@@ -1,74 +1,66 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponController : MonoBehaviour
+namespace CoreRuntime.Weapons
 {
-    [SerializeField] private Transform firePoint;
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private GameObject popsPrefab;
-    private GameObject pops;
-    private InventoryItem _weaponItem;
-    private Sprite _weaponSprite;
-    
-    public void SetWeapon(InventoryItem weaponItem)
+    public class WeaponController : MonoBehaviour
     {
-        _weaponItem = weaponItem;
-        GetComponent<SpriteRenderer>().sprite = _weaponItem.sprite;
-    }
+        private Weapon _weaponItem;
+        private Sprite _weaponSprite;
+        
+        [SerializeField] private GameObject popsPrefab;
+        [SerializeField] private Transform firePoint;
+        private GameObject pops;
+        private WeaponInventory _inventory;
 
-    public void Shoot ()
-    {
-        if (BubbleBarController.Instance.GetCurrBubble() > 0)
+        public void SetInventory(WeaponInventory inventory)
         {
-            // Spawn bullets
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.transform.position, firePoint.transform.rotation);
-            float oxygenSpeed = 1f;
-            BubbleBarController.Instance.ConsumeBubble(oxygenSpeed);
-            StartCoroutine(DestroyBubble(bullet));
+            _inventory = inventory;
+            _inventory.OnSwitchInventoryItem += (item) => SetWeapon(_inventory.GetItemList()[item]);
+            SetWeapon(_inventory.SelectedItem);
         }
-    }
-    
-    IEnumerator DestroyBubble(GameObject bullet)
-    {
-        yield return new WaitForSeconds(3f);
-        if (bullet != null)
+        
+        // private void OnDisable()
+        // {
+        //     _inventory.OnSwitchInventoryItem -= (item) => SetWeapon(_inventory.GetItemList()[item]);
+        // }
+        
+        private void SetWeapon(Weapon weaponItem)
         {
-            pops = Instantiate(popsPrefab, bullet.gameObject.transform.position, Quaternion.identity);
-            pops.GetComponent<ParticleSystem>().Play();
-            //Debug.Log("childCount is: " + bullet.transform.childCount);
-            if (bullet.transform.childCount > 0)
+            _weaponItem = weaponItem;
+            GetComponent<SpriteRenderer>().sprite = weaponItem.sprite;
+            if (_weaponItem.type is ItemType.BubbleGun)
             {
-                // Debug.Log("the child is: " + bullet.transform.GetChild(0).transform);
-                for (float i = bullet.transform.childCount; i > 0; i--)
-                {
-                    GarbageSpawner.Instance.RemoveGarbage();
-                }
+                var bubbleGunItem = (BubbleGun) _weaponItem;
+                bubbleGunItem.popsPrefab = popsPrefab;
+                bubbleGunItem.OnShotFired += (bubble) => StartCoroutine(bubbleGunItem.DestroyBubble(bubble));
             }
-            //SoundManager.PlaySound("bubblePop");
-            Destroy(bullet);
-            Destroy(pops, 3f);
         }
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        Vector3 mousePos = Input.mousePosition;
-
-        Vector3 gunPos = Camera.main.WorldToScreenPoint(transform.position);
-        mousePos.x -= gunPos.x;
-        mousePos.y -= gunPos.y;
-
-        float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
-
-        if (Camera.main.ScreenToWorldPoint(Input.mousePosition).x < transform.position.x)
+        
+        public void Fire ()
         {
-            transform.rotation = Quaternion.Euler(new Vector3(180f, 0f, -angle));
-        } else
+            _weaponItem.Shoot(firePoint);
+        }
+
+        // Update is called once per frame
+        private void Update()
         {
-            transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
+            Vector3 mousePos = Input.mousePosition;
+
+            Vector3 gunPos = Camera.main.WorldToScreenPoint(transform.position);
+            mousePos.x -= gunPos.x;
+            mousePos.y -= gunPos.y;
+
+            float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
+
+            if (Camera.main.ScreenToWorldPoint(Input.mousePosition).x < transform.position.x)
+            {
+                transform.rotation = Quaternion.Euler(new Vector3(180f, 0f, -angle));
+            } else
+            {
+                transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
+            }
         }
     }
 }

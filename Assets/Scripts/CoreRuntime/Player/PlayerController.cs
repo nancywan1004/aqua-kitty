@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using CoreRuntime.Weapons;
 using UnityEngine;
 
 public class PlayerController : Singleton<PlayerController>
@@ -27,10 +29,11 @@ public class PlayerController : Singleton<PlayerController>
     //private SpriteRenderer webZipSpriteRenderer;
     private Vector2 webZipStart;
     private Vector2 webZipEnd;
-    private Inventory _inventory;
-    [SerializeField] private UI_Inventory _uiInventory;
-    [SerializeField] private List<InventoryItem> _inventoryItems;
+    private WeaponInventory _inventory;
+    [SerializeField] private UI_Inventory<Weapon> _uiInventory;
+    [SerializeField] private List<Weapon> _inventoryItems;
     [SerializeField] private WeaponController weaponController;
+    //private List<Weapon> _weaponItems = new List<Weapon>(64);
 
     private GlobalInputActions _inputActions;
 
@@ -45,10 +48,28 @@ public class PlayerController : Singleton<PlayerController>
 
     private void Awake()
     {
+        // foreach (var inventoryItem in _inventoryItems)
+        // {
+        //     _weaponItems.Add(new Weapon()
+        //     {
+        //         name = inventoryItem.name,
+        //         type = inventoryItem.type,
+        //         sprite = inventoryItem.sprite,
+        //         ammunition = inventoryItem.ammunition,
+        //         ammunitionPrefab = inventoryItem.ammunitionPrefab
+        //     });
+        // }
+        _inventory = new WeaponInventory(_inventoryItems);
+        _uiInventory.SetInventory(_inventory);
+        weaponController.SetInventory(_inventory);
         _inputActions = new GlobalInputActions();
+        _inputActions.Player.SwitchWeapon.performed += context =>
+        {
+            _inventory.SwitchInventoryItem();
+        };
         _inputActions.Player.Bubbleshoot.performed += context =>
         {
-            weaponController.Shoot();
+            weaponController.Fire();
         };
         _inputActions.Player.Grapple.started += context =>
         {
@@ -67,10 +88,6 @@ public class PlayerController : Singleton<PlayerController>
         _inputActions.Player.Grapple.canceled += context =>
         {
             HandleWebZipping();
-        };
-        _inputActions.Player.SwitchWeapon.performed += context =>
-        {
-            _inventory.SwitchInventoryItem();
         };
         // _inputActions.Player.MoveLeft.started += context =>
         // {
@@ -97,8 +114,6 @@ public class PlayerController : Singleton<PlayerController>
         playerState = PlayerState.Normal;
         _rigidbody = GetComponent<Rigidbody2D>();
         _rigidbody.isKinematic = false;
-        _inventory = new Inventory(_inventoryItems);
-        _uiInventory.SetInventory(_inventory);
     }
     
     public void OnEnable()

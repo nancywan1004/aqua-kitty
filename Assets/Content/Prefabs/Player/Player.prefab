@@ -40,7 +40,6 @@ GameObject:
   m_Component:
   - component: {fileID: 640925413890062810}
   - component: {fileID: 640925413890062809}
-  - component: {fileID: 640925413890062808}
   m_Layer: 6
   m_Name: Weapon
   m_TagString: Untagged
@@ -114,18 +113,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &640925413890062808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640925413890062811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19714631f68ee40d693ebe05cdf980f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &641458950144440959
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,14 +210,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _persistent: 1
   movementSpeed: 1.5
-  bulletPrefab: {fileID: 2158599359079160727, guid: 523a5e86e16564b2db1213b352da7b55,
-    type: 3}
-  popsPrefab: {fileID: 8246082090119767270, guid: 91b31503da3b841a78899562ae05a81c,
-    type: 3}
-  firePoint: {fileID: 640925413268250624}
   animator: {fileID: 641458950144440957}
   _uiInventory: {fileID: 0}
   _inventoryItems: []
+  weapon: {fileID: 0}
 --- !u!212 &641458950144440958
 SpriteRenderer:
   m_ObjectHideFlags: 0

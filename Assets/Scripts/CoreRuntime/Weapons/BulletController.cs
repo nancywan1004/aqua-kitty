@@ -1,13 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
     public float bulletSpeed = 10f;
-    public GameObject popsPrefab;
-    //public GameObject pops;
-    //private ParticleSystem _pops;
 
     Rigidbody2D rb;
     GameObject pops;
@@ -28,11 +23,5 @@ public class BulletController : MonoBehaviour
             collision.gameObject.transform.SetParent(this.gameObject.transform);
             collision.gameObject.transform.localPosition = new Vector3(0, 0, 0);
         }
-    }
-
-    IEnumerator stopPops()
-    {
-        yield return new WaitForSeconds(.4f);
-        //pops.GetComponent<ParticleSystem>().Stop();
     }
 }

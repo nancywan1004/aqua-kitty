@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd0db2443cee83c448ca743249622e01, type: 3}
-  m_Name: GrappleGunInventoryItem
+  m_Script: {fileID: 11500000, guid: 52ba9de68f024ab99e3ad8719aa2a092, type: 3}
+  m_Name: GrappleGun
   m_EditorClassIdentifier: 
-  itemType: 1
+  name: GrappleGun
+  type: 1
   sprite: {fileID: 21300000, guid: 627819cf481036f41b97d05b69021b57, type: 3}
   ammunition: 5
+  ammunitionPrefab: {fileID: 221545640379021180, guid: e8e865e4cbfab49a6ad575fc3129f318,
+    type: 3}

@@ -1,27 +1,26 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class Inventory
+public class Inventory<T> where T : InventoryItem
 {
-    private List<InventoryItem> _itemList;
+    protected List<T> _itemList;
     public int CurrentIndex { get; private set; } = 0;
-    public InventoryItem SelectedItem { get; private set; }
+    public T SelectedItem { get; protected set; }
+    public int ItemCount => _itemList.Count;
     public event Action<int> OnSwitchInventoryItem;
 
-    public Inventory(List<InventoryItem> itemList)
+    public Inventory(List<T> itemList)
     {
         _itemList = itemList;
         SelectedItem = _itemList[CurrentIndex];
     }
 
-    public void AddItem(InventoryItem item)
+    public void AddItem(T item)
     {
         _itemList.Add(item);
     }
 
-    public List<InventoryItem> GetItemList()
+    public List<T> GetItemList()
     {
         return _itemList;
     }
@@ -29,18 +28,15 @@ public class Inventory
     // add input action to trigger switch inventory item
     public void SwitchInventoryItem()
     {
-        while (CurrentIndex <= _itemList.Count - 1)
+        if (CurrentIndex == _itemList.Count - 1)
         {
-            if (CurrentIndex == _itemList.Count - 1)
-            {
-                CurrentIndex = 0;
-            }
-            else
-            {
-                CurrentIndex += 1;
-            }
-            SelectedItem = _itemList[CurrentIndex];
-            OnSwitchInventoryItem?.Invoke(CurrentIndex);
+            CurrentIndex = 0;
         }
+        else if (CurrentIndex < _itemList.Count - 1)
+        {
+            CurrentIndex += 1;
+        }
+        SelectedItem = _itemList[CurrentIndex];
+        OnSwitchInventoryItem?.Invoke(CurrentIndex);
     }
 }

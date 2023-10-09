@@ -4,15 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_Inventory : MonoBehaviour
+public class UI_Inventory<T> : MonoBehaviour where T : InventoryItem
 {
-    private Inventory _inventory;
+    private Inventory<T> _inventory;
     [SerializeField] private Transform _contentContainer;
     [SerializeField] private Transform _itemSlotContainer;
     [SerializeField] private Sprite _borderSelectedSprite;
+    [SerializeField] private Sprite _borderDeselectedSprite;
     private const float ITEM_SLOT_CELL_SIZE = 70f;
 
-    public void SetInventory(Inventory inventory)
+    public void SetInventory(Inventory<T> inventory)
     {
         _inventory = inventory;
         _inventory.OnSwitchInventoryItem += SetSelectedUI;
@@ -26,14 +27,29 @@ public class UI_Inventory : MonoBehaviour
 
     private void SetSelectedUI(int currentIndex)
     {
+        if (currentIndex == 0)
+        {
+            SetDeselectedUI(_inventory.ItemCount - 1);
+        }
+        else
+        {
+            SetDeselectedUI(currentIndex - 1);
+        }
         var selectedItemSlot = _contentContainer.GetChild(currentIndex);
         Image image = selectedItemSlot.Find("Border").GetComponent<Image>();
         image.sprite = _borderSelectedSprite;
     }
 
+    private void SetDeselectedUI(int previousIndex)
+    {
+        var deselectedItemSlot = _contentContainer.GetChild(previousIndex);
+        Image image = deselectedItemSlot.Find("Border").GetComponent<Image>();
+        image.sprite = _borderDeselectedSprite;
+    }
+
     private void RefreshInventoryItems()
     {
-        foreach (InventoryItem item in _inventory.GetItemList())
+        foreach (var item in _inventory.GetItemList())
         {
             var itemSlot = Instantiate(_itemSlotContainer, _contentContainer);
             Image image = itemSlot.Find("Icon").GetComponent<Image>();
