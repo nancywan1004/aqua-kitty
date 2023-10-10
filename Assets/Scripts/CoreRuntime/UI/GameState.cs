@@ -97,7 +97,8 @@ public class GameState : IBaseState
 
     private static void LoadLevel(int level)
     {
-        SceneManager.LoadSceneAsync(GetSceneName(level), LoadSceneMode.Additive);
+        var sceneName = GetSceneName(level);
+        SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
     }
     
     private static void UnloadLevel(int level)

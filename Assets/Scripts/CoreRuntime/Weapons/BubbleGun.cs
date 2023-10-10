@@ -13,18 +13,16 @@ namespace CoreRuntime.Weapons
         {
         }
         
-        public override IEnumerator Shoot()
+        public override void Shoot()
         {
             if (BubbleBarController.Instance.GetCurrBubble() > 0)
             {
                 // Spawn bubbles
                 GameObject bubble = Instantiate(ammunitionPrefab, FirePoint.position, FirePoint.rotation);
-                float oxygenSpeed = 1f;
+                int oxygenSpeed = 1;
                 BubbleBarController.Instance.ConsumeBubble(oxygenSpeed);
                 OnShotFired?.Invoke(bubble);
             }
-
-            yield return null;
         }
         
         public IEnumerator DestroyBubble(GameObject bubble)
@@ -35,13 +33,11 @@ namespace CoreRuntime.Weapons
                 _pops = Instantiate(popsPrefab, bubble.gameObject.transform.position, Quaternion.identity);
                 _pops.GetComponent<ParticleSystem>().Play();
                 //Debug.Log("childCount is: " + bubble.transform.childCount);
-                if (bubble.transform.childCount > 0)
+                var childBubbleCount = bubble.transform.childCount;
+                while (childBubbleCount > 0)
                 {
-                    // Debug.Log("the child is: " + bubble.transform.GetChild(0).transform);
-                    for (float i = bubble.transform.childCount; i > 0; i--)
-                    {
-                        GarbageSpawner.Instance.RemoveGarbage();
-                    }
+                    GarbageSpawner.Instance.RemoveGarbage();
+                    childBubbleCount--;
                 }
                 Destroy(bubble);
                 Destroy(_pops, 3f);

@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using CoreRuntime.Weapons;
@@ -7,11 +6,9 @@ using UnityEngine;
 public class PlayerController : Singleton<PlayerController>
 {
     public float movementSpeed = 1.2f;
-    //public GameObject webZipPrefab;
 
     public Animator animator;
     private Rigidbody2D _rigidbody;
-    //private GameObject webZip;
     private PlayerState playerState;
     private Vector3 mousePos;
     private float rotateY;
@@ -19,11 +16,9 @@ public class PlayerController : Singleton<PlayerController>
     private float holdDownTime;
     private float moveStartTime;
     private float moveHoldTime;
-
-    private Vector3 webZipDir;
+    
     private Vector3 webZipTargetPosition;
     private float webZipSpeed;
-    //private SpriteRenderer webZipSpriteRenderer;
     private Vector2 webZipStart;
     private Vector2 webZipEnd;
     private WeaponInventory _inventory;
@@ -37,7 +32,6 @@ public class PlayerController : Singleton<PlayerController>
     {
         Normal,
         WebZipping,
-        WebZippingSliding,
         Attached,
         Dizzy
     }
@@ -45,8 +39,8 @@ public class PlayerController : Singleton<PlayerController>
     private void Awake()
     {
         _inventory = new WeaponInventory(_inventoryItems);
-        _uiInventory.SetInventory(_inventory);
-        weaponController.SetInventory(_inventory);
+        _uiInventory.InitInventory(_inventory);
+        weaponController.InitInventory(_inventory);
         _inputActions = new GlobalInputActions();
         _inputActions.Player.SwitchWeapon.performed += context =>
         {
@@ -97,7 +91,6 @@ public class PlayerController : Singleton<PlayerController>
         _inputActions.Disable();
     }
     
-    // Update is called once per frame
     private void Update()
     {
         var move = _inputActions.Player.Move.ReadValue<Vector2>();
@@ -109,9 +102,6 @@ public class PlayerController : Singleton<PlayerController>
                 HandleMovement();
                 break;
             case PlayerState.WebZipping:
-                break;
-            case PlayerState.WebZippingSliding:
-                HandleWebZippingSliding();
                 break;
             case PlayerState.Attached:
                 HandleRelativeRotation();
@@ -171,34 +161,19 @@ public class PlayerController : Singleton<PlayerController>
     private void HandleWebZipStart() {
 
         GrappleSliderController.Instance.HideSlider();
+        
+        GrappleSliderController.Instance.InitSlider(holdDownStartTime);
+        SoundManager.PlaySound("grapple");
+        webZipTargetPosition = mousePos;
 
-        //holdDownStartTime = Time.time;
-        //RaycastHit2D hit = Physics2D.Raycast(new Vector2(mousePos.x, mousePos.y), Vector2.zero);
-
-        //Debug.Log(hit.collider);
-        // if (hit.collider != null && hit.collider.CompareTag("Helper"))
-        // {
-            GrappleSliderController.Instance.InitSlider(holdDownStartTime);
-            SoundManager.PlaySound("grapple");
-            webZipTargetPosition = mousePos;
-            webZipDir = (webZipTargetPosition - transform.position).normalized;
-
-            //spawnWebZip(firePoint.transform.position, firePoint.transform.rotation);
-            //Vector3 webDir = (webZipTargetPosition - firePoint.transform.position).normalized;
-            //webZip.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(webDir.y, webDir.x) * Mathf.Rad2Deg - 90);
-
-            webZipSpeed = 2.0f;
-            playerState = PlayerState.WebZipping;
-        //}
+        webZipSpeed = 2.0f;
+        playerState = PlayerState.WebZipping;
 
     }
 
     private void HandleWebZipping()
     {
-        //Debug.Log("HandleWebZipping status");
         GrappleSliderController.Instance.HideSlider();
-        //holdDownTime = Time.time - holdDownStartTime;
-        //webZipSpriteRenderer.size = Vector2.Lerp(webZipStart, webZipEnd, holdDownTime);
 
         float travelDistance = Vector2.Distance(transform.position, webZipTargetPosition);
         if (webZipSpeed >= travelDistance)
@@ -219,35 +194,5 @@ public class PlayerController : Singleton<PlayerController>
         }
 
         playerState = PlayerState.Normal;
-
     }
-
-    private void HandleWebZippingSliding()
-    {
-        //Debug.Log("HandleWebZippingSliding status");
-        // webZipDir = new Vector3(webZipDir.x, webZipDir.y, 0);
-        webZipSpeed -= webZipSpeed * Time.deltaTime * 15.0f;
-        transform.position += webZipDir * webZipSpeed * Time.deltaTime;
-        //Debug.Log("webZipSpeed is: " + webZipSpeed);
-        if (webZipSpeed <= 0.8f)
-        {
-            //webZip.gameObject.SetActive(false);
-            playerState = PlayerState.Normal;
-        }
-    }
-
-    // private void spawnWebZip(Vector2 position, Quaternion rotation)
-    // {
-    //     if (webZip == null)
-    //     {
-    //         webZip = Instantiate(webZipPrefab, position, rotation);
-    //     }
-    //     else
-    //     {
-    //         webZip.transform.position = position;
-    //         webZip.transform.rotation = rotation;
-    //         webZip.gameObject.SetActive(true);
-    //     }
-    // }
-
 }

@@ -1,29 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
 public class BubbleBarController : Singleton<BubbleBarController>
 {
-    public float bubbleRemaining;
+    public int bubbleRemaining;
     public TMP_Text bubbleText;
 
-    public Image[] bubbles;
+    public GameObject[] bubbles;
     public Sprite bubbleIcon;
 
     public Slider slider;
     public Gradient gradient;
     public Image fill;
 
-    public float MaxBubble { get; set; } = 0;
+    public int MaxBubble { get; set; } = 0;
 
     public void InitBubbleBar()
     {
         bubbleRemaining = MaxBubble;
     }
 
-    public void ConsumeBubble(float speed)
+    public void ConsumeBubble(int speed)
     {
 
         if (bubbleRemaining > 0)
@@ -51,21 +49,16 @@ public class BubbleBarController : Singleton<BubbleBarController>
         fill.color = gradient.Evaluate(1f);
     }
 
-    public void SetBubble(float bubble)
+    private void SetBubble(int bubble)
     {
         bubbleText.text = bubble.ToString();
-        for (int i = 0; i < bubbles.Length; i++)
+        var bubbleLeft = bubble;
+        while (bubbleLeft < bubbles.Length)
         {
-            if (i < bubble)
-            {
-                bubbles[i].sprite = bubbleIcon;
-            }
-            else
-            {
-                bubbles[i].color = new Color(1.0f, 1.0f, 1.0f, 0);
-            }
-         }
-            //fill.color = gradient.Evaluate(slider.normalizedValue);
+            bubbles[bubbleLeft].gameObject.SetActive(false);
+            bubbleLeft++;
+        }
+        //fill.color = gradient.Evaluate(slider.normalizedValue);
 
         }
 

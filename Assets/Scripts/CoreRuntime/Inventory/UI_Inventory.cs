@@ -13,7 +13,7 @@ public class UI_Inventory<T> : MonoBehaviour where T : InventoryItem
     [SerializeField] private Sprite _borderDeselectedSprite;
     private const float ITEM_SLOT_CELL_SIZE = 70f;
 
-    public void SetInventory(Inventory<T> inventory)
+    public void InitInventory(Inventory<T> inventory)
     {
         _inventory = inventory;
         _inventory.OnSwitchInventoryItem += SetSelectedUI;

@@ -14,23 +14,11 @@ namespace CoreRuntime.Weapons
         private GameObject pops;
         private WeaponInventory _inventory;
 
-        public void SetInventory(WeaponInventory inventory)
+        public void InitInventory(WeaponInventory inventory)
         {
             _inventory = inventory;
             _inventory.OnSwitchInventoryItem += (item) => SetWeapon(_inventory.GetItemList()[item]);
             SetWeapon(_inventory.SelectedItem);
-        }
-        
-        // private void OnDisable()
-        // {
-        //     _inventory.OnSwitchInventoryItem -= (item) => SetWeapon(_inventory.GetItemList()[item]);
-        // }
-        
-        private void SetWeapon(Weapon weaponItem)
-        {
-            _weaponItem = weaponItem;
-            GetComponent<SpriteRenderer>().sprite = weaponItem.sprite;
-            _weaponItem.FirePoint = firePoint;
             if (_weaponItem.type is ItemType.BubbleGun)
             {
                 BubbleBarController.Instance.MaxBubble = _weaponItem.ammunition;
@@ -40,6 +28,13 @@ namespace CoreRuntime.Weapons
             }
         }
 
+        private void SetWeapon(Weapon weaponItem)
+        {
+            _weaponItem = weaponItem;
+            GetComponent<SpriteRenderer>().sprite = weaponItem.sprite;
+            _weaponItem.FirePoint = firePoint;
+        }
+
         public void Fire (Vector3 mousPos)
         {
             if (_weaponItem.type is ItemType.GrappleGun)
@@ -47,7 +42,7 @@ namespace CoreRuntime.Weapons
                 StartCoroutine(_weaponItem.Shoot(mousPos));
             } else if (_weaponItem.type is ItemType.BubbleGun)
             {
-                StartCoroutine(_weaponItem.Shoot());
+                _weaponItem.Shoot();
             }
             
         }

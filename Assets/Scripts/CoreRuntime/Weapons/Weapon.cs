@@ -7,9 +7,8 @@ namespace CoreRuntime.Weapons
     public class Weapon : InventoryItem
     {
         public Transform FirePoint { get; set; }
-        public virtual IEnumerator Shoot()
+        public virtual void Shoot()
         {
-            yield break;
         }
 
         public virtual IEnumerator Shoot(Vector3 mousePos)
