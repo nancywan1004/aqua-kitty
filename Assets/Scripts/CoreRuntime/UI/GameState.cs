@@ -8,8 +8,6 @@ public class GameState : IBaseState
     // class variable not instance variable
     public static bool GameIsPaused = false;
     private GlobalUIStateMachine _stateMachine;
-    private const string GARBAGE_SPAWNER_SETTINGS_DIRECTORY_PATH = "Garbage";
-    private const string HELPER_SPAWNER_SETTINGS_DIRECTORY_PATH = "Helpers";
 
     public void RestartGame()
     {

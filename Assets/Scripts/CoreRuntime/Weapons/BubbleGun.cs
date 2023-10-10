@@ -13,16 +13,18 @@ namespace CoreRuntime.Weapons
         {
         }
         
-        public override void Shoot(Transform firePoint)
+        public override IEnumerator Shoot()
         {
             if (BubbleBarController.Instance.GetCurrBubble() > 0)
             {
                 // Spawn bubbles
-                GameObject bubble = Instantiate(ammunitionPrefab, firePoint.transform.position, firePoint.transform.rotation);
+                GameObject bubble = Instantiate(ammunitionPrefab, FirePoint.position, FirePoint.rotation);
                 float oxygenSpeed = 1f;
                 BubbleBarController.Instance.ConsumeBubble(oxygenSpeed);
                 OnShotFired?.Invoke(bubble);
             }
+
+            yield return null;
         }
         
         public IEnumerator DestroyBubble(GameObject bubble)

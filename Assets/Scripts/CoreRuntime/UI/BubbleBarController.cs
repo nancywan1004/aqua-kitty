@@ -16,32 +16,12 @@ public class BubbleBarController : Singleton<BubbleBarController>
     public Gradient gradient;
     public Image fill;
 
-    private float maxBubble = 15.0f;
+    public float MaxBubble { get; set; } = 0;
 
     public void InitBubbleBar()
     {
-        bubbleRemaining = maxBubble;
-        //SetMaxBubble(maxBubble);
-
+        bubbleRemaining = MaxBubble;
     }
-
-    //public void UpdateBubbleBar(float speed)
-    //{
-    //    if (bubbleIsRunning)
-    //    {
-    //        if (bubbleRemaining > 0)
-    //        {
-    //            bubbleRemaining -= speed * Time.deltaTime;
-    //            SetBubble(bubbleRemaining);
-    //        }
-    //        else
-    //        {
-    //            Debug.Log("bubble has run out!");
-    //            bubbleRemaining = 0;
-    //            bubbleIsRunning = false;
-    //        }
-    //    }
-    //}
 
     public void ConsumeBubble(float speed)
     {

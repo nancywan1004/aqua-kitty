@@ -30,17 +30,26 @@ namespace CoreRuntime.Weapons
         {
             _weaponItem = weaponItem;
             GetComponent<SpriteRenderer>().sprite = weaponItem.sprite;
+            _weaponItem.FirePoint = firePoint;
             if (_weaponItem.type is ItemType.BubbleGun)
             {
+                BubbleBarController.Instance.MaxBubble = _weaponItem.ammunition;
                 var bubbleGunItem = (BubbleGun) _weaponItem;
                 bubbleGunItem.popsPrefab = popsPrefab;
                 bubbleGunItem.OnShotFired += (bubble) => StartCoroutine(bubbleGunItem.DestroyBubble(bubble));
             }
         }
-        
-        public void Fire ()
+
+        public void Fire (Vector3 mousPos)
         {
-            _weaponItem.Shoot(firePoint);
+            if (_weaponItem.type is ItemType.GrappleGun)
+            {
+                StartCoroutine(_weaponItem.Shoot(mousPos));
+            } else if (_weaponItem.type is ItemType.BubbleGun)
+            {
+                StartCoroutine(_weaponItem.Shoot());
+            }
+            
         }
 
         // Update is called once per frame
